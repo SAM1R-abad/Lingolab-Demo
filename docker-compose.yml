@@ -1,0 +1,92 @@
+# Local, single-machine smoke test of the production-style setup (Postgres +
+# gunicorn + whitenoise + Next.js standalone) before deploying to a real
+# platform. Not meant as the production deployment itself - see each app's
+# Dockerfile/Procfile for that (Render/Railway/Fly.io + Vercel, etc.).
+services:
+  db:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_DB: lingolab
+      POSTGRES_USER: lingolab
+      POSTGRES_PASSWORD: lingolab
+    ports:
+      - "5432:5432"
+    volumes:
+      - lingolab_pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U lingolab"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  api:
+    build: ./apps/api
+    depends_on:
+      db:
+        condition: service_healthy
+      redis:
+        condition: service_started
+      languagetool:
+        condition: service_started
+    environment:
+      DEBUG: "False"
+      SECRET_KEY: "local-compose-only-not-a-real-secret"
+      ALLOWED_HOSTS: "localhost,127.0.0.1"
+      CORS_ALLOWED_ORIGINS: "http://localhost:3000"
+      DATABASE_URL: "postgres://lingolab:lingolab@db:5432/lingolab"
+      CELERY_BROKER_URL: "redis://redis:6379/0"
+      LANGUAGETOOL_SERVER_URL: "http://languagetool:8010"
+    ports:
+      - "8000:8000"
+
+  # --- Writing Assessment infrastructure ---------------------------------
+  # LanguageTool: self-hosted spelling/grammar checker used by
+  # apps/writing/services/language_check.py.
+  languagetool:
+    image: erikvl87/languagetool:latest
+    restart: unless-stopped
+    environment:
+      # No ngram models: lower memory footprint, slightly less accurate
+      # contextual corrections. Can be enabled later by mounting ngram data
+      # and raising the JVM heap, if warranted.
+      langtool_languageModel: ""
+    mem_limit: 1200m
+
+  # Redis: Celery broker for async writing analysis.
+  redis:
+    image: redis:7-alpine
+    restart: unless-stopped
+
+  # Celery worker: same image/code as `api`, just a different command. Runs
+  # apps.writing.tasks.analyze_writing_submission (spelling/grammar/
+  # vocabulary/topic-relevance analysis) outside the HTTP request cycle.
+  celery-worker:
+    build: ./apps/api
+    command: celery -A config worker -l info
+    depends_on:
+      db:
+        condition: service_healthy
+      redis:
+        condition: service_started
+      languagetool:
+        condition: service_started
+    environment:
+      DEBUG: "False"
+      SECRET_KEY: "local-compose-only-not-a-real-secret"
+      ALLOWED_HOSTS: "localhost,127.0.0.1"
+      DATABASE_URL: "postgres://lingolab:lingolab@db:5432/lingolab"
+      CELERY_BROKER_URL: "redis://redis:6379/0"
+      LANGUAGETOOL_SERVER_URL: "http://languagetool:8010"
+
+  web:
+    build:
+      context: ./apps/web
+      args:
+        NEXT_PUBLIC_API_URL: "http://localhost:8000"
+    depends_on:
+      - api
+    ports:
+      - "3000:3000"
+
+volumes:
+  lingolab_pgdata:
