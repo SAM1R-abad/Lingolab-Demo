@@ -1,0 +1,3372 @@
+{
+  "test_title": "CEFR English Grammar Assessment Test",
+  "description": "A large multiple-choice/fill-in-the-blank grammar test covering all six CEFR levels (A1-C2). Each question tests understanding and correct usage of a specific grammar point.",
+  "cefr_levels": {
+    "A1": "Beginner",
+    "A2": "Elementary",
+    "B1": "Intermediate",
+    "B2": "Upper-Intermediate",
+    "C1": "Advanced",
+    "C2": "Proficiency / Mastery"
+  },
+  "instructions": "For each question, choose the option that correctly completes the sentence according to standard English grammar.",
+  "total_questions": 238,
+  "questions_per_level": {
+    "A1": 41,
+    "A2": 39,
+    "B1": 39,
+    "B2": 39,
+    "C1": 40,
+    "C2": 40
+  },
+  "scoring_guide": {
+    "note": "Score is calculated per level. A test-taker is considered to have reached a level if they answer at least 80% of that level's questions correctly, and all lower levels are also passed at 80%+.",
+    "recommended_pass_threshold_percent": 80
+  },
+  "levels": {
+    "A1": [
+      {
+        "id": "A1-001",
+        "level": "A1",
+        "type": "grammar",
+        "grammar_point": "verb to be",
+        "question": "She ___ a doctor.",
+        "options": [
+          "am",
+          "is",
+          "are",
+          "be"
+        ],
+        "correct_answer": "is"
+      },
+      {
+        "id": "A1-002",
+        "level": "A1",
+        "type": "grammar",
+        "grammar_point": "verb to be",
+        "question": "They ___ from Spain.",
+        "options": [
+          "is",
+          "am",
+          "are",
+          "be"
+        ],
+        "correct_answer": "are"
+      },
+      {
+        "id": "A1-003",
+        "level": "A1",
+        "type": "grammar",
+        "grammar_point": "verb to be",
+        "question": "I ___ 25 years old.",
+        "options": [
+          "is",
+          "are",
+          "am",
+          "be"
+        ],
+        "correct_answer": "am"
+      },
+      {
+        "id": "A1-004",
+        "level": "A1",
+        "type": "grammar",
+        "grammar_point": "plural nouns",
+        "question": "I have two ___.",
+        "options": [
+          "book",
+          "books",
+          "booky",
+          "bookes"
+        ],
+        "correct_answer": "books"
+      },
+      {
+        "id": "A1-005",
+        "level": "A1",
+        "type": "grammar",
+        "grammar_point": "plural nouns",
+        "question": "There are three ___ in the garden.",
+        "options": [
+          "child",
+          "childs",
+          "children",
+          "childes"
+        ],
+        "correct_answer": "children"
+      },
+      {
+        "id": "A1-006",
+        "level": "A1",
+        "type": "grammar",
+        "grammar_point": "articles",
+        "question": "I saw ___ elephant at the zoo.",
+        "options": [
+          "a",
+          "an",
+          "the a",
+          "some a"
+        ],
+        "correct_answer": "an"
+      },
+      {
+        "id": "A1-007",
+        "level": "A1",
+        "type": "grammar",
+        "grammar_point": "articles",
+        "question": "Can you pass me ___ salt, please?",
+        "options": [
+          "a",
+          "an",
+          "the",
+          "some the"
+        ],
+        "correct_answer": "the"
+      },
+      {
+        "id": "A1-008",
+        "level": "A1",
+        "type": "grammar",
+        "grammar_point": "present simple",
+        "question": "He ___ to school every day.",
+        "options": [
+          "go",
+          "goes",
+          "going",
+          "gone"
+        ],
+        "correct_answer": "goes"
+      },
+      {
+        "id": "A1-009",
+        "level": "A1",
+        "type": "grammar",
+        "grammar_point": "present simple",
+        "question": "We ___ football on Saturdays.",
+        "options": [
+          "play",
+          "plays",
+          "playing",
+          "played"
+        ],
+        "correct_answer": "play"
+      },
+      {
+        "id": "A1-010",
+        "level": "A1",
+        "type": "grammar",
+        "grammar_point": "present simple negative",
+        "question": "She ___ like coffee.",
+        "options": [
+          "don't",
+          "doesn't",
+          "not",
+          "isn't"
+        ],
+        "correct_answer": "doesn't"
+      },
+      {
+        "id": "A1-011",
+        "level": "A1",
+        "type": "grammar",
+        "grammar_point": "present simple negative",
+        "question": "I ___ speak French.",
+        "options": [
+          "doesn't",
+          "don't",
+          "not",
+          "isn't"
+        ],
+        "correct_answer": "don't"
+      },
+      {
+        "id": "A1-012",
+        "level": "A1",
+        "type": "grammar",
+        "grammar_point": "present simple question",
+        "question": "___ you like pizza?",
+        "options": [
+          "Do",
+          "Does",
+          "Are",
+          "Is"
+        ],
+        "correct_answer": "Do"
+      },
+      {
+        "id": "A1-013",
+        "level": "A1",
+        "type": "grammar",
+        "grammar_point": "present simple question",
+        "question": "___ she work in a bank?",
+        "options": [
+          "Do",
+          "Does",
+          "Is",
+          "Are"
+        ],
+        "correct_answer": "Does"
+      },
+      {
+        "id": "A1-014",
+        "level": "A1",
+        "type": "grammar",
+        "grammar_point": "possessive adjectives",
+        "question": "This is ___ car. (belongs to me)",
+        "options": [
+          "I",
+          "me",
+          "my",
+          "mine"
+        ],
+        "correct_answer": "my"
+      },
+      {
+        "id": "A1-015",
+        "level": "A1",
+        "type": "grammar",
+        "grammar_point": "possessive adjectives",
+        "question": "That is ___ house. (belongs to them)",
+        "options": [
+          "they",
+          "them",
+          "their",
+          "theirs"
+        ],
+        "correct_answer": "their"
+      },
+      {
+        "id": "A1-016",
+        "level": "A1",
+        "type": "grammar",
+        "grammar_point": "demonstratives",
+        "question": "___ is my brother. (pointing to someone near you)",
+        "options": [
+          "This",
+          "These",
+          "That",
+          "Those"
+        ],
+        "correct_answer": "This"
+      },
+      {
+        "id": "A1-017",
+        "level": "A1",
+        "type": "grammar",
+        "grammar_point": "demonstratives",
+        "question": "___ are my shoes over there.",
+        "options": [
+          "This",
+          "That",
+          "These",
+          "Those"
+        ],
+        "correct_answer": "Those"
+      },
+      {
+        "id": "A1-018",
+        "level": "A1",
+        "type": "grammar",
+        "grammar_point": "there is/are",
+        "question": "___ a cat in the garden.",
+        "options": [
+          "There is",
+          "There are",
+          "There has",
+          "There be"
+        ],
+        "correct_answer": "There is"
+      },
+      {
+        "id": "A1-019",
+        "level": "A1",
+        "type": "grammar",
+        "grammar_point": "there is/are",
+        "question": "___ many people at the party.",
+        "options": [
+          "There is",
+          "There are",
+          "There has",
+          "There be"
+        ],
+        "correct_answer": "There are"
+      },
+      {
+        "id": "A1-020",
+        "level": "A1",
+        "type": "grammar",
+        "grammar_point": "can (ability)",
+        "question": "My sister ___ swim very well.",
+        "options": [
+          "can",
+          "cans",
+          "canning",
+          "could to"
+        ],
+        "correct_answer": "can"
+      },
+      {
+        "id": "A1-021",
+        "level": "A1",
+        "type": "grammar",
+        "grammar_point": "can (negative)",
+        "question": "He ___ drive a car.",
+        "options": [
+          "not can",
+          "can't",
+          "cann't",
+          "doesn't can"
+        ],
+        "correct_answer": "can't"
+      },
+      {
+        "id": "A1-022",
+        "level": "A1",
+        "type": "grammar",
+        "grammar_point": "prepositions of place",
+        "question": "The book is ___ the table.",
+        "options": [
+          "in",
+          "on",
+          "at",
+          "to"
+        ],
+        "correct_answer": "on"
+      },
+      {
+        "id": "A1-023",
+        "level": "A1",
+        "type": "grammar",
+        "grammar_point": "prepositions of place",
+        "question": "She lives ___ London.",
+        "options": [
+          "on",
+          "at",
+          "in",
+          "to"
+        ],
+        "correct_answer": "in"
+      },
+      {
+        "id": "A1-024",
+        "level": "A1",
+        "type": "grammar",
+        "grammar_point": "prepositions of place",
+        "question": "Let's meet ___ the bus stop.",
+        "options": [
+          "in",
+          "on",
+          "at",
+          "to"
+        ],
+        "correct_answer": "at"
+      },
+      {
+        "id": "A1-025",
+        "level": "A1",
+        "type": "grammar",
+        "grammar_point": "personal pronouns",
+        "question": "___ is my friend, Anna.",
+        "options": [
+          "Her",
+          "She",
+          "Hers",
+          "He"
+        ],
+        "correct_answer": "She"
+      },
+      {
+        "id": "A1-026",
+        "level": "A1",
+        "type": "grammar",
+        "grammar_point": "personal pronouns",
+        "question": "I gave the book to ___.",
+        "options": [
+          "he",
+          "his",
+          "him",
+          "he's"
+        ],
+        "correct_answer": "him"
+      },
+      {
+        "id": "A1-027",
+        "level": "A1",
+        "type": "grammar",
+        "grammar_point": "plural nouns irregular",
+        "question": "I saw two ___ in the field.",
+        "options": [
+          "sheeps",
+          "sheep",
+          "sheepes",
+          "sheeps'"
+        ],
+        "correct_answer": "sheep"
+      },
+      {
+        "id": "A1-028",
+        "level": "A1",
+        "type": "grammar",
+        "grammar_point": "present continuous",
+        "question": "Look! It ___ outside.",
+        "options": [
+          "rain",
+          "rains",
+          "is raining",
+          "rained"
+        ],
+        "correct_answer": "is raining"
+      },
+      {
+        "id": "A1-029",
+        "level": "A1",
+        "type": "grammar",
+        "grammar_point": "present continuous",
+        "question": "What ___ you ___ right now?",
+        "options": [
+          "do / do",
+          "are / doing",
+          "is / doing",
+          "did / do"
+        ],
+        "correct_answer": "are / doing"
+      },
+      {
+        "id": "A1-030",
+        "level": "A1",
+        "type": "grammar",
+        "grammar_point": "adjectives order/position",
+        "question": "She has a ___ car.",
+        "options": [
+          "red new",
+          "new red",
+          "car new red",
+          "red car new"
+        ],
+        "correct_answer": "new red"
+      },
+      {
+        "id": "A1-031",
+        "level": "A1",
+        "type": "grammar",
+        "grammar_point": "question words",
+        "question": "___ is your name?",
+        "options": [
+          "What",
+          "Who",
+          "Where",
+          "When"
+        ],
+        "correct_answer": "What"
+      },
+      {
+        "id": "A1-032",
+        "level": "A1",
+        "type": "grammar",
+        "grammar_point": "question words",
+        "question": "___ do you live?",
+        "options": [
+          "What",
+          "Who",
+          "Where",
+          "Why"
+        ],
+        "correct_answer": "Where"
+      },
+      {
+        "id": "A1-033",
+        "level": "A1",
+        "type": "grammar",
+        "grammar_point": "question words",
+        "question": "___ old are you?",
+        "options": [
+          "What",
+          "How",
+          "Who",
+          "Where"
+        ],
+        "correct_answer": "How"
+      },
+      {
+        "id": "A1-034",
+        "level": "A1",
+        "type": "grammar",
+        "grammar_point": "have got",
+        "question": "I ___ got a new phone.",
+        "options": [
+          "has",
+          "have",
+          "having",
+          "haved"
+        ],
+        "correct_answer": "have"
+      },
+      {
+        "id": "A1-035",
+        "level": "A1",
+        "type": "grammar",
+        "grammar_point": "have got",
+        "question": "She ___ got two brothers.",
+        "options": [
+          "have",
+          "has",
+          "having",
+          "had got"
+        ],
+        "correct_answer": "has"
+      },
+      {
+        "id": "A1-036",
+        "level": "A1",
+        "type": "grammar",
+        "grammar_point": "countable/uncountable articles",
+        "question": "Would you like ___ water?",
+        "options": [
+          "a",
+          "an",
+          "some",
+          "many"
+        ],
+        "correct_answer": "some"
+      },
+      {
+        "id": "A1-037",
+        "level": "A1",
+        "type": "grammar",
+        "grammar_point": "plural nouns",
+        "question": "There are many ___ in the box.",
+        "options": [
+          "box",
+          "boxs",
+          "boxes",
+          "boxies"
+        ],
+        "correct_answer": "boxes"
+      },
+      {
+        "id": "A1-038",
+        "level": "A1",
+        "type": "grammar",
+        "grammar_point": "verb to be negative",
+        "question": "It ___ cold today.",
+        "options": [
+          "isn't",
+          "don't",
+          "doesn't",
+          "aren't"
+        ],
+        "correct_answer": "isn't"
+      },
+      {
+        "id": "A1-039",
+        "level": "A1",
+        "type": "grammar",
+        "grammar_point": "simple present time expressions",
+        "question": "I always ___ breakfast at 7 am.",
+        "options": [
+          "have",
+          "having",
+          "has",
+          "had"
+        ],
+        "correct_answer": "have"
+      },
+      {
+        "id": "A1-040",
+        "level": "A1",
+        "type": "grammar",
+        "grammar_point": "prepositions of time",
+        "question": "My birthday is ___ July.",
+        "options": [
+          "on",
+          "at",
+          "in",
+          "to"
+        ],
+        "correct_answer": "in"
+      },
+      {
+        "id": "A1-041",
+        "level": "A1",
+        "type": "grammar",
+        "grammar_point": "prepositions of time",
+        "question": "The meeting is ___ Monday.",
+        "options": [
+          "in",
+          "on",
+          "at",
+          "to"
+        ],
+        "correct_answer": "on"
+      }
+    ],
+    "A2": [
+      {
+        "id": "A2-001",
+        "level": "A2",
+        "type": "grammar",
+        "grammar_point": "past simple regular",
+        "question": "I ___ my homework yesterday.",
+        "options": [
+          "finish",
+          "finished",
+          "finishing",
+          "finishes"
+        ],
+        "correct_answer": "finished"
+      },
+      {
+        "id": "A2-002",
+        "level": "A2",
+        "type": "grammar",
+        "grammar_point": "past simple irregular",
+        "question": "She ___ to Paris last year.",
+        "options": [
+          "go",
+          "goed",
+          "went",
+          "going"
+        ],
+        "correct_answer": "went"
+      },
+      {
+        "id": "A2-003",
+        "level": "A2",
+        "type": "grammar",
+        "grammar_point": "past simple negative",
+        "question": "We ___ watch TV last night.",
+        "options": [
+          "didn't",
+          "doesn't",
+          "don't",
+          "not"
+        ],
+        "correct_answer": "didn't"
+      },
+      {
+        "id": "A2-004",
+        "level": "A2",
+        "type": "grammar",
+        "grammar_point": "past simple question",
+        "question": "___ you see that movie?",
+        "options": [
+          "Do",
+          "Did",
+          "Does",
+          "Were"
+        ],
+        "correct_answer": "Did"
+      },
+      {
+        "id": "A2-005",
+        "level": "A2",
+        "type": "grammar",
+        "grammar_point": "past continuous",
+        "question": "I ___ dinner when the phone rang.",
+        "options": [
+          "cooked",
+          "was cooking",
+          "cook",
+          "cooking"
+        ],
+        "correct_answer": "was cooking"
+      },
+      {
+        "id": "A2-006",
+        "level": "A2",
+        "type": "grammar",
+        "grammar_point": "past continuous vs simple",
+        "question": "While I ___ TV, my sister ___ upstairs.",
+        "options": [
+          "watched / studied",
+          "was watching / was studying",
+          "watch / study",
+          "am watching / study"
+        ],
+        "correct_answer": "was watching / was studying"
+      },
+      {
+        "id": "A2-007",
+        "level": "A2",
+        "type": "grammar",
+        "grammar_point": "comparatives",
+        "question": "This car is ___ than that one.",
+        "options": [
+          "fast",
+          "faster",
+          "fastest",
+          "more fast"
+        ],
+        "correct_answer": "faster"
+      },
+      {
+        "id": "A2-008",
+        "level": "A2",
+        "type": "grammar",
+        "grammar_point": "comparatives",
+        "question": "She is ___ intelligent than her brother.",
+        "options": [
+          "more",
+          "most",
+          "much",
+          "the most"
+        ],
+        "correct_answer": "more"
+      },
+      {
+        "id": "A2-009",
+        "level": "A2",
+        "type": "grammar",
+        "grammar_point": "superlatives",
+        "question": "This is ___ building in the city.",
+        "options": [
+          "tall",
+          "taller",
+          "the tallest",
+          "more tall"
+        ],
+        "correct_answer": "the tallest"
+      },
+      {
+        "id": "A2-010",
+        "level": "A2",
+        "type": "grammar",
+        "grammar_point": "superlatives",
+        "question": "He is ___ student in the class.",
+        "options": [
+          "good",
+          "better",
+          "the best",
+          "more good"
+        ],
+        "correct_answer": "the best"
+      },
+      {
+        "id": "A2-011",
+        "level": "A2",
+        "type": "grammar",
+        "grammar_point": "future going to",
+        "question": "I ___ visit my grandparents next week.",
+        "options": [
+          "am going to",
+          "go to",
+          "going",
+          "went to"
+        ],
+        "correct_answer": "am going to"
+      },
+      {
+        "id": "A2-012",
+        "level": "A2",
+        "type": "grammar",
+        "grammar_point": "future will",
+        "question": "I think it ___ rain tomorrow.",
+        "options": [
+          "will",
+          "is going to will",
+          "would",
+          "is will"
+        ],
+        "correct_answer": "will"
+      },
+      {
+        "id": "A2-013",
+        "level": "A2",
+        "type": "grammar",
+        "grammar_point": "present continuous for future",
+        "question": "We ___ to the cinema tonight.",
+        "options": [
+          "go",
+          "are going",
+          "went",
+          "have gone"
+        ],
+        "correct_answer": "are going"
+      },
+      {
+        "id": "A2-014",
+        "level": "A2",
+        "type": "grammar",
+        "grammar_point": "modals - have to",
+        "question": "You ___ wear a uniform at this school.",
+        "options": [
+          "have to",
+          "has to",
+          "having to",
+          "must to"
+        ],
+        "correct_answer": "have to"
+      },
+      {
+        "id": "A2-015",
+        "level": "A2",
+        "type": "grammar",
+        "grammar_point": "modals - must",
+        "question": "You ___ stop at a red light.",
+        "options": [
+          "must",
+          "can",
+          "would",
+          "should to"
+        ],
+        "correct_answer": "must"
+      },
+      {
+        "id": "A2-016",
+        "level": "A2",
+        "type": "grammar",
+        "grammar_point": "modals - should",
+        "question": "You look tired. You ___ get some rest.",
+        "options": [
+          "should",
+          "must to",
+          "can to",
+          "have"
+        ],
+        "correct_answer": "should"
+      },
+      {
+        "id": "A2-017",
+        "level": "A2",
+        "type": "grammar",
+        "grammar_point": "some/any",
+        "question": "I don't have ___ money left.",
+        "options": [
+          "some",
+          "any",
+          "a",
+          "much a"
+        ],
+        "correct_answer": "any"
+      },
+      {
+        "id": "A2-018",
+        "level": "A2",
+        "type": "grammar",
+        "grammar_point": "some/any",
+        "question": "There are ___ apples in the basket.",
+        "options": [
+          "any",
+          "some",
+          "a",
+          "much"
+        ],
+        "correct_answer": "some"
+      },
+      {
+        "id": "A2-019",
+        "level": "A2",
+        "type": "grammar",
+        "grammar_point": "countable/uncountable",
+        "question": "How ___ money do you have?",
+        "options": [
+          "many",
+          "much",
+          "a lot",
+          "some"
+        ],
+        "correct_answer": "much"
+      },
+      {
+        "id": "A2-020",
+        "level": "A2",
+        "type": "grammar",
+        "grammar_point": "countable/uncountable",
+        "question": "How ___ friends do you have?",
+        "options": [
+          "much",
+          "many",
+          "a little",
+          "a much"
+        ],
+        "correct_answer": "many"
+      },
+      {
+        "id": "A2-021",
+        "level": "A2",
+        "type": "grammar",
+        "grammar_point": "quantifiers - a lot of",
+        "question": "She has ___ books on her shelf.",
+        "options": [
+          "much",
+          "a lot of",
+          "little",
+          "any"
+        ],
+        "correct_answer": "a lot of"
+      },
+      {
+        "id": "A2-022",
+        "level": "A2",
+        "type": "grammar",
+        "grammar_point": "prepositions of time",
+        "question": "I was born ___ 1998.",
+        "options": [
+          "on",
+          "in",
+          "at",
+          "to"
+        ],
+        "correct_answer": "in"
+      },
+      {
+        "id": "A2-023",
+        "level": "A2",
+        "type": "grammar",
+        "grammar_point": "prepositions of time",
+        "question": "We usually eat dinner ___ 7 pm.",
+        "options": [
+          "in",
+          "on",
+          "at",
+          "to"
+        ],
+        "correct_answer": "at"
+      },
+      {
+        "id": "A2-024",
+        "level": "A2",
+        "type": "grammar",
+        "grammar_point": "imperatives",
+        "question": "___ the door, please!",
+        "options": [
+          "Close",
+          "Closing",
+          "To close",
+          "Closes"
+        ],
+        "correct_answer": "Close"
+      },
+      {
+        "id": "A2-025",
+        "level": "A2",
+        "type": "grammar",
+        "grammar_point": "question words - which",
+        "question": "___ dress do you prefer, the red or the blue one?",
+        "options": [
+          "What",
+          "Which",
+          "Who",
+          "Whose"
+        ],
+        "correct_answer": "Which"
+      },
+      {
+        "id": "A2-026",
+        "level": "A2",
+        "type": "grammar",
+        "grammar_point": "adverbs of frequency",
+        "question": "She ___ goes to the gym.",
+        "options": [
+          "never",
+          "not ever",
+          "no",
+          "not"
+        ],
+        "correct_answer": "never"
+      },
+      {
+        "id": "A2-027",
+        "level": "A2",
+        "type": "grammar",
+        "grammar_point": "adverbs of frequency",
+        "question": "He is ___ late for work.",
+        "options": [
+          "always",
+          "all",
+          "every",
+          "ever"
+        ],
+        "correct_answer": "always"
+      },
+      {
+        "id": "A2-028",
+        "level": "A2",
+        "type": "grammar",
+        "grammar_point": "past simple be",
+        "question": "They ___ at home yesterday.",
+        "options": [
+          "was",
+          "were",
+          "are",
+          "be"
+        ],
+        "correct_answer": "were"
+      },
+      {
+        "id": "A2-029",
+        "level": "A2",
+        "type": "grammar",
+        "grammar_point": "present perfect intro",
+        "question": "I ___ never been to Japan.",
+        "options": [
+          "have",
+          "has",
+          "had",
+          "having"
+        ],
+        "correct_answer": "have"
+      },
+      {
+        "id": "A2-030",
+        "level": "A2",
+        "type": "grammar",
+        "grammar_point": "going to vs will",
+        "question": "Look at those clouds! It ___ rain.",
+        "options": [
+          "will",
+          "is going to",
+          "would",
+          "shall"
+        ],
+        "correct_answer": "is going to"
+      },
+      {
+        "id": "A2-031",
+        "level": "A2",
+        "type": "grammar",
+        "grammar_point": "object pronouns",
+        "question": "Can you help ___? (talking to a group)",
+        "options": [
+          "they",
+          "them",
+          "their",
+          "theirs"
+        ],
+        "correct_answer": "them"
+      },
+      {
+        "id": "A2-032",
+        "level": "A2",
+        "type": "grammar",
+        "grammar_point": "possessive pronouns",
+        "question": "This bag is not mine, it's ___.",
+        "options": [
+          "her",
+          "hers",
+          "she",
+          "she's"
+        ],
+        "correct_answer": "hers"
+      },
+      {
+        "id": "A2-033",
+        "level": "A2",
+        "type": "grammar",
+        "grammar_point": "prepositions of movement",
+        "question": "The cat jumped ___ the fence.",
+        "options": [
+          "over",
+          "in",
+          "on",
+          "at"
+        ],
+        "correct_answer": "over"
+      },
+      {
+        "id": "A2-034",
+        "level": "A2",
+        "type": "grammar",
+        "grammar_point": "used to",
+        "question": "When I was young, I ___ play outside a lot.",
+        "options": [
+          "use to",
+          "used to",
+          "was used",
+          "using to"
+        ],
+        "correct_answer": "used to"
+      },
+      {
+        "id": "A2-035",
+        "level": "A2",
+        "type": "grammar",
+        "grammar_point": "adjectives vs adverbs",
+        "question": "She sings ___.",
+        "options": [
+          "beautiful",
+          "beautifully",
+          "beauty",
+          "more beautiful"
+        ],
+        "correct_answer": "beautifully"
+      },
+      {
+        "id": "A2-036",
+        "level": "A2",
+        "type": "grammar",
+        "grammar_point": "adjectives vs adverbs",
+        "question": "He is a ___ driver.",
+        "options": [
+          "careful",
+          "carefully",
+          "care",
+          "cared"
+        ],
+        "correct_answer": "careful"
+      },
+      {
+        "id": "A2-037",
+        "level": "A2",
+        "type": "grammar",
+        "grammar_point": "relative pronouns basic",
+        "question": "The man ___ lives next door is a doctor.",
+        "options": [
+          "which",
+          "who",
+          "whose",
+          "whom"
+        ],
+        "correct_answer": "who"
+      },
+      {
+        "id": "A2-038",
+        "level": "A2",
+        "type": "grammar",
+        "grammar_point": "too / enough",
+        "question": "This coffee is too ___ for me to drink.",
+        "options": [
+          "hot",
+          "hotly",
+          "hotness",
+          "hoter"
+        ],
+        "correct_answer": "hot"
+      },
+      {
+        "id": "A2-039",
+        "level": "A2",
+        "type": "grammar",
+        "grammar_point": "verb + -ing after like/enjoy",
+        "question": "I enjoy ___ books.",
+        "options": [
+          "read",
+          "to read",
+          "reading",
+          "reads"
+        ],
+        "correct_answer": "reading"
+      }
+    ],
+    "B1": [
+      {
+        "id": "B1-001",
+        "level": "B1",
+        "type": "grammar",
+        "grammar_point": "present perfect",
+        "question": "I ___ already ___ my homework.",
+        "options": [
+          "have / finish",
+          "have / finished",
+          "has / finished",
+          "had / finish"
+        ],
+        "correct_answer": "have / finished"
+      },
+      {
+        "id": "B1-002",
+        "level": "B1",
+        "type": "grammar",
+        "grammar_point": "present perfect vs past simple",
+        "question": "I ___ this film last night.",
+        "options": [
+          "have watched",
+          "watched",
+          "have watch",
+          "was watched"
+        ],
+        "correct_answer": "watched"
+      },
+      {
+        "id": "B1-003",
+        "level": "B1",
+        "type": "grammar",
+        "grammar_point": "present perfect vs past simple",
+        "question": "She ___ in London for five years now. (still lives there)",
+        "options": [
+          "lived",
+          "has lived",
+          "was living",
+          "had lived"
+        ],
+        "correct_answer": "has lived"
+      },
+      {
+        "id": "B1-004",
+        "level": "B1",
+        "type": "grammar",
+        "grammar_point": "present perfect continuous",
+        "question": "I ___ waiting for two hours.",
+        "options": [
+          "have been",
+          "has been",
+          "am",
+          "was"
+        ],
+        "correct_answer": "have been"
+      },
+      {
+        "id": "B1-005",
+        "level": "B1",
+        "type": "grammar",
+        "grammar_point": "first conditional",
+        "question": "If it ___ tomorrow, we will stay home.",
+        "options": [
+          "rain",
+          "rains",
+          "will rain",
+          "rained"
+        ],
+        "correct_answer": "rains"
+      },
+      {
+        "id": "B1-006",
+        "level": "B1",
+        "type": "grammar",
+        "grammar_point": "first conditional",
+        "question": "If you study hard, you ___ the exam.",
+        "options": [
+          "pass",
+          "will pass",
+          "passed",
+          "would pass"
+        ],
+        "correct_answer": "will pass"
+      },
+      {
+        "id": "B1-007",
+        "level": "B1",
+        "type": "grammar",
+        "grammar_point": "second conditional",
+        "question": "If I ___ rich, I would travel the world.",
+        "options": [
+          "am",
+          "was",
+          "were",
+          "be"
+        ],
+        "correct_answer": "were"
+      },
+      {
+        "id": "B1-008",
+        "level": "B1",
+        "type": "grammar",
+        "grammar_point": "second conditional",
+        "question": "If she had more time, she ___ learn Spanish.",
+        "options": [
+          "will",
+          "would",
+          "can",
+          "must"
+        ],
+        "correct_answer": "would"
+      },
+      {
+        "id": "B1-009",
+        "level": "B1",
+        "type": "grammar",
+        "grammar_point": "used to / would",
+        "question": "When I was a child, I ___ go fishing with my dad.",
+        "options": [
+          "use to",
+          "used to",
+          "was using",
+          "using to"
+        ],
+        "correct_answer": "used to"
+      },
+      {
+        "id": "B1-010",
+        "level": "B1",
+        "type": "grammar",
+        "grammar_point": "modals of deduction",
+        "question": "He isn't answering his phone. He ___ be asleep.",
+        "options": [
+          "must",
+          "can",
+          "should",
+          "would"
+        ],
+        "correct_answer": "must"
+      },
+      {
+        "id": "B1-011",
+        "level": "B1",
+        "type": "grammar",
+        "grammar_point": "modals of deduction",
+        "question": "That ___ be John — he's on holiday this week.",
+        "options": [
+          "can't",
+          "mustn't",
+          "shouldn't",
+          "won't"
+        ],
+        "correct_answer": "can't"
+      },
+      {
+        "id": "B1-012",
+        "level": "B1",
+        "type": "grammar",
+        "grammar_point": "passive voice present simple",
+        "question": "This bridge ___ built in 1990.",
+        "options": [
+          "is",
+          "was",
+          "has",
+          "had"
+        ],
+        "correct_answer": "was"
+      },
+      {
+        "id": "B1-013",
+        "level": "B1",
+        "type": "grammar",
+        "grammar_point": "passive voice present simple",
+        "question": "English ___ spoken in many countries.",
+        "options": [
+          "is",
+          "are",
+          "was",
+          "were"
+        ],
+        "correct_answer": "is"
+      },
+      {
+        "id": "B1-014",
+        "level": "B1",
+        "type": "grammar",
+        "grammar_point": "relative clauses - defining",
+        "question": "The book ___ I read last week was excellent.",
+        "options": [
+          "who",
+          "which",
+          "whose",
+          "when"
+        ],
+        "correct_answer": "which"
+      },
+      {
+        "id": "B1-015",
+        "level": "B1",
+        "type": "grammar",
+        "grammar_point": "relative clauses - whose",
+        "question": "That's the woman ___ car was stolen.",
+        "options": [
+          "who",
+          "which",
+          "whose",
+          "whom"
+        ],
+        "correct_answer": "whose"
+      },
+      {
+        "id": "B1-016",
+        "level": "B1",
+        "type": "grammar",
+        "grammar_point": "gerund vs infinitive",
+        "question": "She decided ___ a new car.",
+        "options": [
+          "buy",
+          "buying",
+          "to buy",
+          "bought"
+        ],
+        "correct_answer": "to buy"
+      },
+      {
+        "id": "B1-017",
+        "level": "B1",
+        "type": "grammar",
+        "grammar_point": "gerund vs infinitive",
+        "question": "I love ___ to music in my free time.",
+        "options": [
+          "listen",
+          "to listen",
+          "listening",
+          "listened"
+        ],
+        "correct_answer": "listening"
+      },
+      {
+        "id": "B1-018",
+        "level": "B1",
+        "type": "grammar",
+        "grammar_point": "quantifiers - few/little",
+        "question": "There are ___ apples left in the box.",
+        "options": [
+          "a little",
+          "few",
+          "a few",
+          "much"
+        ],
+        "correct_answer": "a few"
+      },
+      {
+        "id": "B1-019",
+        "level": "B1",
+        "type": "grammar",
+        "grammar_point": "quantifiers - little",
+        "question": "We have ___ time before the train leaves.",
+        "options": [
+          "few",
+          "a few",
+          "little",
+          "many"
+        ],
+        "correct_answer": "little"
+      },
+      {
+        "id": "B1-020",
+        "level": "B1",
+        "type": "grammar",
+        "grammar_point": "reported speech statements",
+        "question": "He said that he ___ tired.",
+        "options": [
+          "is",
+          "was",
+          "be",
+          "been"
+        ],
+        "correct_answer": "was"
+      },
+      {
+        "id": "B1-021",
+        "level": "B1",
+        "type": "grammar",
+        "grammar_point": "reported speech statements",
+        "question": "She told me she ___ finished the report.",
+        "options": [
+          "has",
+          "have",
+          "had",
+          "having"
+        ],
+        "correct_answer": "had"
+      },
+      {
+        "id": "B1-022",
+        "level": "B1",
+        "type": "grammar",
+        "grammar_point": "third conditional intro",
+        "question": "If I had studied harder, I ___ passed the exam.",
+        "options": [
+          "would",
+          "would have",
+          "will have",
+          "had"
+        ],
+        "correct_answer": "would have"
+      },
+      {
+        "id": "B1-023",
+        "level": "B1",
+        "type": "grammar",
+        "grammar_point": "future continuous",
+        "question": "This time tomorrow, I ___ on a plane to Rome.",
+        "options": [
+          "will be flying",
+          "fly",
+          "am flying",
+          "flew"
+        ],
+        "correct_answer": "will be flying"
+      },
+      {
+        "id": "B1-024",
+        "level": "B1",
+        "type": "grammar",
+        "grammar_point": "future perfect intro",
+        "question": "By next year, she ___ her degree.",
+        "options": [
+          "will finish",
+          "will have finished",
+          "finishes",
+          "has finished"
+        ],
+        "correct_answer": "will have finished"
+      },
+      {
+        "id": "B1-025",
+        "level": "B1",
+        "type": "grammar",
+        "grammar_point": "passive voice past simple",
+        "question": "The letter ___ sent yesterday.",
+        "options": [
+          "is",
+          "was",
+          "has been",
+          "had"
+        ],
+        "correct_answer": "was"
+      },
+      {
+        "id": "B1-026",
+        "level": "B1",
+        "type": "grammar",
+        "grammar_point": "modal - might/may",
+        "question": "It ___ rain later, so take an umbrella.",
+        "options": [
+          "must",
+          "might",
+          "should",
+          "can't"
+        ],
+        "correct_answer": "might"
+      },
+      {
+        "id": "B1-027",
+        "level": "B1",
+        "type": "grammar",
+        "grammar_point": "phrasal verbs",
+        "question": "Could you ___ the form before you leave?",
+        "options": [
+          "fill in",
+          "fill up",
+          "fill on",
+          "fill out to"
+        ],
+        "correct_answer": "fill in"
+      },
+      {
+        "id": "B1-028",
+        "level": "B1",
+        "type": "grammar",
+        "grammar_point": "conditional - unless",
+        "question": "You won't pass ___ you study.",
+        "options": [
+          "if",
+          "unless",
+          "when",
+          "because"
+        ],
+        "correct_answer": "unless"
+      },
+      {
+        "id": "B1-029",
+        "level": "B1",
+        "type": "grammar",
+        "grammar_point": "so / such",
+        "question": "It was ___ a difficult exam that many students failed.",
+        "options": [
+          "so",
+          "such",
+          "too",
+          "very"
+        ],
+        "correct_answer": "such"
+      },
+      {
+        "id": "B1-030",
+        "level": "B1",
+        "type": "grammar",
+        "grammar_point": "so / such",
+        "question": "The weather was ___ cold that we stayed inside.",
+        "options": [
+          "so",
+          "such",
+          "too",
+          "very"
+        ],
+        "correct_answer": "so"
+      },
+      {
+        "id": "B1-031",
+        "level": "B1",
+        "type": "grammar",
+        "grammar_point": "adjective order",
+        "question": "She bought a ___ dress for the party.",
+        "options": [
+          "beautiful long red",
+          "red long beautiful",
+          "long red beautiful",
+          "beautiful red long"
+        ],
+        "correct_answer": "beautiful long red"
+      },
+      {
+        "id": "B1-032",
+        "level": "B1",
+        "type": "grammar",
+        "grammar_point": "verb patterns - make/let",
+        "question": "My parents ___ me stay out late.",
+        "options": [
+          "let",
+          "allow",
+          "make",
+          "permit"
+        ],
+        "correct_answer": "let"
+      },
+      {
+        "id": "B1-033",
+        "level": "B1",
+        "type": "grammar",
+        "grammar_point": "comparatives - as...as",
+        "question": "This test isn't ___ difficult as the last one.",
+        "options": [
+          "so",
+          "as",
+          "than",
+          "more"
+        ],
+        "correct_answer": "as"
+      },
+      {
+        "id": "B1-034",
+        "level": "B1",
+        "type": "grammar",
+        "grammar_point": "indirect questions",
+        "question": "Could you tell me ___ the station is?",
+        "options": [
+          "where is",
+          "where's",
+          "where",
+          "is where"
+        ],
+        "correct_answer": "where"
+      },
+      {
+        "id": "B1-035",
+        "level": "B1",
+        "type": "grammar",
+        "grammar_point": "present perfect with 'for/since'",
+        "question": "I have known her ___ 2015.",
+        "options": [
+          "for",
+          "since",
+          "during",
+          "from"
+        ],
+        "correct_answer": "since"
+      },
+      {
+        "id": "B1-036",
+        "level": "B1",
+        "type": "grammar",
+        "grammar_point": "present perfect with 'for/since'",
+        "question": "They have been married ___ ten years.",
+        "options": [
+          "since",
+          "for",
+          "during",
+          "from"
+        ],
+        "correct_answer": "for"
+      },
+      {
+        "id": "B1-037",
+        "level": "B1",
+        "type": "grammar",
+        "grammar_point": "passive with modals",
+        "question": "The task ___ be completed by Friday.",
+        "options": [
+          "must",
+          "have to",
+          "musts",
+          "musted"
+        ],
+        "correct_answer": "must"
+      },
+      {
+        "id": "B1-038",
+        "level": "B1",
+        "type": "grammar",
+        "grammar_point": "verb + preposition",
+        "question": "She is good ___ playing the piano.",
+        "options": [
+          "in",
+          "at",
+          "on",
+          "for"
+        ],
+        "correct_answer": "at"
+      },
+      {
+        "id": "B1-039",
+        "level": "B1",
+        "type": "grammar",
+        "grammar_point": "reported speech questions",
+        "question": "He asked me ___ I lived.",
+        "options": [
+          "where do",
+          "where did",
+          "where",
+          "what"
+        ],
+        "correct_answer": "where"
+      }
+    ],
+    "B2": [
+      {
+        "id": "B2-001",
+        "level": "B2",
+        "type": "grammar",
+        "grammar_point": "third conditional",
+        "question": "If she had left earlier, she ___ the train.",
+        "options": [
+          "would catch",
+          "would have caught",
+          "caught",
+          "will catch"
+        ],
+        "correct_answer": "would have caught"
+      },
+      {
+        "id": "B2-002",
+        "level": "B2",
+        "type": "grammar",
+        "grammar_point": "mixed conditionals",
+        "question": "If I had taken that job, I ___ happier now.",
+        "options": [
+          "would be",
+          "would have been",
+          "will be",
+          "was"
+        ],
+        "correct_answer": "would be"
+      },
+      {
+        "id": "B2-003",
+        "level": "B2",
+        "type": "grammar",
+        "grammar_point": "mixed conditionals",
+        "question": "If he weren't so lazy, he ___ the exam last year.",
+        "options": [
+          "would pass",
+          "would have passed",
+          "passed",
+          "will pass"
+        ],
+        "correct_answer": "would have passed"
+      },
+      {
+        "id": "B2-004",
+        "level": "B2",
+        "type": "grammar",
+        "grammar_point": "passive voice - present perfect",
+        "question": "The report ___ finished yet.",
+        "options": [
+          "hasn't been",
+          "hasn't",
+          "isn't been",
+          "wasn't been"
+        ],
+        "correct_answer": "hasn't been"
+      },
+      {
+        "id": "B2-005",
+        "level": "B2",
+        "type": "grammar",
+        "grammar_point": "passive voice - modal perfect",
+        "question": "The mistake ___ have been avoided.",
+        "options": [
+          "should",
+          "should not",
+          "must not",
+          "can"
+        ],
+        "correct_answer": "should"
+      },
+      {
+        "id": "B2-006",
+        "level": "B2",
+        "type": "grammar",
+        "grammar_point": "reported speech - advanced",
+        "question": "She said she ___ call me the next day.",
+        "options": [
+          "will",
+          "would",
+          "is going to",
+          "shall"
+        ],
+        "correct_answer": "would"
+      },
+      {
+        "id": "B2-007",
+        "level": "B2",
+        "type": "grammar",
+        "grammar_point": "reported speech - commands",
+        "question": "The teacher told the students ___ quiet.",
+        "options": [
+          "be",
+          "to be",
+          "being",
+          "been"
+        ],
+        "correct_answer": "to be"
+      },
+      {
+        "id": "B2-008",
+        "level": "B2",
+        "type": "grammar",
+        "grammar_point": "relative clauses - non-defining",
+        "question": "My brother, ___ lives in Canada, is visiting us next month.",
+        "options": [
+          "that",
+          "who",
+          "which",
+          "whose"
+        ],
+        "correct_answer": "who"
+      },
+      {
+        "id": "B2-009",
+        "level": "B2",
+        "type": "grammar",
+        "grammar_point": "relative clauses - non-defining",
+        "question": "This restaurant, ___ opened last year, has become very popular.",
+        "options": [
+          "that",
+          "which",
+          "who",
+          "whom"
+        ],
+        "correct_answer": "which"
+      },
+      {
+        "id": "B2-010",
+        "level": "B2",
+        "type": "grammar",
+        "grammar_point": "causative - have something done",
+        "question": "I need to ___ my car ___ tomorrow.",
+        "options": [
+          "have / repaired",
+          "have / repair",
+          "had / repairing",
+          "has / repaired"
+        ],
+        "correct_answer": "have / repaired"
+      },
+      {
+        "id": "B2-011",
+        "level": "B2",
+        "type": "grammar",
+        "grammar_point": "causative - get something done",
+        "question": "She ___ her hair ___ every month.",
+        "options": [
+          "gets / cut",
+          "get / cut",
+          "got / cutting",
+          "gets / cutting"
+        ],
+        "correct_answer": "gets / cut"
+      },
+      {
+        "id": "B2-012",
+        "level": "B2",
+        "type": "grammar",
+        "grammar_point": "wish + past simple",
+        "question": "I wish I ___ more time to relax.",
+        "options": [
+          "have",
+          "had",
+          "has",
+          "will have"
+        ],
+        "correct_answer": "had"
+      },
+      {
+        "id": "B2-013",
+        "level": "B2",
+        "type": "grammar",
+        "grammar_point": "wish + past perfect",
+        "question": "I wish I ___ that email before sending it.",
+        "options": [
+          "checked",
+          "had checked",
+          "have checked",
+          "would check"
+        ],
+        "correct_answer": "had checked"
+      },
+      {
+        "id": "B2-014",
+        "level": "B2",
+        "type": "grammar",
+        "grammar_point": "if only",
+        "question": "If only I ___ the answer!",
+        "options": [
+          "know",
+          "knew",
+          "have known",
+          "had known"
+        ],
+        "correct_answer": "knew"
+      },
+      {
+        "id": "B2-015",
+        "level": "B2",
+        "type": "grammar",
+        "grammar_point": "inversion - negative adverbials",
+        "question": "Never ___ such a beautiful sunset.",
+        "options": [
+          "I have seen",
+          "have I seen",
+          "did I saw",
+          "I saw"
+        ],
+        "correct_answer": "have I seen"
+      },
+      {
+        "id": "B2-016",
+        "level": "B2",
+        "type": "grammar",
+        "grammar_point": "inversion - not only",
+        "question": "Not only ___ late, but he also forgot the documents.",
+        "options": [
+          "he was",
+          "was he",
+          "he is",
+          "is he"
+        ],
+        "correct_answer": "was he"
+      },
+      {
+        "id": "B2-017",
+        "level": "B2",
+        "type": "grammar",
+        "grammar_point": "phrasal verbs - advanced",
+        "question": "The meeting was ___ due to bad weather.",
+        "options": [
+          "called off",
+          "called up",
+          "called in",
+          "called out"
+        ],
+        "correct_answer": "called off"
+      },
+      {
+        "id": "B2-018",
+        "level": "B2",
+        "type": "grammar",
+        "grammar_point": "participle clauses",
+        "question": "___ tired after the long journey, she went straight to bed.",
+        "options": [
+          "Feel",
+          "Feeling",
+          "Felt",
+          "To feel"
+        ],
+        "correct_answer": "Feeling"
+      },
+      {
+        "id": "B2-019",
+        "level": "B2",
+        "type": "grammar",
+        "grammar_point": "participle clauses",
+        "question": "___ by the noise, the baby began to cry.",
+        "options": [
+          "Startle",
+          "Startling",
+          "Startled",
+          "To startle"
+        ],
+        "correct_answer": "Startled"
+      },
+      {
+        "id": "B2-020",
+        "level": "B2",
+        "type": "grammar",
+        "grammar_point": "modals - should have",
+        "question": "You ___ told me earlier; now it's too late.",
+        "options": [
+          "should",
+          "should have",
+          "must",
+          "must have"
+        ],
+        "correct_answer": "should have"
+      },
+      {
+        "id": "B2-021",
+        "level": "B2",
+        "type": "grammar",
+        "grammar_point": "modals - could have",
+        "question": "He ___ won the race, but he fell.",
+        "options": [
+          "could have",
+          "could",
+          "should",
+          "must have"
+        ],
+        "correct_answer": "could have"
+      },
+      {
+        "id": "B2-022",
+        "level": "B2",
+        "type": "grammar",
+        "grammar_point": "modals - needn't have",
+        "question": "You ___ bought so much food; half of it will go to waste.",
+        "options": [
+          "needn't have",
+          "didn't need to",
+          "shouldn't have",
+          "mustn't have"
+        ],
+        "correct_answer": "needn't have"
+      },
+      {
+        "id": "B2-023",
+        "level": "B2",
+        "type": "grammar",
+        "grammar_point": "future perfect continuous",
+        "question": "By the end of the year, I ___ here for a decade.",
+        "options": [
+          "will have worked",
+          "will have been working",
+          "have worked",
+          "am working"
+        ],
+        "correct_answer": "will have been working"
+      },
+      {
+        "id": "B2-024",
+        "level": "B2",
+        "type": "grammar",
+        "grammar_point": "cleft sentences",
+        "question": "___ was John who suggested the idea.",
+        "options": [
+          "It",
+          "This",
+          "That",
+          "There"
+        ],
+        "correct_answer": "It"
+      },
+      {
+        "id": "B2-025",
+        "level": "B2",
+        "type": "grammar",
+        "grammar_point": "emphatic structures",
+        "question": "What I really need ___ a holiday.",
+        "options": [
+          "is",
+          "are",
+          "was",
+          "be"
+        ],
+        "correct_answer": "is"
+      },
+      {
+        "id": "B2-026",
+        "level": "B2",
+        "type": "grammar",
+        "grammar_point": "verb patterns - regret",
+        "question": "I regret ___ you that your application was unsuccessful.",
+        "options": [
+          "inform",
+          "to inform",
+          "informing",
+          "informed"
+        ],
+        "correct_answer": "to inform"
+      },
+      {
+        "id": "B2-027",
+        "level": "B2",
+        "type": "grammar",
+        "grammar_point": "verb patterns - stop",
+        "question": "He stopped ___ smoking last year. (he no longer smokes)",
+        "options": [
+          "smoke",
+          "to smoke",
+          "smoking",
+          "smoked"
+        ],
+        "correct_answer": "smoking"
+      },
+      {
+        "id": "B2-028",
+        "level": "B2",
+        "type": "grammar",
+        "grammar_point": "verb patterns - remember",
+        "question": "I remember ___ the door before I left. (I have a memory of doing it)",
+        "options": [
+          "lock",
+          "to lock",
+          "locking",
+          "locked"
+        ],
+        "correct_answer": "locking"
+      },
+      {
+        "id": "B2-029",
+        "level": "B2",
+        "type": "grammar",
+        "grammar_point": "subject-verb agreement",
+        "question": "Neither of the answers ___ correct.",
+        "options": [
+          "is",
+          "are",
+          "were",
+          "have"
+        ],
+        "correct_answer": "is"
+      },
+      {
+        "id": "B2-030",
+        "level": "B2",
+        "type": "grammar",
+        "grammar_point": "subject-verb agreement",
+        "question": "The number of applicants ___ increased significantly.",
+        "options": [
+          "has",
+          "have",
+          "had have",
+          "are"
+        ],
+        "correct_answer": "has"
+      },
+      {
+        "id": "B2-031",
+        "level": "B2",
+        "type": "grammar",
+        "grammar_point": "adverb placement",
+        "question": "She ___ finishes her work before dinner.",
+        "options": [
+          "always",
+          "is always",
+          "always is",
+          "does always"
+        ],
+        "correct_answer": "always"
+      },
+      {
+        "id": "B2-032",
+        "level": "B2",
+        "type": "grammar",
+        "grammar_point": "collocations with make/do",
+        "question": "I need to ___ a decision soon.",
+        "options": [
+          "do",
+          "make",
+          "take",
+          "have"
+        ],
+        "correct_answer": "make"
+      },
+      {
+        "id": "B2-033",
+        "level": "B2",
+        "type": "grammar",
+        "grammar_point": "collocations with make/do",
+        "question": "Could you ___ me a favour?",
+        "options": [
+          "make",
+          "do",
+          "take",
+          "give"
+        ],
+        "correct_answer": "do"
+      },
+      {
+        "id": "B2-034",
+        "level": "B2",
+        "type": "grammar",
+        "grammar_point": "passive infinitive",
+        "question": "The problem needs ___ immediately.",
+        "options": [
+          "to address",
+          "to be addressed",
+          "addressing",
+          "address"
+        ],
+        "correct_answer": "to be addressed"
+      },
+      {
+        "id": "B2-035",
+        "level": "B2",
+        "type": "grammar",
+        "grammar_point": "despite / although",
+        "question": "___ the rain, the match continued.",
+        "options": [
+          "Although",
+          "Despite",
+          "Even though",
+          "However"
+        ],
+        "correct_answer": "Despite"
+      },
+      {
+        "id": "B2-036",
+        "level": "B2",
+        "type": "grammar",
+        "grammar_point": "despite / although",
+        "question": "___ it was raining, the match continued.",
+        "options": [
+          "Despite",
+          "In spite of",
+          "Although",
+          "Because of"
+        ],
+        "correct_answer": "Although"
+      },
+      {
+        "id": "B2-037",
+        "level": "B2",
+        "type": "grammar",
+        "grammar_point": "conditional - provided that",
+        "question": "You can borrow my car ___ you return it by tonight.",
+        "options": [
+          "unless",
+          "provided that",
+          "although",
+          "despite"
+        ],
+        "correct_answer": "provided that"
+      },
+      {
+        "id": "B2-038",
+        "level": "B2",
+        "type": "grammar",
+        "grammar_point": "reported speech - modals",
+        "question": "He said he ___ help me if he had time.",
+        "options": [
+          "can",
+          "could",
+          "will",
+          "shall"
+        ],
+        "correct_answer": "could"
+      },
+      {
+        "id": "B2-039",
+        "level": "B2",
+        "type": "grammar",
+        "grammar_point": "passive causative",
+        "question": "They ___ their house ___ last month.",
+        "options": [
+          "had / painted",
+          "have / paint",
+          "had / paint",
+          "having / painted"
+        ],
+        "correct_answer": "had / painted"
+      }
+    ],
+    "C1": [
+      {
+        "id": "C1-001",
+        "level": "C1",
+        "type": "grammar",
+        "grammar_point": "inversion - conditionals (formal)",
+        "question": "___ I known about the delay, I would have taken an earlier flight.",
+        "options": [
+          "If",
+          "Had",
+          "Should",
+          "Were"
+        ],
+        "correct_answer": "Had"
+      },
+      {
+        "id": "C1-002",
+        "level": "C1",
+        "type": "grammar",
+        "grammar_point": "inversion - conditionals (formal)",
+        "question": "___ you need any help, please don't hesitate to ask.",
+        "options": [
+          "If",
+          "Should",
+          "Were",
+          "Had"
+        ],
+        "correct_answer": "Should"
+      },
+      {
+        "id": "C1-003",
+        "level": "C1",
+        "type": "grammar",
+        "grammar_point": "inversion - conditionals (formal)",
+        "question": "___ it not been for your help, I would have failed.",
+        "options": [
+          "If",
+          "Had",
+          "Were",
+          "Should"
+        ],
+        "correct_answer": "Were"
+      },
+      {
+        "id": "C1-004",
+        "level": "C1",
+        "type": "grammar",
+        "grammar_point": "subjunctive mood",
+        "question": "The manager insisted that the report ___ submitted by Friday.",
+        "options": [
+          "is",
+          "was",
+          "be",
+          "will be"
+        ],
+        "correct_answer": "be"
+      },
+      {
+        "id": "C1-005",
+        "level": "C1",
+        "type": "grammar",
+        "grammar_point": "subjunctive mood",
+        "question": "It is essential that everyone ___ present at the meeting.",
+        "options": [
+          "is",
+          "be",
+          "was",
+          "will be"
+        ],
+        "correct_answer": "be"
+      },
+      {
+        "id": "C1-006",
+        "level": "C1",
+        "type": "grammar",
+        "grammar_point": "cleft sentences - what",
+        "question": "___ surprised me most was his sudden change of attitude.",
+        "options": [
+          "It",
+          "What",
+          "That",
+          "This"
+        ],
+        "correct_answer": "What"
+      },
+      {
+        "id": "C1-007",
+        "level": "C1",
+        "type": "grammar",
+        "grammar_point": "cleft sentences - it",
+        "question": "___ was not until midnight that they finally arrived.",
+        "options": [
+          "It",
+          "This",
+          "There",
+          "What"
+        ],
+        "correct_answer": "It"
+      },
+      {
+        "id": "C1-008",
+        "level": "C1",
+        "type": "grammar",
+        "grammar_point": "ellipsis",
+        "question": "She wanted to go to the concert, but her brother didn't ___.",
+        "options": [
+          "want to go",
+          "want",
+          "did",
+          "wanted to"
+        ],
+        "correct_answer": "want to"
+      },
+      {
+        "id": "C1-009",
+        "level": "C1",
+        "type": "grammar",
+        "grammar_point": "participle clauses - advanced",
+        "question": "___ having finished the report, she went home.",
+        "options": [
+          "Before",
+          "After",
+          "While",
+          "During"
+        ],
+        "correct_answer": "After"
+      },
+      {
+        "id": "C1-010",
+        "level": "C1",
+        "type": "grammar",
+        "grammar_point": "participle clauses - advanced",
+        "question": "___ from the tower, the city looked magnificent.",
+        "options": [
+          "Seeing",
+          "Seen",
+          "To see",
+          "Having seen"
+        ],
+        "correct_answer": "Seen"
+      },
+      {
+        "id": "C1-011",
+        "level": "C1",
+        "type": "grammar",
+        "grammar_point": "advanced passive",
+        "question": "The bridge is believed ___ built by the Romans.",
+        "options": [
+          "to have been",
+          "having been",
+          "to be",
+          "being"
+        ],
+        "correct_answer": "to have been"
+      },
+      {
+        "id": "C1-012",
+        "level": "C1",
+        "type": "grammar",
+        "grammar_point": "advanced passive",
+        "question": "He is said ___ millions of dollars.",
+        "options": [
+          "to earn",
+          "to have earned",
+          "earning",
+          "having earned"
+        ],
+        "correct_answer": "to have earned"
+      },
+      {
+        "id": "C1-013",
+        "level": "C1",
+        "type": "grammar",
+        "grammar_point": "mixed conditionals - advanced",
+        "question": "If she ___ more careful, she wouldn't be in the hospital now.",
+        "options": [
+          "was",
+          "were",
+          "had been",
+          "has been"
+        ],
+        "correct_answer": "had been"
+      },
+      {
+        "id": "C1-014",
+        "level": "C1",
+        "type": "grammar",
+        "grammar_point": "modal perfect - must have",
+        "question": "The lights are off; they ___ left already.",
+        "options": [
+          "must have",
+          "must",
+          "should have",
+          "can have"
+        ],
+        "correct_answer": "must have"
+      },
+      {
+        "id": "C1-015",
+        "level": "C1",
+        "type": "grammar",
+        "grammar_point": "modal perfect - can't have",
+        "question": "He ___ finished the marathon already; it started an hour ago.",
+        "options": [
+          "can't have",
+          "mustn't have",
+          "shouldn't have",
+          "couldn't"
+        ],
+        "correct_answer": "can't have"
+      },
+      {
+        "id": "C1-016",
+        "level": "C1",
+        "type": "grammar",
+        "grammar_point": "discourse markers",
+        "question": "___ the heavy rain, the outdoor event went ahead as planned.",
+        "options": [
+          "Despite",
+          "Although",
+          "Even though",
+          "Whereas"
+        ],
+        "correct_answer": "Despite"
+      },
+      {
+        "id": "C1-017",
+        "level": "C1",
+        "type": "grammar",
+        "grammar_point": "discourse markers - contrast",
+        "question": "___ he was exhausted, he continued working through the night.",
+        "options": [
+          "Despite",
+          "In spite of",
+          "Even though",
+          "Because of"
+        ],
+        "correct_answer": "Even though"
+      },
+      {
+        "id": "C1-018",
+        "level": "C1",
+        "type": "grammar",
+        "grammar_point": "hedging language",
+        "question": "The results ___ suggest a correlation, although further research is needed.",
+        "options": [
+          "would",
+          "should",
+          "must",
+          "shall"
+        ],
+        "correct_answer": "would"
+      },
+      {
+        "id": "C1-019",
+        "level": "C1",
+        "type": "grammar",
+        "grammar_point": "nominalisation",
+        "question": "The company's ___ of the new policy caused controversy.",
+        "options": [
+          "implement",
+          "implementing",
+          "implementation",
+          "implemented"
+        ],
+        "correct_answer": "implementation"
+      },
+      {
+        "id": "C1-020",
+        "level": "C1",
+        "type": "grammar",
+        "grammar_point": "complex relative clauses",
+        "question": "The proposal, the details of ___ remain confidential, was approved unanimously.",
+        "options": [
+          "it",
+          "which",
+          "that",
+          "what"
+        ],
+        "correct_answer": "which"
+      },
+      {
+        "id": "C1-021",
+        "level": "C1",
+        "type": "grammar",
+        "grammar_point": "fronting for emphasis",
+        "question": "___ much I admire her work, I can't agree with her conclusions.",
+        "options": [
+          "However",
+          "As",
+          "So",
+          "Despite"
+        ],
+        "correct_answer": "As"
+      },
+      {
+        "id": "C1-022",
+        "level": "C1",
+        "type": "grammar",
+        "grammar_point": "concession clauses",
+        "question": "___ talented he is, he still needs to practice regularly.",
+        "options": [
+          "However",
+          "As",
+          "So",
+          "Despite"
+        ],
+        "correct_answer": "However"
+      },
+      {
+        "id": "C1-023",
+        "level": "C1",
+        "type": "grammar",
+        "grammar_point": "reduced relative clauses",
+        "question": "The man ___ over there is my uncle.",
+        "options": [
+          "stand",
+          "standing",
+          "stood",
+          "who stands"
+        ],
+        "correct_answer": "standing"
+      },
+      {
+        "id": "C1-024",
+        "level": "C1",
+        "type": "grammar",
+        "grammar_point": "reduced relative clauses",
+        "question": "Documents ___ before 2020 must be reviewed.",
+        "options": [
+          "submit",
+          "submitted",
+          "submitting",
+          "that submit"
+        ],
+        "correct_answer": "submitted"
+      },
+      {
+        "id": "C1-025",
+        "level": "C1",
+        "type": "grammar",
+        "grammar_point": "verb patterns - advanced",
+        "question": "She can't help ___ about her upcoming exam.",
+        "options": [
+          "worry",
+          "to worry",
+          "worrying",
+          "worried"
+        ],
+        "correct_answer": "worrying"
+      },
+      {
+        "id": "C1-026",
+        "level": "C1",
+        "type": "grammar",
+        "grammar_point": "verb patterns - advanced",
+        "question": "He denied ___ involved in the scandal.",
+        "options": [
+          "be",
+          "to be",
+          "being",
+          "been"
+        ],
+        "correct_answer": "being"
+      },
+      {
+        "id": "C1-027",
+        "level": "C1",
+        "type": "grammar",
+        "grammar_point": "future in the past",
+        "question": "She told me she ___ arrive at 9pm.",
+        "options": [
+          "will",
+          "would",
+          "is going to",
+          "shall"
+        ],
+        "correct_answer": "would"
+      },
+      {
+        "id": "C1-028",
+        "level": "C1",
+        "type": "grammar",
+        "grammar_point": "passive reporting structures",
+        "question": "It is widely believed that the ancient ruins ___ over 2,000 years old.",
+        "options": [
+          "are",
+          "were",
+          "have been",
+          "had been"
+        ],
+        "correct_answer": "are"
+      },
+      {
+        "id": "C1-029",
+        "level": "C1",
+        "type": "grammar",
+        "grammar_point": "passive reporting structures",
+        "question": "The suspect is thought ___ the country before the investigation began.",
+        "options": [
+          "to leave",
+          "to have left",
+          "leaving",
+          "having left"
+        ],
+        "correct_answer": "to have left"
+      },
+      {
+        "id": "C1-030",
+        "level": "C1",
+        "type": "grammar",
+        "grammar_point": "emphatic 'do'",
+        "question": "I ___ enjoy the concert, even though the tickets were expensive.",
+        "options": [
+          "do",
+          "did",
+          "was",
+          "have"
+        ],
+        "correct_answer": "did"
+      },
+      {
+        "id": "C1-031",
+        "level": "C1",
+        "type": "grammar",
+        "grammar_point": "correlative conjunctions",
+        "question": "___ the manager ___ his assistant were aware of the error.",
+        "options": [
+          "Both / and",
+          "Either / or",
+          "Neither / nor",
+          "Not only / but"
+        ],
+        "correct_answer": "Both / and"
+      },
+      {
+        "id": "C1-032",
+        "level": "C1",
+        "type": "grammar",
+        "grammar_point": "correlative conjunctions",
+        "question": "___ will he apologise ___ will he change his behaviour.",
+        "options": [
+          "Both / and",
+          "Either / or",
+          "Neither / nor",
+          "Not only / but also"
+        ],
+        "correct_answer": "Neither / nor"
+      },
+      {
+        "id": "C1-033",
+        "level": "C1",
+        "type": "grammar",
+        "grammar_point": "advanced quantifiers",
+        "question": "___ of the information provided was accurate.",
+        "options": [
+          "Few",
+          "Little",
+          "A few",
+          "Many"
+        ],
+        "correct_answer": "Little"
+      },
+      {
+        "id": "C1-034",
+        "level": "C1",
+        "type": "grammar",
+        "grammar_point": "advanced quantifiers",
+        "question": "___ of the participants had prior experience in the field.",
+        "options": [
+          "Little",
+          "Few",
+          "Much",
+          "A little"
+        ],
+        "correct_answer": "Few"
+      },
+      {
+        "id": "C1-035",
+        "level": "C1",
+        "type": "grammar",
+        "grammar_point": "as if / as though",
+        "question": "He talks ___ he knew everything about the subject.",
+        "options": [
+          "as if",
+          "like",
+          "such as",
+          "as"
+        ],
+        "correct_answer": "as if"
+      },
+      {
+        "id": "C1-036",
+        "level": "C1",
+        "type": "grammar",
+        "grammar_point": "verb + object + infinitive",
+        "question": "The judge ordered the defendant ___ silent.",
+        "options": [
+          "remain",
+          "to remain",
+          "remaining",
+          "remained"
+        ],
+        "correct_answer": "to remain"
+      },
+      {
+        "id": "C1-037",
+        "level": "C1",
+        "type": "grammar",
+        "grammar_point": "subjunctive - demand/suggest",
+        "question": "The committee recommended that the policy ___ revised.",
+        "options": [
+          "is",
+          "was",
+          "be",
+          "will be"
+        ],
+        "correct_answer": "be"
+      },
+      {
+        "id": "C1-038",
+        "level": "C1",
+        "type": "grammar",
+        "grammar_point": "advanced conditionals - had it not been",
+        "question": "___ for his quick thinking, the accident could have been much worse.",
+        "options": [
+          "Had it not been",
+          "If it hadn't been",
+          "Were it not",
+          "Had not it been"
+        ],
+        "correct_answer": "Had it not been"
+      },
+      {
+        "id": "C1-039",
+        "level": "C1",
+        "type": "grammar",
+        "grammar_point": "adverbial clauses of manner",
+        "question": "She behaved ___ nothing had happened.",
+        "options": [
+          "as though",
+          "like",
+          "as",
+          "such as"
+        ],
+        "correct_answer": "as though"
+      },
+      {
+        "id": "C1-040",
+        "level": "C1",
+        "type": "grammar",
+        "grammar_point": "complex tense sequencing",
+        "question": "By the time the ambulance arrived, the patient ___ already ___ .",
+        "options": [
+          "has / recovered",
+          "had / recovered",
+          "was / recovering",
+          "would / recover"
+        ],
+        "correct_answer": "had / recovered"
+      }
+    ],
+    "C2": [
+      {
+        "id": "C2-001",
+        "level": "C2",
+        "type": "grammar",
+        "grammar_point": "archaic/formal inversion",
+        "question": "So ___ was the applause that the singer returned for an encore.",
+        "options": [
+          "great",
+          "greatly",
+          "greater",
+          "greatest"
+        ],
+        "correct_answer": "great"
+      },
+      {
+        "id": "C2-002",
+        "level": "C2",
+        "type": "grammar",
+        "grammar_point": "archaic/formal inversion",
+        "question": "Rarely ___ such dedication witnessed among newcomers.",
+        "options": [
+          "is",
+          "has been",
+          "was",
+          "have been"
+        ],
+        "correct_answer": "has been"
+      },
+      {
+        "id": "C2-003",
+        "level": "C2",
+        "type": "grammar",
+        "grammar_point": "subjunctive - formulaic expressions",
+        "question": "___ it be known that the treaty has been signed.",
+        "options": [
+          "Let",
+          "May",
+          "Should",
+          "Would"
+        ],
+        "correct_answer": "Let"
+      },
+      {
+        "id": "C2-004",
+        "level": "C2",
+        "type": "grammar",
+        "grammar_point": "subjunctive - formulaic expressions",
+        "question": "___ he succeed, the entire team will benefit.",
+        "options": [
+          "Should",
+          "Would",
+          "Was",
+          "Were"
+        ],
+        "correct_answer": "Should"
+      },
+      {
+        "id": "C2-005",
+        "level": "C2",
+        "type": "grammar",
+        "grammar_point": "nominal relative clauses",
+        "question": "___ he said at the conference contradicted his earlier statements.",
+        "options": [
+          "What",
+          "That",
+          "Which",
+          "This"
+        ],
+        "correct_answer": "What"
+      },
+      {
+        "id": "C2-006",
+        "level": "C2",
+        "type": "grammar",
+        "grammar_point": "cleft with 'all'",
+        "question": "___ she wanted was a little recognition for her efforts.",
+        "options": [
+          "All",
+          "What",
+          "That",
+          "It"
+        ],
+        "correct_answer": "All"
+      },
+      {
+        "id": "C2-007",
+        "level": "C2",
+        "type": "grammar",
+        "grammar_point": "fronted negative adverbials",
+        "question": "Under no circumstances ___ this door be left unlocked.",
+        "options": [
+          "should",
+          "must",
+          "will",
+          "shall"
+        ],
+        "correct_answer": "should"
+      },
+      {
+        "id": "C2-008",
+        "level": "C2",
+        "type": "grammar",
+        "grammar_point": "fronted negative adverbials",
+        "question": "Little ___ he realise that his decision would change everything.",
+        "options": [
+          "did",
+          "does",
+          "had",
+          "was"
+        ],
+        "correct_answer": "did"
+      },
+      {
+        "id": "C2-009",
+        "level": "C2",
+        "type": "grammar",
+        "grammar_point": "absolute constructions",
+        "question": "___ weather permitting, the ceremony will take place outdoors.",
+        "options": [
+          "The",
+          "With",
+          "Being",
+          "As"
+        ],
+        "correct_answer": "The"
+      },
+      {
+        "id": "C2-010",
+        "level": "C2",
+        "type": "grammar",
+        "grammar_point": "absolute constructions",
+        "question": "___ his objections noted, the board proceeded with the vote.",
+        "options": [
+          "With",
+          "Being",
+          "Despite",
+          "Have"
+        ],
+        "correct_answer": "With"
+      },
+      {
+        "id": "C2-011",
+        "level": "C2",
+        "type": "grammar",
+        "grammar_point": "elliptical constructions",
+        "question": "Some praised the reform; others, however, ___ strongly opposed.",
+        "options": [
+          "were",
+          "was",
+          "are",
+          "did"
+        ],
+        "correct_answer": "were"
+      },
+      {
+        "id": "C2-012",
+        "level": "C2",
+        "type": "grammar",
+        "grammar_point": "advanced modality - nuance",
+        "question": "The evidence ___ point to his innocence, though doubts remain.",
+        "options": [
+          "would seem to",
+          "must",
+          "should",
+          "will"
+        ],
+        "correct_answer": "would seem to"
+      },
+      {
+        "id": "C2-013",
+        "level": "C2",
+        "type": "grammar",
+        "grammar_point": "advanced modality - nuance",
+        "question": "She ___ well have been aware of the risks involved.",
+        "options": [
+          "might",
+          "may",
+          "must",
+          "might as"
+        ],
+        "correct_answer": "may"
+      },
+      {
+        "id": "C2-014",
+        "level": "C2",
+        "type": "grammar",
+        "grammar_point": "periphrastic causatives",
+        "question": "The scandal ___ the minister to resign.",
+        "options": [
+          "caused",
+          "made",
+          "had",
+          "forced"
+        ],
+        "correct_answer": "forced"
+      },
+      {
+        "id": "C2-015",
+        "level": "C2",
+        "type": "grammar",
+        "grammar_point": "register-specific passives",
+        "question": "It has long ___ argued that economic growth alone cannot ensure wellbeing.",
+        "options": [
+          "been",
+          "being",
+          "be",
+          "was"
+        ],
+        "correct_answer": "been"
+      },
+      {
+        "id": "C2-016",
+        "level": "C2",
+        "type": "grammar",
+        "grammar_point": "complex correlative structures",
+        "question": "So thoroughly ___ the evidence prepared that the jury reached a verdict within an hour.",
+        "options": [
+          "was",
+          "had",
+          "were",
+          "did"
+        ],
+        "correct_answer": "was"
+      },
+      {
+        "id": "C2-017",
+        "level": "C2",
+        "type": "grammar",
+        "grammar_point": "subordination - concessive",
+        "question": "___ the setbacks, the research team persevered and eventually succeeded.",
+        "options": [
+          "Notwithstanding",
+          "Despite of",
+          "Although",
+          "Because"
+        ],
+        "correct_answer": "Notwithstanding"
+      },
+      {
+        "id": "C2-018",
+        "level": "C2",
+        "type": "grammar",
+        "grammar_point": "subordination - concessive",
+        "question": "___ acknowledged that mistakes were made, the report largely defended the policy.",
+        "options": [
+          "While",
+          "Despite",
+          "Notwithstanding",
+          "Because"
+        ],
+        "correct_answer": "While"
+      },
+      {
+        "id": "C2-019",
+        "level": "C2",
+        "type": "grammar",
+        "grammar_point": "archaic conditional forms",
+        "question": "___ the plan fail, we must have a contingency ready.",
+        "options": [
+          "Were",
+          "Should",
+          "Had",
+          "Was"
+        ],
+        "correct_answer": "Should"
+      },
+      {
+        "id": "C2-020",
+        "level": "C2",
+        "type": "grammar",
+        "grammar_point": "nominalisation - advanced",
+        "question": "The government's ___ to reduce emissions has drawn both praise and criticism.",
+        "options": [
+          "undertake",
+          "undertaking",
+          "undertaken",
+          "undertakes"
+        ],
+        "correct_answer": "undertaking"
+      },
+      {
+        "id": "C2-021",
+        "level": "C2",
+        "type": "grammar",
+        "grammar_point": "hedged academic style",
+        "question": "The findings ___ to indicate a correlation, though causation cannot be inferred.",
+        "options": [
+          "would appear",
+          "must appear",
+          "shall appear",
+          "will appear"
+        ],
+        "correct_answer": "would appear"
+      },
+      {
+        "id": "C2-022",
+        "level": "C2",
+        "type": "grammar",
+        "grammar_point": "discourse - concession + contrast",
+        "question": "___ the theory's popularity, empirical support for it remains scarce.",
+        "options": [
+          "Notwithstanding",
+          "Because of",
+          "Due to",
+          "As a result of"
+        ],
+        "correct_answer": "Notwithstanding"
+      },
+      {
+        "id": "C2-023",
+        "level": "C2",
+        "type": "grammar",
+        "grammar_point": "passive of reporting verbs",
+        "question": "The ancient manuscript is thought ___ by monks in the 9th century.",
+        "options": [
+          "to write",
+          "to have been written",
+          "writing",
+          "having written"
+        ],
+        "correct_answer": "to have been written"
+      },
+      {
+        "id": "C2-024",
+        "level": "C2",
+        "type": "grammar",
+        "grammar_point": "participial absolute with having",
+        "question": "___ exhausted all other options, the committee reluctantly approved the proposal.",
+        "options": [
+          "Have",
+          "Having",
+          "Had",
+          "To have"
+        ],
+        "correct_answer": "Having"
+      },
+      {
+        "id": "C2-025",
+        "level": "C2",
+        "type": "grammar",
+        "grammar_point": "fronted complements",
+        "question": "Such was the extent of the damage ___ the building had to be demolished.",
+        "options": [
+          "that",
+          "which",
+          "as",
+          "so"
+        ],
+        "correct_answer": "that"
+      },
+      {
+        "id": "C2-026",
+        "level": "C2",
+        "type": "grammar",
+        "grammar_point": "emphatic inversion with only",
+        "question": "Only after the results were published ___ the true scale of the problem apparent.",
+        "options": [
+          "did become",
+          "became",
+          "did it become",
+          "it became"
+        ],
+        "correct_answer": "did it become"
+      },
+      {
+        "id": "C2-027",
+        "level": "C2",
+        "type": "grammar",
+        "grammar_point": "emphatic inversion with only",
+        "question": "Only later ___ the significance of the discovery.",
+        "options": [
+          "did they realise",
+          "they realised",
+          "realised they",
+          "had they realise"
+        ],
+        "correct_answer": "did they realise"
+      },
+      {
+        "id": "C2-028",
+        "level": "C2",
+        "type": "grammar",
+        "grammar_point": "subjunctive after lest",
+        "question": "They took extra precautions ___ the experiment fail.",
+        "options": [
+          "lest",
+          "unless",
+          "in case",
+          "provided"
+        ],
+        "correct_answer": "lest"
+      },
+      {
+        "id": "C2-029",
+        "level": "C2",
+        "type": "grammar",
+        "grammar_point": "stylistic ellipsis in formal writing",
+        "question": "The first proposal was accepted; the second, ___.",
+        "options": [
+          "rejected",
+          "was rejected",
+          "reject",
+          "rejecting"
+        ],
+        "correct_answer": "was rejected"
+      },
+      {
+        "id": "C2-030",
+        "level": "C2",
+        "type": "grammar",
+        "grammar_point": "complex modal past forms",
+        "question": "He ___ have completed the project sooner had he received the necessary funding.",
+        "options": [
+          "would",
+          "could",
+          "might",
+          "would have"
+        ],
+        "correct_answer": "could"
+      },
+      {
+        "id": "C2-031",
+        "level": "C2",
+        "type": "grammar",
+        "grammar_point": "advanced conditionals - had",
+        "question": "___ the committee reconsidered its position, the outcome might have differed considerably.",
+        "options": [
+          "Had",
+          "If",
+          "Were",
+          "Should"
+        ],
+        "correct_answer": "Had"
+      },
+      {
+        "id": "C2-032",
+        "level": "C2",
+        "type": "grammar",
+        "grammar_point": "preposition + gerund complex",
+        "question": "___ having reviewed the evidence thoroughly, the judge reached her verdict.",
+        "options": [
+          "Despite",
+          "On",
+          "With",
+          "By"
+        ],
+        "correct_answer": "On"
+      },
+      {
+        "id": "C2-033",
+        "level": "C2",
+        "type": "grammar",
+        "grammar_point": "formal correlative - so...that",
+        "question": "So compelling ___ his argument that even his critics were persuaded.",
+        "options": [
+          "was",
+          "were",
+          "did",
+          "had"
+        ],
+        "correct_answer": "was"
+      },
+      {
+        "id": "C2-034",
+        "level": "C2",
+        "type": "grammar",
+        "grammar_point": "passive causative advanced",
+        "question": "The historic building ___ restored to its original grandeur by a team of specialists.",
+        "options": [
+          "has been",
+          "have been",
+          "was being",
+          "is being had"
+        ],
+        "correct_answer": "has been"
+      },
+      {
+        "id": "C2-035",
+        "level": "C2",
+        "type": "grammar",
+        "grammar_point": "register shift - legalistic phrasing",
+        "question": "The aforementioned clause shall, ___ any conflicting provision, take precedence.",
+        "options": [
+          "notwithstanding",
+          "despite of",
+          "regardless",
+          "in spite"
+        ],
+        "correct_answer": "notwithstanding"
+      },
+      {
+        "id": "C2-036",
+        "level": "C2",
+        "type": "grammar",
+        "grammar_point": "subjunctive mandative - formal",
+        "question": "The board decreed that the funds ___ allocated immediately.",
+        "options": [
+          "are",
+          "were",
+          "be",
+          "will be"
+        ],
+        "correct_answer": "be"
+      },
+      {
+        "id": "C2-037",
+        "level": "C2",
+        "type": "grammar",
+        "grammar_point": "complex tense - future in the past perfect",
+        "question": "By the time she called, he ___ already ___ for the airport.",
+        "options": [
+          "has / left",
+          "had / left",
+          "would have / leave",
+          "was / leaving"
+        ],
+        "correct_answer": "had / left"
+      },
+      {
+        "id": "C2-038",
+        "level": "C2",
+        "type": "grammar",
+        "grammar_point": "inversion after 'so'",
+        "question": "So unexpected ___ the announcement that the markets reacted immediately.",
+        "options": [
+          "was",
+          "were",
+          "did",
+          "had"
+        ],
+        "correct_answer": "was"
+      },
+      {
+        "id": "C2-039",
+        "level": "C2",
+        "type": "grammar",
+        "grammar_point": "advanced discourse connectors",
+        "question": "The policy was, ___, a resounding success, despite initial skepticism.",
+        "options": [
+          "nevertheless",
+          "on the whole",
+          "however",
+          "albeit"
+        ],
+        "correct_answer": "on the whole"
+      },
+      {
+        "id": "C2-040",
+        "level": "C2",
+        "type": "grammar",
+        "grammar_point": "advanced discourse connectors",
+        "question": "The results were inconclusive; ___, further research was recommended.",
+        "options": [
+          "consequently",
+          "nonetheless",
+          "therefore",
+          "hence"
+        ],
+        "correct_answer": "consequently"
+      }
+    ]
+  }
+}

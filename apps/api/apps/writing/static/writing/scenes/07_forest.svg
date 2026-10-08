@@ -1,0 +1,30 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="black" stroke-width="4">
+<rect x="0" y="0" width="800" height="600" fill="white" stroke="none"/>
+<line x1="0" y1="500" x2="800" y2="500"/>
+<!-- trees -->
+<rect x="90" y="380" width="24" height="120"/>
+<polygon points="30,380 102,220 174,380"/>
+<polygon points="50,320 102,190 154,320"/>
+<rect x="300" y="360" width="24" height="140"/>
+<polygon points="240,360 312,180 384,360"/>
+<polygon points="260,300 312,150 364,300"/>
+<rect x="600" y="390" width="24" height="110"/>
+<polygon points="545,390 612,240 679,390"/>
+<!-- fox -->
+<ellipse cx="470" cy="460" rx="45" ry="25"/>
+<circle cx="420" cy="440" r="22"/>
+<polygon points="405,420 395,395 415,415"/>
+<polygon points="435,420 445,395 425,415"/>
+<path d="M510 465 Q560 460 565 430"/>
+<circle cx="410" cy="438" r="3" fill="black"/>
+<!-- mushrooms -->
+<ellipse cx="230" cy="470" rx="20" ry="12"/>
+<rect x="222" y="475" width="16" height="20"/>
+<ellipse cx="270" cy="480" rx="15" ry="9"/>
+<rect x="264" y="484" width="12" height="14"/>
+<!-- bird -->
+<path d="M600 150 Q615 135 630 150"/>
+<path d="M630 150 Q645 135 660 150"/>
+<!-- sun rays through trees -->
+<circle cx="700" cy="90" r="30"/>
+</svg>

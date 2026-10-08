@@ -1,0 +1,42 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="black" stroke-width="4">
+<rect x="0" y="0" width="800" height="600" fill="white" stroke="none"/>
+<line x1="0" y1="500" x2="800" y2="500"/>
+<!-- buildings -->
+<rect x="40" y="220" width="140" height="280"/>
+<rect x="70" y="250" width="30" height="30"/>
+<rect x="120" y="250" width="30" height="30"/>
+<rect x="70" y="310" width="30" height="30"/>
+<rect x="120" y="310" width="30" height="30"/>
+<rect x="70" y="370" width="30" height="30"/>
+<rect x="120" y="370" width="30" height="30"/>
+<rect x="220" y="150" width="120" height="350"/>
+<rect x="245" y="180" width="25" height="25"/>
+<rect x="290" y="180" width="25" height="25"/>
+<rect x="245" y="230" width="25" height="25"/>
+<rect x="290" y="230" width="25" height="25"/>
+<rect x="245" y="280" width="25" height="25"/>
+<rect x="290" y="280" width="25" height="25"/>
+<rect x="380" y="260" width="150" height="240"/>
+<polygon points="380,260 455,200 530,260"/>
+<rect x="410" y="300" width="30" height="30"/>
+<rect x="470" y="300" width="30" height="30"/>
+<rect x="410" y="360" width="30" height="30"/>
+<rect x="470" y="360" width="30" height="30"/>
+<rect x="430" y="430" width="50" height="70"/>
+<!-- car -->
+<rect x="580" y="440" width="140" height="50" rx="10"/>
+<path d="M600 440 L620 400 L680 400 L700 440"/>
+<circle cx="610" cy="495" r="18"/>
+<circle cx="690" cy="495" r="18"/>
+<!-- street lamp -->
+<line x1="200" y1="500" x2="200" y2="380"/>
+<circle cx="200" cy="370" r="12"/>
+<!-- tree -->
+<rect x="700" y="440" width="14" height="60"/>
+<circle cx="707" cy="410" r="45"/>
+<!-- sun & clouds -->
+<circle cx="700" cy="80" r="35"/>
+<circle cx="120" cy="90" r="18"/>
+<circle cx="145" cy="80" r="22"/>
+<circle cx="175" cy="90" r="18"/>
+</svg>

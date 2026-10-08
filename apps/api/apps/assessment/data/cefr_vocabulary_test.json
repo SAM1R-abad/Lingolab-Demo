@@ -1,0 +1,3386 @@
+{
+  "test_title": "CEFR English Vocabulary Assessment Test",
+  "description": "A large multiple-choice vocabulary test covering all six CEFR levels (A1-C2). Each question tests understanding of a specific word's meaning through a multiple-choice format.",
+  "cefr_levels": {
+    "A1": "Beginner",
+    "A2": "Elementary",
+    "B1": "Intermediate",
+    "B2": "Upper-Intermediate",
+    "C1": "Advanced",
+    "C2": "Proficiency / Mastery"
+  },
+  "instructions": "For each question, choose the option that best matches the meaning or correct usage of the tested word.",
+  "total_questions": 239,
+  "questions_per_level": {
+    "A1": 40,
+    "A2": 40,
+    "B1": 39,
+    "B2": 40,
+    "C1": 40,
+    "C2": 40
+  },
+  "scoring_guide": {
+    "note": "Score is calculated per level. A test-taker is considered to have reached a level if they answer at least 80% of that level's questions correctly, and all lower levels are also passed at 80%+.",
+    "recommended_pass_threshold_percent": 80
+  },
+  "levels": {
+    "A1": [
+      {
+        "id": "A1-001",
+        "level": "A1",
+        "type": "meaning",
+        "word_tested": "cat",
+        "question": "What is 'cat' in this sentence: 'The cat is sleeping.'?",
+        "options": [
+          "A type of food",
+          "A small animal that says 'meow'",
+          "A piece of furniture",
+          "A color"
+        ],
+        "correct_answer": "A small animal that says 'meow'"
+      },
+      {
+        "id": "A1-002",
+        "level": "A1",
+        "type": "meaning",
+        "word_tested": "book",
+        "question": "A 'book' is something you...",
+        "options": [
+          "eat",
+          "read",
+          "wear",
+          "drive"
+        ],
+        "correct_answer": "read"
+      },
+      {
+        "id": "A1-003",
+        "level": "A1",
+        "type": "meaning",
+        "word_tested": "house",
+        "question": "Choose the correct meaning of 'house'.",
+        "options": [
+          "A place where people live",
+          "A type of car",
+          "A kind of food",
+          "A small animal"
+        ],
+        "correct_answer": "A place where people live"
+      },
+      {
+        "id": "A1-004",
+        "level": "A1",
+        "type": "meaning",
+        "word_tested": "water",
+        "question": "'Water' is...",
+        "options": [
+          "something you drink",
+          "something you wear",
+          "a type of music",
+          "a type of job"
+        ],
+        "correct_answer": "something you drink"
+      },
+      {
+        "id": "A1-005",
+        "level": "A1",
+        "type": "meaning",
+        "word_tested": "eat",
+        "question": "'I eat breakfast every morning' means I...",
+        "options": [
+          "sleep in the morning",
+          "have food in the morning",
+          "go to work",
+          "read a book"
+        ],
+        "correct_answer": "have food in the morning"
+      },
+      {
+        "id": "A1-006",
+        "level": "A1",
+        "type": "meaning",
+        "word_tested": "big",
+        "question": "The opposite of 'big' is...",
+        "options": [
+          "small",
+          "fast",
+          "happy",
+          "new"
+        ],
+        "correct_answer": "small"
+      },
+      {
+        "id": "A1-007",
+        "level": "A1",
+        "type": "meaning",
+        "word_tested": "small",
+        "question": "'Small' means...",
+        "options": [
+          "not big in size",
+          "very old",
+          "very expensive",
+          "very loud"
+        ],
+        "correct_answer": "not big in size"
+      },
+      {
+        "id": "A1-008",
+        "level": "A1",
+        "type": "meaning",
+        "word_tested": "happy",
+        "question": "'Happy' describes a person who feels...",
+        "options": [
+          "angry",
+          "sad",
+          "good and pleased",
+          "tired"
+        ],
+        "correct_answer": "good and pleased"
+      },
+      {
+        "id": "A1-009",
+        "level": "A1",
+        "type": "meaning",
+        "word_tested": "sad",
+        "question": "If you are 'sad', you feel...",
+        "options": [
+          "joyful",
+          "unhappy",
+          "hungry",
+          "excited"
+        ],
+        "correct_answer": "unhappy"
+      },
+      {
+        "id": "A1-010",
+        "level": "A1",
+        "type": "meaning",
+        "word_tested": "family",
+        "question": "Your 'family' includes your...",
+        "options": [
+          "neighbours",
+          "parents, brothers and sisters",
+          "teachers",
+          "classmates"
+        ],
+        "correct_answer": "parents, brothers and sisters"
+      },
+      {
+        "id": "A1-011",
+        "level": "A1",
+        "type": "meaning",
+        "word_tested": "friend",
+        "question": "A 'friend' is someone you...",
+        "options": [
+          "like and spend time with",
+          "are afraid of",
+          "have never met",
+          "work against"
+        ],
+        "correct_answer": "like and spend time with"
+      },
+      {
+        "id": "A1-012",
+        "level": "A1",
+        "type": "meaning",
+        "word_tested": "school",
+        "question": "'School' is a place where children...",
+        "options": [
+          "sleep",
+          "learn",
+          "cook",
+          "shop"
+        ],
+        "correct_answer": "learn"
+      },
+      {
+        "id": "A1-013",
+        "level": "A1",
+        "type": "meaning",
+        "word_tested": "car",
+        "question": "A 'car' is used for...",
+        "options": [
+          "cooking food",
+          "travelling on the road",
+          "reading books",
+          "playing music"
+        ],
+        "correct_answer": "travelling on the road"
+      },
+      {
+        "id": "A1-014",
+        "level": "A1",
+        "type": "meaning",
+        "word_tested": "morning",
+        "question": "'Morning' is the part of the day...",
+        "options": [
+          "after sunset",
+          "just before you go to bed",
+          "right after you wake up",
+          "in the middle of the night"
+        ],
+        "correct_answer": "right after you wake up"
+      },
+      {
+        "id": "A1-015",
+        "level": "A1",
+        "type": "meaning",
+        "word_tested": "day",
+        "question": "There are seven of these in a week: it is a...",
+        "options": [
+          "day",
+          "year",
+          "hour",
+          "minute"
+        ],
+        "correct_answer": "day"
+      },
+      {
+        "id": "A1-016",
+        "level": "A1",
+        "type": "meaning",
+        "word_tested": "hot",
+        "question": "If food is 'hot', it is...",
+        "options": [
+          "very cold",
+          "has a high temperature",
+          "very small",
+          "very cheap"
+        ],
+        "correct_answer": "has a high temperature"
+      },
+      {
+        "id": "A1-017",
+        "level": "A1",
+        "type": "meaning",
+        "word_tested": "cold",
+        "question": "The opposite of 'hot' is...",
+        "options": [
+          "cold",
+          "big",
+          "fast",
+          "new"
+        ],
+        "correct_answer": "cold"
+      },
+      {
+        "id": "A1-018",
+        "level": "A1",
+        "type": "meaning",
+        "word_tested": "open",
+        "question": "To 'open' a door means to...",
+        "options": [
+          "close it",
+          "make it not closed so you can go through",
+          "break it",
+          "paint it"
+        ],
+        "correct_answer": "make it not closed so you can go through"
+      },
+      {
+        "id": "A1-019",
+        "level": "A1",
+        "type": "meaning",
+        "word_tested": "buy",
+        "question": "When you 'buy' something, you...",
+        "options": [
+          "give it away for free",
+          "pay money to get it",
+          "lose it",
+          "break it"
+        ],
+        "correct_answer": "pay money to get it"
+      },
+      {
+        "id": "A1-020",
+        "level": "A1",
+        "type": "meaning",
+        "word_tested": "walk",
+        "question": "To 'walk' means to...",
+        "options": [
+          "move by using your legs, slowly",
+          "drive a car",
+          "fly in the sky",
+          "swim in water"
+        ],
+        "correct_answer": "move by using your legs, slowly"
+      },
+      {
+        "id": "A1-021",
+        "level": "A1",
+        "type": "meaning",
+        "word_tested": "sleep",
+        "question": "You 'sleep' at...",
+        "options": [
+          "night, in your bed",
+          "school, during class",
+          "the shop",
+          "the beach in summer"
+        ],
+        "correct_answer": "night, in your bed"
+      },
+      {
+        "id": "A1-022",
+        "level": "A1",
+        "type": "meaning",
+        "word_tested": "work",
+        "question": "People go to 'work' in order to...",
+        "options": [
+          "earn money doing a job",
+          "sleep",
+          "play games all day",
+          "go on holiday"
+        ],
+        "correct_answer": "earn money doing a job"
+      },
+      {
+        "id": "A1-023",
+        "level": "A1",
+        "type": "meaning",
+        "word_tested": "love",
+        "question": "If you 'love' someone, you...",
+        "options": [
+          "hate them very much",
+          "care about them very much",
+          "don't know them",
+          "are afraid of them"
+        ],
+        "correct_answer": "care about them very much"
+      },
+      {
+        "id": "A1-024",
+        "level": "A1",
+        "type": "meaning",
+        "word_tested": "name",
+        "question": "Your 'name' is...",
+        "options": [
+          "what people call you",
+          "how old you are",
+          "where you live",
+          "your job"
+        ],
+        "correct_answer": "what people call you"
+      },
+      {
+        "id": "A1-025",
+        "level": "A1",
+        "type": "meaning",
+        "word_tested": "dog",
+        "question": "A 'dog' is an animal that...",
+        "options": [
+          "barks and is often a pet",
+          "lives in water only",
+          "can fly",
+          "is a type of plant"
+        ],
+        "correct_answer": "barks and is often a pet"
+      },
+      {
+        "id": "A1-026",
+        "level": "A1",
+        "type": "meaning",
+        "word_tested": "teacher",
+        "question": "A 'teacher' is a person who...",
+        "options": [
+          "cooks food in a restaurant",
+          "teaches students in school",
+          "drives a bus",
+          "sells things in a shop"
+        ],
+        "correct_answer": "teaches students in school"
+      },
+      {
+        "id": "A1-027",
+        "level": "A1",
+        "type": "meaning",
+        "word_tested": "student",
+        "question": "A 'student' is someone who...",
+        "options": [
+          "studies at a school or university",
+          "builds houses",
+          "flies planes",
+          "sells food"
+        ],
+        "correct_answer": "studies at a school or university"
+      },
+      {
+        "id": "A1-028",
+        "level": "A1",
+        "type": "meaning",
+        "word_tested": "red",
+        "question": "'Red' is a...",
+        "options": [
+          "number",
+          "color",
+          "animal",
+          "country"
+        ],
+        "correct_answer": "color"
+      },
+      {
+        "id": "A1-029",
+        "level": "A1",
+        "type": "meaning",
+        "word_tested": "week",
+        "question": "A 'week' has...",
+        "options": [
+          "seven days",
+          "twelve months",
+          "sixty minutes",
+          "thirty years"
+        ],
+        "correct_answer": "seven days"
+      },
+      {
+        "id": "A1-030",
+        "level": "A1",
+        "type": "meaning",
+        "word_tested": "year",
+        "question": "A 'year' has...",
+        "options": [
+          "twelve months",
+          "seven days",
+          "24 hours",
+          "sixty seconds"
+        ],
+        "correct_answer": "twelve months"
+      },
+      {
+        "id": "A1-031",
+        "level": "A1",
+        "type": "meaning",
+        "word_tested": "close",
+        "question": "To 'close' a window means to...",
+        "options": [
+          "open it wide",
+          "shut it",
+          "break it",
+          "paint it"
+        ],
+        "correct_answer": "shut it"
+      },
+      {
+        "id": "A1-032",
+        "level": "A1",
+        "type": "meaning",
+        "word_tested": "sell",
+        "question": "When a shop 'sells' something, it...",
+        "options": [
+          "gives it away for free",
+          "gives it to customers for money",
+          "hides it",
+          "breaks it"
+        ],
+        "correct_answer": "gives it to customers for money"
+      },
+      {
+        "id": "A1-033",
+        "level": "A1",
+        "type": "meaning",
+        "word_tested": "run",
+        "question": "To 'run' means to move...",
+        "options": [
+          "very fast on your legs",
+          "by car",
+          "by boat",
+          "while sleeping"
+        ],
+        "correct_answer": "very fast on your legs"
+      },
+      {
+        "id": "A1-034",
+        "level": "A1",
+        "type": "meaning",
+        "word_tested": "play",
+        "question": "Children often 'play' with...",
+        "options": [
+          "toys and games",
+          "tax forms",
+          "office computers",
+          "kitchen bills"
+        ],
+        "correct_answer": "toys and games"
+      },
+      {
+        "id": "A1-035",
+        "level": "A1",
+        "type": "meaning",
+        "word_tested": "like",
+        "question": "If you 'like' something, you...",
+        "options": [
+          "enjoy it",
+          "hate it",
+          "forget it",
+          "sell it"
+        ],
+        "correct_answer": "enjoy it"
+      },
+      {
+        "id": "A1-036",
+        "level": "A1",
+        "type": "meaning",
+        "word_tested": "night",
+        "question": "'Night' is the time when...",
+        "options": [
+          "the sun is high and it is bright",
+          "it is dark and people usually sleep",
+          "school starts",
+          "people go shopping"
+        ],
+        "correct_answer": "it is dark and people usually sleep"
+      },
+      {
+        "id": "A1-037",
+        "level": "A1",
+        "type": "meaning",
+        "word_tested": "month",
+        "question": "A 'month' is a period of about...",
+        "options": [
+          "four weeks",
+          "one day",
+          "one hour",
+          "ten years"
+        ],
+        "correct_answer": "four weeks"
+      },
+      {
+        "id": "A1-038",
+        "level": "A1",
+        "type": "meaning",
+        "word_tested": "bus",
+        "question": "A 'bus' is used to...",
+        "options": [
+          "carry many passengers on the road",
+          "cook food",
+          "cut hair",
+          "clean houses"
+        ],
+        "correct_answer": "carry many passengers on the road"
+      },
+      {
+        "id": "A1-039",
+        "level": "A1",
+        "type": "meaning",
+        "word_tested": "drink",
+        "question": "To 'drink' water means to...",
+        "options": [
+          "swallow a liquid",
+          "eat solid food",
+          "wear it",
+          "paint with it"
+        ],
+        "correct_answer": "swallow a liquid"
+      },
+      {
+        "id": "A1-040",
+        "level": "A1",
+        "type": "meaning",
+        "word_tested": "blue",
+        "question": "The sky is often described as...",
+        "options": [
+          "blue",
+          "spicy",
+          "loud",
+          "soft"
+        ],
+        "correct_answer": "blue"
+      }
+    ],
+    "A2": [
+      {
+        "id": "A2-001",
+        "level": "A2",
+        "type": "meaning",
+        "word_tested": "weather",
+        "question": "'Weather' refers to...",
+        "options": [
+          "conditions like sun, rain and wind outside",
+          "the food you eat",
+          "a type of clothing",
+          "a kind of vehicle"
+        ],
+        "correct_answer": "conditions like sun, rain and wind outside"
+      },
+      {
+        "id": "A2-002",
+        "level": "A2",
+        "type": "meaning",
+        "word_tested": "holiday",
+        "question": "A 'holiday' is a period when you...",
+        "options": [
+          "work extra hours",
+          "go to school",
+          "don't work and often travel or relax",
+          "clean the house all day"
+        ],
+        "correct_answer": "don't work and often travel or relax"
+      },
+      {
+        "id": "A2-003",
+        "level": "A2",
+        "type": "meaning",
+        "word_tested": "expensive",
+        "question": "If something is 'expensive', it...",
+        "options": [
+          "costs a lot of money",
+          "costs very little",
+          "is free",
+          "is very small"
+        ],
+        "correct_answer": "costs a lot of money"
+      },
+      {
+        "id": "A2-004",
+        "level": "A2",
+        "type": "meaning",
+        "word_tested": "cheap",
+        "question": "The opposite of 'expensive' is...",
+        "options": [
+          "cheap",
+          "heavy",
+          "dangerous",
+          "modern"
+        ],
+        "correct_answer": "cheap"
+      },
+      {
+        "id": "A2-005",
+        "level": "A2",
+        "type": "meaning",
+        "word_tested": "difficult",
+        "question": "'Difficult' means...",
+        "options": [
+          "easy to do",
+          "not easy to do",
+          "very cheap",
+          "very fast"
+        ],
+        "correct_answer": "not easy to do"
+      },
+      {
+        "id": "A2-006",
+        "level": "A2",
+        "type": "meaning",
+        "word_tested": "easy",
+        "question": "If a task is 'easy', it is...",
+        "options": [
+          "hard to complete",
+          "simple to do",
+          "expensive",
+          "impossible"
+        ],
+        "correct_answer": "simple to do"
+      },
+      {
+        "id": "A2-007",
+        "level": "A2",
+        "type": "meaning",
+        "word_tested": "dangerous",
+        "question": "Something 'dangerous' can...",
+        "options": [
+          "make you laugh",
+          "cause harm or injury",
+          "help you sleep",
+          "make you rich"
+        ],
+        "correct_answer": "cause harm or injury"
+      },
+      {
+        "id": "A2-008",
+        "level": "A2",
+        "type": "meaning",
+        "word_tested": "safe",
+        "question": "If a place is 'safe', you are...",
+        "options": [
+          "likely to get hurt there",
+          "not likely to get hurt there",
+          "not allowed to enter",
+          "required to pay"
+        ],
+        "correct_answer": "not likely to get hurt there"
+      },
+      {
+        "id": "A2-009",
+        "level": "A2",
+        "type": "meaning",
+        "word_tested": "healthy",
+        "question": "A 'healthy' diet helps you...",
+        "options": [
+          "get sick more often",
+          "stay well and fit",
+          "spend more money",
+          "sleep less"
+        ],
+        "correct_answer": "stay well and fit"
+      },
+      {
+        "id": "A2-010",
+        "level": "A2",
+        "type": "meaning",
+        "word_tested": "ill",
+        "question": "If someone is 'ill', they...",
+        "options": [
+          "are very happy",
+          "are not feeling well, they are sick",
+          "are very rich",
+          "are on holiday"
+        ],
+        "correct_answer": "are not feeling well, they are sick"
+      },
+      {
+        "id": "A2-011",
+        "level": "A2",
+        "type": "meaning",
+        "word_tested": "angry",
+        "question": "If you are 'angry', you feel...",
+        "options": [
+          "calm and relaxed",
+          "annoyed or mad about something",
+          "very tired",
+          "very hungry"
+        ],
+        "correct_answer": "annoyed or mad about something"
+      },
+      {
+        "id": "A2-012",
+        "level": "A2",
+        "type": "meaning",
+        "word_tested": "tired",
+        "question": "If you are 'tired', you...",
+        "options": [
+          "want to sleep or rest",
+          "want to run a marathon",
+          "are very happy",
+          "are very hungry"
+        ],
+        "correct_answer": "want to sleep or rest"
+      },
+      {
+        "id": "A2-013",
+        "level": "A2",
+        "type": "meaning",
+        "word_tested": "bored",
+        "question": "If you are 'bored', you...",
+        "options": [
+          "find something very interesting",
+          "have nothing interesting to do",
+          "are very scared",
+          "are very hungry"
+        ],
+        "correct_answer": "have nothing interesting to do"
+      },
+      {
+        "id": "A2-014",
+        "level": "A2",
+        "type": "meaning",
+        "word_tested": "excited",
+        "question": "If you are 'excited', you feel...",
+        "options": [
+          "very enthusiastic and happy about something",
+          "very calm and sleepy",
+          "very sad",
+          "very angry"
+        ],
+        "correct_answer": "very enthusiastic and happy about something"
+      },
+      {
+        "id": "A2-015",
+        "level": "A2",
+        "type": "meaning",
+        "word_tested": "nervous",
+        "question": "If you feel 'nervous', you are...",
+        "options": [
+          "worried or anxious about something",
+          "completely relaxed",
+          "very hungry",
+          "very sleepy"
+        ],
+        "correct_answer": "worried or anxious about something"
+      },
+      {
+        "id": "A2-016",
+        "level": "A2",
+        "type": "meaning",
+        "word_tested": "comfortable",
+        "question": "A 'comfortable' chair is one that...",
+        "options": [
+          "hurts your back",
+          "feels pleasant to sit in",
+          "is very expensive",
+          "is broken"
+        ],
+        "correct_answer": "feels pleasant to sit in"
+      },
+      {
+        "id": "A2-017",
+        "level": "A2",
+        "type": "meaning",
+        "word_tested": "polite",
+        "question": "A 'polite' person is...",
+        "options": [
+          "rude and unkind",
+          "respectful and well-mannered",
+          "always late",
+          "never friendly"
+        ],
+        "correct_answer": "respectful and well-mannered"
+      },
+      {
+        "id": "A2-018",
+        "level": "A2",
+        "type": "meaning",
+        "word_tested": "rude",
+        "question": "The opposite of 'polite' is...",
+        "options": [
+          "rude",
+          "kind",
+          "careful",
+          "quiet"
+        ],
+        "correct_answer": "rude"
+      },
+      {
+        "id": "A2-019",
+        "level": "A2",
+        "type": "meaning",
+        "word_tested": "quiet",
+        "question": "A 'quiet' room has...",
+        "options": [
+          "a lot of noise",
+          "very little noise",
+          "many people talking loudly",
+          "loud music"
+        ],
+        "correct_answer": "very little noise"
+      },
+      {
+        "id": "A2-020",
+        "level": "A2",
+        "type": "meaning",
+        "word_tested": "loud",
+        "question": "A 'loud' noise is...",
+        "options": [
+          "very soft",
+          "very high in volume",
+          "very quiet",
+          "not heard at all"
+        ],
+        "correct_answer": "very high in volume"
+      },
+      {
+        "id": "A2-021",
+        "level": "A2",
+        "type": "meaning",
+        "word_tested": "clean",
+        "question": "A 'clean' room is...",
+        "options": [
+          "dirty and messy",
+          "tidy with no dirt",
+          "full of rubbish",
+          "broken"
+        ],
+        "correct_answer": "tidy with no dirt"
+      },
+      {
+        "id": "A2-022",
+        "level": "A2",
+        "type": "meaning",
+        "word_tested": "dirty",
+        "question": "The opposite of 'clean' is...",
+        "options": [
+          "dirty",
+          "new",
+          "old",
+          "cheap"
+        ],
+        "correct_answer": "dirty"
+      },
+      {
+        "id": "A2-023",
+        "level": "A2",
+        "type": "meaning",
+        "word_tested": "wide",
+        "question": "A 'wide' road is...",
+        "options": [
+          "very narrow",
+          "broad, taking up a lot of space",
+          "short",
+          "dangerous"
+        ],
+        "correct_answer": "broad, taking up a lot of space"
+      },
+      {
+        "id": "A2-024",
+        "level": "A2",
+        "type": "meaning",
+        "word_tested": "narrow",
+        "question": "A 'narrow' street is...",
+        "options": [
+          "very wide",
+          "not wide, thin",
+          "very long",
+          "very safe"
+        ],
+        "correct_answer": "not wide, thin"
+      },
+      {
+        "id": "A2-025",
+        "level": "A2",
+        "type": "meaning",
+        "word_tested": "heavy",
+        "question": "A 'heavy' bag is...",
+        "options": [
+          "very light in weight",
+          "difficult to lift because of its weight",
+          "very cheap",
+          "very colourful"
+        ],
+        "correct_answer": "difficult to lift because of its weight"
+      },
+      {
+        "id": "A2-026",
+        "level": "A2",
+        "type": "meaning",
+        "word_tested": "light",
+        "question": "The opposite of 'heavy' is...",
+        "options": [
+          "light",
+          "dark",
+          "expensive",
+          "large"
+        ],
+        "correct_answer": "light"
+      },
+      {
+        "id": "A2-027",
+        "level": "A2",
+        "type": "meaning",
+        "word_tested": "borrow",
+        "question": "If you 'borrow' a book, you...",
+        "options": [
+          "buy it forever",
+          "take it for a while and give it back later",
+          "destroy it",
+          "sell it"
+        ],
+        "correct_answer": "take it for a while and give it back later"
+      },
+      {
+        "id": "A2-028",
+        "level": "A2",
+        "type": "meaning",
+        "word_tested": "lend",
+        "question": "If you 'lend' someone money, you...",
+        "options": [
+          "give them money temporarily, expecting it back",
+          "take money from them",
+          "steal money from them",
+          "spend all your money"
+        ],
+        "correct_answer": "give them money temporarily, expecting it back"
+      },
+      {
+        "id": "A2-029",
+        "level": "A2",
+        "type": "meaning",
+        "word_tested": "journey",
+        "question": "A 'journey' is...",
+        "options": [
+          "a type of food",
+          "the act of travelling from one place to another",
+          "a kind of chair",
+          "a musical instrument"
+        ],
+        "correct_answer": "the act of travelling from one place to another"
+      },
+      {
+        "id": "A2-030",
+        "level": "A2",
+        "type": "meaning",
+        "word_tested": "kitchen",
+        "question": "A 'kitchen' is the room where you usually...",
+        "options": [
+          "sleep",
+          "cook food",
+          "watch TV only",
+          "park your car"
+        ],
+        "correct_answer": "cook food"
+      },
+      {
+        "id": "A2-031",
+        "level": "A2",
+        "type": "meaning",
+        "word_tested": "bedroom",
+        "question": "A 'bedroom' is a room where people...",
+        "options": [
+          "cook dinner",
+          "sleep",
+          "wash their car",
+          "study at university"
+        ],
+        "correct_answer": "sleep"
+      },
+      {
+        "id": "A2-032",
+        "level": "A2",
+        "type": "meaning",
+        "word_tested": "shopping",
+        "question": "'Shopping' means...",
+        "options": [
+          "buying things in shops",
+          "cleaning your house",
+          "driving to work",
+          "cooking dinner"
+        ],
+        "correct_answer": "buying things in shops"
+      },
+      {
+        "id": "A2-033",
+        "level": "A2",
+        "type": "meaning",
+        "word_tested": "strong",
+        "question": "A 'strong' person has...",
+        "options": [
+          "a lot of physical power",
+          "very little energy",
+          "a fear of everything",
+          "no friends"
+        ],
+        "correct_answer": "a lot of physical power"
+      },
+      {
+        "id": "A2-034",
+        "level": "A2",
+        "type": "meaning",
+        "word_tested": "weak",
+        "question": "The opposite of 'strong' is...",
+        "options": [
+          "weak",
+          "tall",
+          "fast",
+          "rich"
+        ],
+        "correct_answer": "weak"
+      },
+      {
+        "id": "A2-035",
+        "level": "A2",
+        "type": "meaning",
+        "word_tested": "fast",
+        "question": "A 'fast' car moves...",
+        "options": [
+          "very slowly",
+          "at high speed",
+          "not at all",
+          "only backwards"
+        ],
+        "correct_answer": "at high speed"
+      },
+      {
+        "id": "A2-036",
+        "level": "A2",
+        "type": "meaning",
+        "word_tested": "slow",
+        "question": "The opposite of 'fast' is...",
+        "options": [
+          "slow",
+          "loud",
+          "cheap",
+          "heavy"
+        ],
+        "correct_answer": "slow"
+      },
+      {
+        "id": "A2-037",
+        "level": "A2",
+        "type": "meaning",
+        "word_tested": "careful",
+        "question": "A 'careful' driver is one who...",
+        "options": [
+          "drives without paying attention",
+          "pays close attention to avoid mistakes or accidents",
+          "never drives",
+          "always breaks rules"
+        ],
+        "correct_answer": "pays close attention to avoid mistakes or accidents"
+      },
+      {
+        "id": "A2-038",
+        "level": "A2",
+        "type": "meaning",
+        "word_tested": "shallow",
+        "question": "A 'shallow' pool of water is...",
+        "options": [
+          "very deep",
+          "not deep",
+          "very cold",
+          "very dirty"
+        ],
+        "correct_answer": "not deep"
+      },
+      {
+        "id": "A2-039",
+        "level": "A2",
+        "type": "meaning",
+        "word_tested": "deep",
+        "question": "The opposite of 'shallow' is...",
+        "options": [
+          "deep",
+          "narrow",
+          "wide",
+          "light"
+        ],
+        "correct_answer": "deep"
+      },
+      {
+        "id": "A2-040",
+        "level": "A2",
+        "type": "meaning",
+        "word_tested": "uncomfortable",
+        "question": "If a chair is 'uncomfortable', sitting on it feels...",
+        "options": [
+          "pleasant and relaxing",
+          "unpleasant, causing discomfort",
+          "exciting",
+          "free"
+        ],
+        "correct_answer": "unpleasant, causing discomfort"
+      }
+    ],
+    "B1": [
+      {
+        "id": "B1-001",
+        "level": "B1",
+        "type": "meaning",
+        "word_tested": "achieve",
+        "question": "If you 'achieve' a goal, you...",
+        "options": [
+          "fail to reach it",
+          "successfully reach or accomplish it",
+          "forget about it",
+          "give it to someone else"
+        ],
+        "correct_answer": "successfully reach or accomplish it"
+      },
+      {
+        "id": "B1-002",
+        "level": "B1",
+        "type": "meaning",
+        "word_tested": "improve",
+        "question": "To 'improve' something means to...",
+        "options": [
+          "make it worse",
+          "make it better",
+          "destroy it",
+          "ignore it"
+        ],
+        "correct_answer": "make it better"
+      },
+      {
+        "id": "B1-003",
+        "level": "B1",
+        "type": "meaning",
+        "word_tested": "increase",
+        "question": "If prices 'increase', they...",
+        "options": [
+          "go up",
+          "go down",
+          "stay the same",
+          "disappear"
+        ],
+        "correct_answer": "go up"
+      },
+      {
+        "id": "B1-004",
+        "level": "B1",
+        "type": "meaning",
+        "word_tested": "decrease",
+        "question": "If a number 'decreases', it...",
+        "options": [
+          "gets bigger",
+          "gets smaller",
+          "stays constant",
+          "becomes negative only"
+        ],
+        "correct_answer": "gets smaller"
+      },
+      {
+        "id": "B1-005",
+        "level": "B1",
+        "type": "meaning",
+        "word_tested": "opportunity",
+        "question": "An 'opportunity' is a...",
+        "options": [
+          "problem you must avoid",
+          "chance to do something good",
+          "type of punishment",
+          "kind of illness"
+        ],
+        "correct_answer": "chance to do something good"
+      },
+      {
+        "id": "B1-006",
+        "level": "B1",
+        "type": "meaning",
+        "word_tested": "experience",
+        "question": "'Work experience' refers to...",
+        "options": [
+          "money you earn",
+          "the knowledge or skill gained from doing a job",
+          "a type of holiday",
+          "a school subject"
+        ],
+        "correct_answer": "the knowledge or skill gained from doing a job"
+      },
+      {
+        "id": "B1-007",
+        "level": "B1",
+        "type": "meaning",
+        "word_tested": "responsibility",
+        "question": "A 'responsibility' is a...",
+        "options": [
+          "duty that you are expected to deal with",
+          "holiday you take",
+          "gift you receive",
+          "song you sing"
+        ],
+        "correct_answer": "duty that you are expected to deal with"
+      },
+      {
+        "id": "B1-008",
+        "level": "B1",
+        "type": "meaning",
+        "word_tested": "environment",
+        "question": "The 'environment' refers to...",
+        "options": [
+          "the natural world, including air, water and land",
+          "a type of computer",
+          "a kind of food",
+          "a musical style"
+        ],
+        "correct_answer": "the natural world, including air, water and land"
+      },
+      {
+        "id": "B1-009",
+        "level": "B1",
+        "type": "meaning",
+        "word_tested": "pollution",
+        "question": "'Pollution' is...",
+        "options": [
+          "clean fresh air",
+          "harmful substances that damage the environment",
+          "a type of music",
+          "a healthy diet"
+        ],
+        "correct_answer": "harmful substances that damage the environment"
+      },
+      {
+        "id": "B1-010",
+        "level": "B1",
+        "type": "meaning",
+        "word_tested": "recycle",
+        "question": "To 'recycle' means to...",
+        "options": [
+          "throw waste away permanently",
+          "process used materials so they can be used again",
+          "buy new products only",
+          "burn all your rubbish"
+        ],
+        "correct_answer": "process used materials so they can be used again"
+      },
+      {
+        "id": "B1-011",
+        "level": "B1",
+        "type": "meaning",
+        "word_tested": "ancient",
+        "question": "Something 'ancient' is...",
+        "options": [
+          "very new",
+          "extremely old, from a long time ago",
+          "very small",
+          "very cheap"
+        ],
+        "correct_answer": "extremely old, from a long time ago"
+      },
+      {
+        "id": "B1-012",
+        "level": "B1",
+        "type": "meaning",
+        "word_tested": "modern",
+        "question": "The opposite of 'ancient' in this context is...",
+        "options": [
+          "modern",
+          "tiny",
+          "distant",
+          "quiet"
+        ],
+        "correct_answer": "modern"
+      },
+      {
+        "id": "B1-013",
+        "level": "B1",
+        "type": "meaning",
+        "word_tested": "traditional",
+        "question": "A 'traditional' custom is one that...",
+        "options": [
+          "was just invented yesterday",
+          "has existed for a long time and is passed down",
+          "is illegal",
+          "nobody follows anymore"
+        ],
+        "correct_answer": "has existed for a long time and is passed down"
+      },
+      {
+        "id": "B1-014",
+        "level": "B1",
+        "type": "meaning",
+        "word_tested": "purpose",
+        "question": "The 'purpose' of something is its...",
+        "options": [
+          "price",
+          "reason for existing or being done",
+          "color",
+          "weight"
+        ],
+        "correct_answer": "reason for existing or being done"
+      },
+      {
+        "id": "B1-015",
+        "level": "B1",
+        "type": "meaning",
+        "word_tested": "benefit",
+        "question": "A 'benefit' is a...",
+        "options": [
+          "disadvantage",
+          "positive result or advantage",
+          "punishment",
+          "type of tax"
+        ],
+        "correct_answer": "positive result or advantage"
+      },
+      {
+        "id": "B1-016",
+        "level": "B1",
+        "type": "meaning",
+        "word_tested": "disadvantage",
+        "question": "A 'disadvantage' is a...",
+        "options": [
+          "negative aspect that causes difficulty",
+          "positive gain",
+          "type of holiday",
+          "kind of job"
+        ],
+        "correct_answer": "negative aspect that causes difficulty"
+      },
+      {
+        "id": "B1-017",
+        "level": "B1",
+        "type": "meaning",
+        "word_tested": "solution",
+        "question": "A 'solution' is an answer that...",
+        "options": [
+          "creates a new problem",
+          "solves a problem",
+          "is illegal",
+          "costs nothing"
+        ],
+        "correct_answer": "solves a problem"
+      },
+      {
+        "id": "B1-018",
+        "level": "B1",
+        "type": "meaning",
+        "word_tested": "decision",
+        "question": "A 'decision' is something you make when you...",
+        "options": [
+          "choose between options",
+          "go to sleep",
+          "forget something",
+          "lose an item"
+        ],
+        "correct_answer": "choose between options"
+      },
+      {
+        "id": "B1-019",
+        "level": "B1",
+        "type": "meaning",
+        "word_tested": "opinion",
+        "question": "Your 'opinion' is...",
+        "options": [
+          "a fact everyone agrees on",
+          "what you personally think or believe",
+          "a law",
+          "a type of food"
+        ],
+        "correct_answer": "what you personally think or believe"
+      },
+      {
+        "id": "B1-020",
+        "level": "B1",
+        "type": "meaning",
+        "word_tested": "compare",
+        "question": "To 'compare' two things means to...",
+        "options": [
+          "look at how they are similar or different",
+          "destroy them both",
+          "hide them",
+          "sell them"
+        ],
+        "correct_answer": "look at how they are similar or different"
+      },
+      {
+        "id": "B1-021",
+        "level": "B1",
+        "type": "meaning",
+        "word_tested": "describe",
+        "question": "To 'describe' something means to...",
+        "options": [
+          "say what it is like in words",
+          "buy it",
+          "break it",
+          "forget it"
+        ],
+        "correct_answer": "say what it is like in words"
+      },
+      {
+        "id": "B1-022",
+        "level": "B1",
+        "type": "meaning",
+        "word_tested": "suggest",
+        "question": "If you 'suggest' an idea, you...",
+        "options": [
+          "forbid it completely",
+          "propose it for others to consider",
+          "ignore it",
+          "forget it"
+        ],
+        "correct_answer": "propose it for others to consider"
+      },
+      {
+        "id": "B1-023",
+        "level": "B1",
+        "type": "meaning",
+        "word_tested": "recommend",
+        "question": "If you 'recommend' a restaurant, you...",
+        "options": [
+          "tell someone it is good and they should try it",
+          "forbid people from going there",
+          "close it down",
+          "never mention it"
+        ],
+        "correct_answer": "tell someone it is good and they should try it"
+      },
+      {
+        "id": "B1-024",
+        "level": "B1",
+        "type": "meaning",
+        "word_tested": "encourage",
+        "question": "To 'encourage' someone means to...",
+        "options": [
+          "give them support and confidence to do something",
+          "stop them from doing anything",
+          "criticize them harshly",
+          "ignore them completely"
+        ],
+        "correct_answer": "give them support and confidence to do something"
+      },
+      {
+        "id": "B1-025",
+        "level": "B1",
+        "type": "meaning",
+        "word_tested": "prevent",
+        "question": "To 'prevent' something from happening means to...",
+        "options": [
+          "stop it from happening",
+          "make it happen faster",
+          "cause it to happen",
+          "ignore that it happens"
+        ],
+        "correct_answer": "stop it from happening"
+      },
+      {
+        "id": "B1-026",
+        "level": "B1",
+        "type": "meaning",
+        "word_tested": "avoid",
+        "question": "If you 'avoid' a person, you...",
+        "options": [
+          "try to stay away from them",
+          "spend a lot of time with them",
+          "marry them",
+          "help them constantly"
+        ],
+        "correct_answer": "try to stay away from them"
+      },
+      {
+        "id": "B1-027",
+        "level": "B1",
+        "type": "meaning",
+        "word_tested": "reduce",
+        "question": "To 'reduce' costs means to...",
+        "options": [
+          "make them lower",
+          "make them higher",
+          "keep them the same",
+          "remove all money"
+        ],
+        "correct_answer": "make them lower"
+      },
+      {
+        "id": "B1-028",
+        "level": "B1",
+        "type": "meaning",
+        "word_tested": "produce",
+        "question": "A factory that 'produces' cars...",
+        "options": [
+          "makes and creates cars",
+          "destroys cars",
+          "only sells old cars",
+          "repairs bicycles"
+        ],
+        "correct_answer": "makes and creates cars"
+      },
+      {
+        "id": "B1-029",
+        "level": "B1",
+        "type": "meaning",
+        "word_tested": "consume",
+        "question": "To 'consume' resources means to...",
+        "options": [
+          "save them for later",
+          "use them up",
+          "create more of them",
+          "sell them"
+        ],
+        "correct_answer": "use them up"
+      },
+      {
+        "id": "B1-030",
+        "level": "B1",
+        "type": "meaning",
+        "word_tested": "contribute",
+        "question": "If you 'contribute' to a project, you...",
+        "options": [
+          "do nothing to help",
+          "give help, money, or ideas to it",
+          "destroy it",
+          "forget about it"
+        ],
+        "correct_answer": "give help, money, or ideas to it"
+      },
+      {
+        "id": "B1-031",
+        "level": "B1",
+        "type": "meaning",
+        "word_tested": "participate",
+        "question": "To 'participate' in an activity means to...",
+        "options": [
+          "watch from a distance and do nothing",
+          "take part in it",
+          "refuse to attend",
+          "forbid others from joining"
+        ],
+        "correct_answer": "take part in it"
+      },
+      {
+        "id": "B1-032",
+        "level": "B1",
+        "type": "meaning",
+        "word_tested": "celebrate",
+        "question": "To 'celebrate' an event means to...",
+        "options": [
+          "mark it with special enjoyment or festivities",
+          "ignore it completely",
+          "cancel it",
+          "forbid it"
+        ],
+        "correct_answer": "mark it with special enjoyment or festivities"
+      },
+      {
+        "id": "B1-033",
+        "level": "B1",
+        "type": "meaning",
+        "word_tested": "succeed",
+        "question": "If you 'succeed' at something, you...",
+        "options": [
+          "fail at it",
+          "achieve the desired result",
+          "give up on it",
+          "forget about it"
+        ],
+        "correct_answer": "achieve the desired result"
+      },
+      {
+        "id": "B1-034",
+        "level": "B1",
+        "type": "meaning",
+        "word_tested": "guarantee",
+        "question": "If a company 'guarantees' a product, it...",
+        "options": [
+          "promises it will work correctly or gives a refund",
+          "refuses any responsibility",
+          "hides all information about it",
+          "raises the price constantly"
+        ],
+        "correct_answer": "promises it will work correctly or gives a refund"
+      },
+      {
+        "id": "B1-035",
+        "level": "B1",
+        "type": "meaning",
+        "word_tested": "argument",
+        "question": "An 'argument' can be a...",
+        "options": [
+          "a peaceful agreement only",
+          "a disagreement or a reasoned case for something",
+          "type of holiday",
+          "a musical instrument"
+        ],
+        "correct_answer": "a disagreement or a reasoned case for something"
+      },
+      {
+        "id": "B1-036",
+        "level": "B1",
+        "type": "meaning",
+        "word_tested": "contrast",
+        "question": "To 'contrast' two things means to...",
+        "options": [
+          "show how they are different",
+          "show they are identical",
+          "combine them into one",
+          "destroy both of them"
+        ],
+        "correct_answer": "show how they are different"
+      },
+      {
+        "id": "B1-037",
+        "level": "B1",
+        "type": "meaning",
+        "word_tested": "explain",
+        "question": "If you 'explain' something, you...",
+        "options": [
+          "make it clear and understandable to someone",
+          "hide the information",
+          "make it more confusing",
+          "refuse to talk about it"
+        ],
+        "correct_answer": "make it clear and understandable to someone"
+      },
+      {
+        "id": "B1-038",
+        "level": "B1",
+        "type": "meaning",
+        "word_tested": "discourage",
+        "question": "To 'discourage' someone means to...",
+        "options": [
+          "make them less confident or less willing to do something",
+          "give them confidence to act",
+          "reward them generously",
+          "help them succeed"
+        ],
+        "correct_answer": "make them less confident or less willing to do something"
+      },
+      {
+        "id": "B1-039",
+        "level": "B1",
+        "type": "meaning",
+        "word_tested": "fail",
+        "question": "If you 'fail' an exam, you...",
+        "options": [
+          "pass it with a high score",
+          "do not achieve the required standard",
+          "get a perfect result",
+          "are excused from taking it"
+        ],
+        "correct_answer": "do not achieve the required standard"
+      }
+    ],
+    "B2": [
+      {
+        "id": "B2-001",
+        "level": "B2",
+        "type": "meaning",
+        "word_tested": "reluctant",
+        "question": "If you are 'reluctant' to do something, you...",
+        "options": [
+          "are eager and willing to do it",
+          "are unwilling or hesitant to do it",
+          "have already finished it",
+          "have forgotten about it"
+        ],
+        "correct_answer": "are unwilling or hesitant to do it"
+      },
+      {
+        "id": "B2-002",
+        "level": "B2",
+        "type": "meaning",
+        "word_tested": "persistent",
+        "question": "A 'persistent' person...",
+        "options": [
+          "gives up easily",
+          "continues firmly despite difficulty",
+          "never tries anything",
+          "is always late"
+        ],
+        "correct_answer": "continues firmly despite difficulty"
+      },
+      {
+        "id": "B2-003",
+        "level": "B2",
+        "type": "meaning",
+        "word_tested": "tentative",
+        "question": "A 'tentative' plan is one that is...",
+        "options": [
+          "completely fixed and final",
+          "not yet certain or confirmed",
+          "illegal",
+          "very expensive"
+        ],
+        "correct_answer": "not yet certain or confirmed"
+      },
+      {
+        "id": "B2-004",
+        "level": "B2",
+        "type": "meaning",
+        "word_tested": "deliberate",
+        "question": "A 'deliberate' action is one done...",
+        "options": [
+          "by accident",
+          "on purpose, intentionally",
+          "without thinking at all",
+          "randomly"
+        ],
+        "correct_answer": "on purpose, intentionally"
+      },
+      {
+        "id": "B2-005",
+        "level": "B2",
+        "type": "meaning",
+        "word_tested": "arbitrary",
+        "question": "An 'arbitrary' decision is one based on...",
+        "options": [
+          "careful, logical reasoning",
+          "random choice or personal whim, not reason",
+          "strict legal rules",
+          "scientific evidence"
+        ],
+        "correct_answer": "random choice or personal whim, not reason"
+      },
+      {
+        "id": "B2-006",
+        "level": "B2",
+        "type": "meaning",
+        "word_tested": "notorious",
+        "question": "Someone 'notorious' is...",
+        "options": [
+          "famous for something bad",
+          "completely unknown",
+          "famous for something admirable only",
+          "very shy"
+        ],
+        "correct_answer": "famous for something bad"
+      },
+      {
+        "id": "B2-007",
+        "level": "B2",
+        "type": "meaning",
+        "word_tested": "prestigious",
+        "question": "A 'prestigious' university has...",
+        "options": [
+          "a bad reputation",
+          "high status and is greatly respected",
+          "very few students",
+          "no qualified teachers"
+        ],
+        "correct_answer": "high status and is greatly respected"
+      },
+      {
+        "id": "B2-008",
+        "level": "B2",
+        "type": "meaning",
+        "word_tested": "controversial",
+        "question": "A 'controversial' topic is one that...",
+        "options": [
+          "everyone agrees about completely",
+          "causes strong disagreement and debate",
+          "nobody is interested in",
+          "is illegal to discuss"
+        ],
+        "correct_answer": "causes strong disagreement and debate"
+      },
+      {
+        "id": "B2-009",
+        "level": "B2",
+        "type": "meaning",
+        "word_tested": "obsolete",
+        "question": "An 'obsolete' technology is one that is...",
+        "options": [
+          "brand new and cutting-edge",
+          "no longer used because something newer exists",
+          "extremely expensive",
+          "only used by experts"
+        ],
+        "correct_answer": "no longer used because something newer exists"
+      },
+      {
+        "id": "B2-010",
+        "level": "B2",
+        "type": "meaning",
+        "word_tested": "mandatory",
+        "question": "If a course is 'mandatory', it is...",
+        "options": [
+          "optional",
+          "required, not optional",
+          "free of charge",
+          "cancelled"
+        ],
+        "correct_answer": "required, not optional"
+      },
+      {
+        "id": "B2-011",
+        "level": "B2",
+        "type": "meaning",
+        "word_tested": "voluntary",
+        "question": "A 'voluntary' activity is one you do...",
+        "options": [
+          "because you are forced to",
+          "by choice, not because you must",
+          "only for money",
+          "under a legal contract"
+        ],
+        "correct_answer": "by choice, not because you must"
+      },
+      {
+        "id": "B2-012",
+        "level": "B2",
+        "type": "meaning",
+        "word_tested": "versatile",
+        "question": "A 'versatile' tool is one that...",
+        "options": [
+          "can only do one thing",
+          "can be used for many different purposes",
+          "is broken",
+          "is very rare"
+        ],
+        "correct_answer": "can be used for many different purposes"
+      },
+      {
+        "id": "B2-013",
+        "level": "B2",
+        "type": "meaning",
+        "word_tested": "subtle",
+        "question": "A 'subtle' difference is one that is...",
+        "options": [
+          "very obvious and easy to see",
+          "delicate and not immediately obvious",
+          "enormous and dramatic",
+          "completely nonexistent"
+        ],
+        "correct_answer": "delicate and not immediately obvious"
+      },
+      {
+        "id": "B2-014",
+        "level": "B2",
+        "type": "meaning",
+        "word_tested": "meticulous",
+        "question": "A 'meticulous' worker pays...",
+        "options": [
+          "no attention to detail",
+          "very careful attention to detail",
+          "attention only to money",
+          "attention only to speed"
+        ],
+        "correct_answer": "very careful attention to detail"
+      },
+      {
+        "id": "B2-015",
+        "level": "B2",
+        "type": "meaning",
+        "word_tested": "thorough",
+        "question": "A 'thorough' investigation is one that is...",
+        "options": [
+          "careless and incomplete",
+          "complete and detailed",
+          "very quick and superficial",
+          "never finished"
+        ],
+        "correct_answer": "complete and detailed"
+      },
+      {
+        "id": "B2-016",
+        "level": "B2",
+        "type": "meaning",
+        "word_tested": "adequate",
+        "question": "If something is 'adequate', it is...",
+        "options": [
+          "not enough at all",
+          "enough for the purpose required",
+          "far more than needed",
+          "completely useless"
+        ],
+        "correct_answer": "enough for the purpose required"
+      },
+      {
+        "id": "B2-017",
+        "level": "B2",
+        "type": "meaning",
+        "word_tested": "sufficient",
+        "question": "'Sufficient' means...",
+        "options": [
+          "not enough",
+          "enough for what is needed",
+          "far too much",
+          "completely absent"
+        ],
+        "correct_answer": "enough for what is needed"
+      },
+      {
+        "id": "B2-018",
+        "level": "B2",
+        "type": "meaning",
+        "word_tested": "substantial",
+        "question": "A 'substantial' amount of money is...",
+        "options": [
+          "very small",
+          "large in size or amount",
+          "non-existent",
+          "borrowed"
+        ],
+        "correct_answer": "large in size or amount"
+      },
+      {
+        "id": "B2-019",
+        "level": "B2",
+        "type": "meaning",
+        "word_tested": "considerable",
+        "question": "A 'considerable' effort is a...",
+        "options": [
+          "tiny, insignificant one",
+          "large or significant one",
+          "careless one",
+          "forgotten one"
+        ],
+        "correct_answer": "large or significant one"
+      },
+      {
+        "id": "B2-020",
+        "level": "B2",
+        "type": "meaning",
+        "word_tested": "comprehensive",
+        "question": "A 'comprehensive' guide covers...",
+        "options": [
+          "only a small part of the topic",
+          "the topic completely and in detail",
+          "nothing useful",
+          "only pictures"
+        ],
+        "correct_answer": "the topic completely and in detail"
+      },
+      {
+        "id": "B2-021",
+        "level": "B2",
+        "type": "meaning",
+        "word_tested": "prevalent",
+        "question": "If a problem is 'prevalent', it is...",
+        "options": [
+          "very rare",
+          "widespread and common",
+          "completely solved",
+          "illegal"
+        ],
+        "correct_answer": "widespread and common"
+      },
+      {
+        "id": "B2-022",
+        "level": "B2",
+        "type": "meaning",
+        "word_tested": "plausible",
+        "question": "A 'plausible' explanation is one that...",
+        "options": [
+          "seems reasonable and believable",
+          "is clearly false",
+          "is impossible to understand",
+          "was never given"
+        ],
+        "correct_answer": "seems reasonable and believable"
+      },
+      {
+        "id": "B2-023",
+        "level": "B2",
+        "type": "meaning",
+        "word_tested": "feasible",
+        "question": "If a plan is 'feasible', it is...",
+        "options": [
+          "impossible to carry out",
+          "possible to do successfully",
+          "illegal",
+          "very expensive only"
+        ],
+        "correct_answer": "possible to do successfully"
+      },
+      {
+        "id": "B2-024",
+        "level": "B2",
+        "type": "meaning",
+        "word_tested": "inevitable",
+        "question": "If something is 'inevitable', it...",
+        "options": [
+          "can definitely be avoided",
+          "is certain to happen and cannot be avoided",
+          "never happens",
+          "is a personal choice"
+        ],
+        "correct_answer": "is certain to happen and cannot be avoided"
+      },
+      {
+        "id": "B2-025",
+        "level": "B2",
+        "type": "meaning",
+        "word_tested": "spontaneous",
+        "question": "A 'spontaneous' decision is made...",
+        "options": [
+          "after months of planning",
+          "suddenly, without much planning",
+          "by a committee",
+          "only in writing"
+        ],
+        "correct_answer": "suddenly, without much planning"
+      },
+      {
+        "id": "B2-026",
+        "level": "B2",
+        "type": "meaning",
+        "word_tested": "ambiguous",
+        "question": "An 'ambiguous' statement has...",
+        "options": [
+          "only one clear meaning",
+          "more than one possible meaning, causing confusion",
+          "no meaning at all",
+          "a legal definition only"
+        ],
+        "correct_answer": "more than one possible meaning, causing confusion"
+      },
+      {
+        "id": "B2-027",
+        "level": "B2",
+        "type": "meaning",
+        "word_tested": "sophisticated",
+        "question": "'Sophisticated' technology is...",
+        "options": [
+          "very simple and basic",
+          "highly advanced and complex",
+          "broken",
+          "cheap and low quality"
+        ],
+        "correct_answer": "highly advanced and complex"
+      },
+      {
+        "id": "B2-028",
+        "level": "B2",
+        "type": "meaning",
+        "word_tested": "drawback",
+        "question": "A 'drawback' of a plan is a...",
+        "options": [
+          "benefit",
+          "disadvantage or negative point",
+          "price",
+          "reward"
+        ],
+        "correct_answer": "disadvantage or negative point"
+      },
+      {
+        "id": "B2-029",
+        "level": "B2",
+        "type": "meaning",
+        "word_tested": "outcome",
+        "question": "The 'outcome' of an event is its...",
+        "options": [
+          "cause",
+          "result or consequence",
+          "location",
+          "cost"
+        ],
+        "correct_answer": "result or consequence"
+      },
+      {
+        "id": "B2-030",
+        "level": "B2",
+        "type": "meaning",
+        "word_tested": "implication",
+        "question": "An 'implication' of a decision is...",
+        "options": [
+          "its price tag",
+          "a possible effect or consequence it suggests",
+          "its official name",
+          "its exact date"
+        ],
+        "correct_answer": "a possible effect or consequence it suggests"
+      },
+      {
+        "id": "B2-031",
+        "level": "B2",
+        "type": "meaning",
+        "word_tested": "perspective",
+        "question": "Your 'perspective' on an issue is your...",
+        "options": [
+          "exact age",
+          "particular way of viewing or thinking about it",
+          "physical location only",
+          "salary"
+        ],
+        "correct_answer": "particular way of viewing or thinking about it"
+      },
+      {
+        "id": "B2-032",
+        "level": "B2",
+        "type": "meaning",
+        "word_tested": "phenomenon",
+        "question": "A 'phenomenon' is a...",
+        "options": [
+          "fact or event that can be observed, often unusual",
+          "type of food",
+          "legal document",
+          "piece of furniture"
+        ],
+        "correct_answer": "fact or event that can be observed, often unusual"
+      },
+      {
+        "id": "B2-033",
+        "level": "B2",
+        "type": "meaning",
+        "word_tested": "criterion",
+        "question": "A 'criterion' is a...",
+        "options": [
+          "standard used for judging something",
+          "type of prize",
+          "kind of animal",
+          "musical note"
+        ],
+        "correct_answer": "standard used for judging something"
+      },
+      {
+        "id": "B2-034",
+        "level": "B2",
+        "type": "meaning",
+        "word_tested": "framework",
+        "question": "A 'framework' provides a...",
+        "options": [
+          "basic structure or system to build something on",
+          "final answer",
+          "type of clothing",
+          "kind of food"
+        ],
+        "correct_answer": "basic structure or system to build something on"
+      },
+      {
+        "id": "B2-035",
+        "level": "B2",
+        "type": "meaning",
+        "word_tested": "outdated",
+        "question": "An 'outdated' method is...",
+        "options": [
+          "very modern",
+          "no longer useful because it is old-fashioned",
+          "extremely popular now",
+          "brand new"
+        ],
+        "correct_answer": "no longer useful because it is old-fashioned"
+      },
+      {
+        "id": "B2-036",
+        "level": "B2",
+        "type": "meaning",
+        "word_tested": "innovative",
+        "question": "An 'innovative' idea is...",
+        "options": [
+          "old and traditional",
+          "new and original",
+          "illegal",
+          "boring"
+        ],
+        "correct_answer": "new and original"
+      },
+      {
+        "id": "B2-037",
+        "level": "B2",
+        "type": "meaning",
+        "word_tested": "skeptical",
+        "question": "If you are 'skeptical' about a claim, you...",
+        "options": [
+          "believe it completely without question",
+          "doubt whether it is true",
+          "have never heard of it",
+          "agree with it immediately"
+        ],
+        "correct_answer": "doubt whether it is true"
+      },
+      {
+        "id": "B2-038",
+        "level": "B2",
+        "type": "meaning",
+        "word_tested": "consequence",
+        "question": "A 'consequence' of an action is its...",
+        "options": [
+          "cause",
+          "result, often a negative one",
+          "price",
+          "name"
+        ],
+        "correct_answer": "result, often a negative one"
+      },
+      {
+        "id": "B2-039",
+        "level": "B2",
+        "type": "meaning",
+        "word_tested": "distinct",
+        "question": "If two things are 'distinct', they are...",
+        "options": [
+          "identical",
+          "clearly different from each other",
+          "the same size",
+          "both illegal"
+        ],
+        "correct_answer": "clearly different from each other"
+      },
+      {
+        "id": "B2-040",
+        "level": "B2",
+        "type": "meaning",
+        "word_tested": "enhance",
+        "question": "To 'enhance' something means to...",
+        "options": [
+          "make it worse",
+          "improve its quality or value",
+          "destroy it",
+          "ignore it"
+        ],
+        "correct_answer": "improve its quality or value"
+      }
+    ],
+    "C1": [
+      {
+        "id": "C1-001",
+        "level": "C1",
+        "type": "meaning",
+        "word_tested": "ubiquitous",
+        "question": "Something 'ubiquitous' is...",
+        "options": [
+          "extremely rare",
+          "found everywhere",
+          "completely hidden",
+          "forbidden by law"
+        ],
+        "correct_answer": "found everywhere"
+      },
+      {
+        "id": "C1-002",
+        "level": "C1",
+        "type": "meaning",
+        "word_tested": "meticulously",
+        "question": "If a report was written 'meticulously', it was written...",
+        "options": [
+          "carelessly and with many mistakes",
+          "with great, precise attention to detail",
+          "very quickly, without thought",
+          "by several unknown authors"
+        ],
+        "correct_answer": "with great, precise attention to detail"
+      },
+      {
+        "id": "C1-003",
+        "level": "C1",
+        "type": "meaning",
+        "word_tested": "paradox",
+        "question": "A 'paradox' is a statement that...",
+        "options": [
+          "is completely simple and obvious",
+          "seems to contradict itself but may be true",
+          "is always false",
+          "has legal authority"
+        ],
+        "correct_answer": "seems to contradict itself but may be true"
+      },
+      {
+        "id": "C1-004",
+        "level": "C1",
+        "type": "meaning",
+        "word_tested": "dichotomy",
+        "question": "A 'dichotomy' refers to a division into...",
+        "options": [
+          "one single unified group",
+          "two opposite or contradictory parts",
+          "many random small pieces",
+          "no parts at all"
+        ],
+        "correct_answer": "two opposite or contradictory parts"
+      },
+      {
+        "id": "C1-005",
+        "level": "C1",
+        "type": "meaning",
+        "word_tested": "juxtaposition",
+        "question": "'Juxtaposition' means placing two things...",
+        "options": [
+          "far apart so they cannot be compared",
+          "close together to highlight contrast",
+          "in a locked box",
+          "in alphabetical order only"
+        ],
+        "correct_answer": "close together to highlight contrast"
+      },
+      {
+        "id": "C1-006",
+        "level": "C1",
+        "type": "meaning",
+        "word_tested": "epitome",
+        "question": "If someone is the 'epitome' of kindness, they...",
+        "options": [
+          "are a perfect example of kindness",
+          "are never kind at all",
+          "dislike kind people",
+          "have no personality"
+        ],
+        "correct_answer": "are a perfect example of kindness"
+      },
+      {
+        "id": "C1-007",
+        "level": "C1",
+        "type": "meaning",
+        "word_tested": "plethora",
+        "question": "A 'plethora' of options means...",
+        "options": [
+          "a complete absence of options",
+          "an excessive or very large amount of options",
+          "exactly two options",
+          "only illegal options"
+        ],
+        "correct_answer": "an excessive or very large amount of options"
+      },
+      {
+        "id": "C1-008",
+        "level": "C1",
+        "type": "meaning",
+        "word_tested": "ostentatious",
+        "question": "An 'ostentatious' display of wealth is...",
+        "options": [
+          "modest and hidden from others",
+          "showy and designed to impress others",
+          "secret and private",
+          "completely denied"
+        ],
+        "correct_answer": "showy and designed to impress others"
+      },
+      {
+        "id": "C1-009",
+        "level": "C1",
+        "type": "meaning",
+        "word_tested": "surreptitious",
+        "question": "A 'surreptitious' glance is one done...",
+        "options": [
+          "openly, for everyone to see",
+          "secretly, trying not to be noticed",
+          "loudly and publicly",
+          "with official permission"
+        ],
+        "correct_answer": "secretly, trying not to be noticed"
+      },
+      {
+        "id": "C1-010",
+        "level": "C1",
+        "type": "meaning",
+        "word_tested": "perfunctory",
+        "question": "A 'perfunctory' apology is one given...",
+        "options": [
+          "with deep, sincere emotion",
+          "carelessly, as a routine, without real feeling",
+          "after months of thought",
+          "only in writing, legally"
+        ],
+        "correct_answer": "carelessly, as a routine, without real feeling"
+      },
+      {
+        "id": "C1-011",
+        "level": "C1",
+        "type": "meaning",
+        "word_tested": "obfuscate",
+        "question": "To 'obfuscate' an issue means to...",
+        "options": [
+          "make it perfectly clear",
+          "make it confusing or unclear on purpose",
+          "solve it completely",
+          "publish it widely"
+        ],
+        "correct_answer": "make it confusing or unclear on purpose"
+      },
+      {
+        "id": "C1-012",
+        "level": "C1",
+        "type": "meaning",
+        "word_tested": "vindicate",
+        "question": "To be 'vindicated' means to be...",
+        "options": [
+          "proven wrong and guilty",
+          "shown to be right after doubt or blame",
+          "forgotten entirely",
+          "punished severely"
+        ],
+        "correct_answer": "shown to be right after doubt or blame"
+      },
+      {
+        "id": "C1-013",
+        "level": "C1",
+        "type": "meaning",
+        "word_tested": "exacerbate",
+        "question": "To 'exacerbate' a problem means to...",
+        "options": [
+          "solve it completely",
+          "make it worse",
+          "ignore it completely",
+          "forget about it"
+        ],
+        "correct_answer": "make it worse"
+      },
+      {
+        "id": "C1-014",
+        "level": "C1",
+        "type": "meaning",
+        "word_tested": "ameliorate",
+        "question": "To 'ameliorate' a situation means to...",
+        "options": [
+          "make it worse",
+          "make it better or more tolerable",
+          "ignore it",
+          "destroy it completely"
+        ],
+        "correct_answer": "make it better or more tolerable"
+      },
+      {
+        "id": "C1-015",
+        "level": "C1",
+        "type": "meaning",
+        "word_tested": "mitigate",
+        "question": "To 'mitigate' the effects of something means to...",
+        "options": [
+          "make them more severe",
+          "reduce their severity",
+          "ignore them entirely",
+          "celebrate them"
+        ],
+        "correct_answer": "reduce their severity"
+      },
+      {
+        "id": "C1-016",
+        "level": "C1",
+        "type": "meaning",
+        "word_tested": "precarious",
+        "question": "A 'precarious' situation is one that is...",
+        "options": [
+          "very stable and safe",
+          "unstable and dangerous, likely to collapse",
+          "extremely comfortable",
+          "legally guaranteed"
+        ],
+        "correct_answer": "unstable and dangerous, likely to collapse"
+      },
+      {
+        "id": "C1-017",
+        "level": "C1",
+        "type": "meaning",
+        "word_tested": "tenuous",
+        "question": "A 'tenuous' connection between two ideas is...",
+        "options": [
+          "very strong and obvious",
+          "weak and hardly there at all",
+          "legally binding",
+          "completely nonexistent, impossible"
+        ],
+        "correct_answer": "weak and hardly there at all"
+      },
+      {
+        "id": "C1-018",
+        "level": "C1",
+        "type": "meaning",
+        "word_tested": "formidable",
+        "question": "A 'formidable' opponent is one who is...",
+        "options": [
+          "easy to defeat",
+          "impressive and difficult to defeat",
+          "completely harmless",
+          "never present"
+        ],
+        "correct_answer": "impressive and difficult to defeat"
+      },
+      {
+        "id": "C1-019",
+        "level": "C1",
+        "type": "meaning",
+        "word_tested": "indefatigable",
+        "question": "An 'indefatigable' worker is one who...",
+        "options": [
+          "gets tired very quickly",
+          "never seems to get tired, works tirelessly",
+          "refuses to work at all",
+          "works only occasionally"
+        ],
+        "correct_answer": "never seems to get tired, works tirelessly"
+      },
+      {
+        "id": "C1-020",
+        "level": "C1",
+        "type": "meaning",
+        "word_tested": "inexorable",
+        "question": "An 'inexorable' process is one that...",
+        "options": [
+          "can easily be stopped",
+          "cannot be stopped or changed once started",
+          "never begins",
+          "is always reversible"
+        ],
+        "correct_answer": "cannot be stopped or changed once started"
+      },
+      {
+        "id": "C1-021",
+        "level": "C1",
+        "type": "meaning",
+        "word_tested": "incongruous",
+        "question": "Something 'incongruous' seems...",
+        "options": [
+          "perfectly fitting with its surroundings",
+          "out of place and not matching its surroundings",
+          "completely invisible",
+          "legally required"
+        ],
+        "correct_answer": "out of place and not matching its surroundings"
+      },
+      {
+        "id": "C1-022",
+        "level": "C1",
+        "type": "meaning",
+        "word_tested": "idiosyncratic",
+        "question": "An 'idiosyncratic' style is...",
+        "options": [
+          "completely standard and typical",
+          "unusual and particular to one person",
+          "forbidden by law",
+          "shared by everyone equally"
+        ],
+        "correct_answer": "unusual and particular to one person"
+      },
+      {
+        "id": "C1-023",
+        "level": "C1",
+        "type": "meaning",
+        "word_tested": "capricious",
+        "question": "A 'capricious' person changes their mind...",
+        "options": [
+          "never, they are extremely consistent",
+          "suddenly and unpredictably",
+          "only once a year",
+          "only after careful thought"
+        ],
+        "correct_answer": "suddenly and unpredictably"
+      },
+      {
+        "id": "C1-024",
+        "level": "C1",
+        "type": "meaning",
+        "word_tested": "sardonic",
+        "question": "A 'sardonic' comment is...",
+        "options": [
+          "kind and sincere",
+          "mocking or bitterly humorous",
+          "completely neutral",
+          "legally protected"
+        ],
+        "correct_answer": "mocking or bitterly humorous"
+      },
+      {
+        "id": "C1-025",
+        "level": "C1",
+        "type": "meaning",
+        "word_tested": "magnanimous",
+        "question": "A 'magnanimous' person is...",
+        "options": [
+          "mean and stingy",
+          "generous and forgiving, especially to a rival",
+          "always angry",
+          "never helpful"
+        ],
+        "correct_answer": "generous and forgiving, especially to a rival"
+      },
+      {
+        "id": "C1-026",
+        "level": "C1",
+        "type": "meaning",
+        "word_tested": "obsequious",
+        "question": "An 'obsequious' employee behaves in a way that is...",
+        "options": [
+          "independent and confident",
+          "excessively eager to please or obey a superior",
+          "rude to their boss",
+          "completely indifferent"
+        ],
+        "correct_answer": "excessively eager to please or obey a superior"
+      },
+      {
+        "id": "C1-027",
+        "level": "C1",
+        "type": "meaning",
+        "word_tested": "pernicious",
+        "question": "A 'pernicious' influence is one that is...",
+        "options": [
+          "harmless and helpful",
+          "harmful, often in a gradual or subtle way",
+          "legally required",
+          "completely obvious to everyone"
+        ],
+        "correct_answer": "harmful, often in a gradual or subtle way"
+      },
+      {
+        "id": "C1-028",
+        "level": "C1",
+        "type": "meaning",
+        "word_tested": "insidious",
+        "question": "An 'insidious' disease spreads...",
+        "options": [
+          "obviously and immediately, with clear symptoms",
+          "gradually and secretly, causing harm before it's noticed",
+          "only in animals",
+          "only when announced publicly"
+        ],
+        "correct_answer": "gradually and secretly, causing harm before it's noticed"
+      },
+      {
+        "id": "C1-029",
+        "level": "C1",
+        "type": "meaning",
+        "word_tested": "nefarious",
+        "question": "A 'nefarious' plan is one that is...",
+        "options": [
+          "wicked and criminal",
+          "kind and generous",
+          "legally approved",
+          "completely public"
+        ],
+        "correct_answer": "wicked and criminal"
+      },
+      {
+        "id": "C1-030",
+        "level": "C1",
+        "type": "meaning",
+        "word_tested": "clandestine",
+        "question": "A 'clandestine' meeting is one held...",
+        "options": [
+          "openly, with press coverage",
+          "secretly, hidden from others",
+          "in a public square",
+          "with government approval"
+        ],
+        "correct_answer": "secretly, hidden from others"
+      },
+      {
+        "id": "C1-031",
+        "level": "C1",
+        "type": "meaning",
+        "word_tested": "equivocal",
+        "question": "An 'equivocal' answer is...",
+        "options": [
+          "completely clear and direct",
+          "deliberately vague or ambiguous",
+          "always a lie",
+          "never given"
+        ],
+        "correct_answer": "deliberately vague or ambiguous"
+      },
+      {
+        "id": "C1-032",
+        "level": "C1",
+        "type": "meaning",
+        "word_tested": "pragmatic",
+        "question": "A 'pragmatic' approach focuses on...",
+        "options": [
+          "abstract theory only",
+          "practical results rather than theory",
+          "emotions only",
+          "tradition alone"
+        ],
+        "correct_answer": "practical results rather than theory"
+      },
+      {
+        "id": "C1-033",
+        "level": "C1",
+        "type": "meaning",
+        "word_tested": "empirical",
+        "question": "'Empirical' evidence is based on...",
+        "options": [
+          "personal opinion alone",
+          "observation or experiment, not just theory",
+          "guessing",
+          "legal precedent only"
+        ],
+        "correct_answer": "observation or experiment, not just theory"
+      },
+      {
+        "id": "C1-034",
+        "level": "C1",
+        "type": "meaning",
+        "word_tested": "succinct",
+        "question": "A 'succinct' explanation is...",
+        "options": [
+          "extremely long and detailed",
+          "brief and clearly expressed",
+          "confusing and vague",
+          "never finished"
+        ],
+        "correct_answer": "brief and clearly expressed"
+      },
+      {
+        "id": "C1-035",
+        "level": "C1",
+        "type": "meaning",
+        "word_tested": "verbose",
+        "question": "A 'verbose' speech uses...",
+        "options": [
+          "too few words, is very brief",
+          "far more words than needed",
+          "only technical terms",
+          "no words at all"
+        ],
+        "correct_answer": "far more words than needed"
+      },
+      {
+        "id": "C1-036",
+        "level": "C1",
+        "type": "meaning",
+        "word_tested": "candid",
+        "question": "A 'candid' opinion is one that is...",
+        "options": [
+          "dishonest and misleading",
+          "honest and direct, even if blunt",
+          "kept completely secret",
+          "legally forbidden"
+        ],
+        "correct_answer": "honest and direct, even if blunt"
+      },
+      {
+        "id": "C1-037",
+        "level": "C1",
+        "type": "meaning",
+        "word_tested": "prudent",
+        "question": "A 'prudent' decision is one that is...",
+        "options": [
+          "careless and reckless",
+          "sensible and careful, avoiding unnecessary risk",
+          "impossible to make",
+          "illegal in most countries"
+        ],
+        "correct_answer": "sensible and careful, avoiding unnecessary risk"
+      },
+      {
+        "id": "C1-038",
+        "level": "C1",
+        "type": "meaning",
+        "word_tested": "astute",
+        "question": "An 'astute' businessperson is...",
+        "options": [
+          "clever and shrewd at judging situations",
+          "careless and easily fooled",
+          "completely inexperienced",
+          "never successful"
+        ],
+        "correct_answer": "clever and shrewd at judging situations"
+      },
+      {
+        "id": "C1-039",
+        "level": "C1",
+        "type": "meaning",
+        "word_tested": "ambivalent",
+        "question": "If you feel 'ambivalent' about something, you have...",
+        "options": [
+          "a completely certain, single opinion",
+          "mixed or contradictory feelings about it",
+          "no feelings at all",
+          "a legal obligation regarding it"
+        ],
+        "correct_answer": "mixed or contradictory feelings about it"
+      },
+      {
+        "id": "C1-040",
+        "level": "C1",
+        "type": "meaning",
+        "word_tested": "resilient",
+        "question": "A 'resilient' person recovers from difficulties...",
+        "options": [
+          "and never faces any again",
+          "quickly, showing strength after hardship",
+          "by giving up completely",
+          "only with legal help"
+        ],
+        "correct_answer": "quickly, showing strength after hardship"
+      }
+    ],
+    "C2": [
+      {
+        "id": "C2-001",
+        "level": "C2",
+        "type": "meaning",
+        "word_tested": "esoteric",
+        "question": "'Esoteric' knowledge is understood by...",
+        "options": [
+          "everyone in the general public",
+          "only a small, specialized group of people",
+          "no one at all, ever",
+          "government officials exclusively"
+        ],
+        "correct_answer": "only a small, specialized group of people"
+      },
+      {
+        "id": "C2-002",
+        "level": "C2",
+        "type": "meaning",
+        "word_tested": "ephemeral",
+        "question": "Something 'ephemeral' lasts...",
+        "options": [
+          "forever, permanently",
+          "for a very short time",
+          "exactly one year",
+          "for an unknown legal period"
+        ],
+        "correct_answer": "for a very short time"
+      },
+      {
+        "id": "C2-003",
+        "level": "C2",
+        "type": "meaning",
+        "word_tested": "quintessential",
+        "question": "The 'quintessential' example of a genre is...",
+        "options": [
+          "the worst, least typical example",
+          "the most perfect, typical example representing its type",
+          "completely unrelated to the genre",
+          "banned from that genre"
+        ],
+        "correct_answer": "the most perfect, typical example representing its type"
+      },
+      {
+        "id": "C2-004",
+        "level": "C2",
+        "type": "meaning",
+        "word_tested": "cacophony",
+        "question": "A 'cacophony' of sounds is...",
+        "options": [
+          "a harmonious, pleasant melody",
+          "a harsh, jarring mixture of noises",
+          "complete silence",
+          "a single, quiet note"
+        ],
+        "correct_answer": "a harsh, jarring mixture of noises"
+      },
+      {
+        "id": "C2-005",
+        "level": "C2",
+        "type": "meaning",
+        "word_tested": "magnate",
+        "question": "A business 'magnate' is a...",
+        "options": [
+          "very poor, unemployed person",
+          "powerful and influential person in an industry",
+          "junior employee",
+          "government inspector"
+        ],
+        "correct_answer": "powerful and influential person in an industry"
+      },
+      {
+        "id": "C2-006",
+        "level": "C2",
+        "type": "meaning",
+        "word_tested": "vitriolic",
+        "question": "A 'vitriolic' attack in an article is...",
+        "options": [
+          "gentle and complimentary",
+          "full of bitter criticism and hatred",
+          "completely neutral",
+          "legally required"
+        ],
+        "correct_answer": "full of bitter criticism and hatred"
+      },
+      {
+        "id": "C2-007",
+        "level": "C2",
+        "type": "meaning",
+        "word_tested": "sycophant",
+        "question": "A 'sycophant' is someone who...",
+        "options": [
+          "criticizes powerful people honestly",
+          "flatters powerful people to gain favor",
+          "avoids powerful people entirely",
+          "is powerful themselves"
+        ],
+        "correct_answer": "flatters powerful people to gain favor"
+      },
+      {
+        "id": "C2-008",
+        "level": "C2",
+        "type": "meaning",
+        "word_tested": "mercurial",
+        "question": "A person with a 'mercurial' temperament...",
+        "options": [
+          "never changes their mood",
+          "changes mood quickly and unpredictably",
+          "is always calm",
+          "has no emotions at all"
+        ],
+        "correct_answer": "changes mood quickly and unpredictably"
+      },
+      {
+        "id": "C2-009",
+        "level": "C2",
+        "type": "meaning",
+        "word_tested": "recalcitrant",
+        "question": "A 'recalcitrant' child refuses to...",
+        "options": [
+          "obey and is stubbornly uncooperative",
+          "ever misbehave",
+          "speak at all",
+          "leave the house"
+        ],
+        "correct_answer": "obey and is stubbornly uncooperative"
+      },
+      {
+        "id": "C2-010",
+        "level": "C2",
+        "type": "meaning",
+        "word_tested": "garrulous",
+        "question": "A 'garrulous' person talks...",
+        "options": [
+          "very little, they are silent",
+          "excessively, often about trivial things",
+          "only about serious topics",
+          "only in writing"
+        ],
+        "correct_answer": "excessively, often about trivial things"
+      },
+      {
+        "id": "C2-011",
+        "level": "C2",
+        "type": "meaning",
+        "word_tested": "laconic",
+        "question": "A 'laconic' reply uses...",
+        "options": [
+          "very few words, is brief to the point of terseness",
+          "excessive, flowery language",
+          "only foreign words",
+          "legal terminology only"
+        ],
+        "correct_answer": "very few words, is brief to the point of terseness"
+      },
+      {
+        "id": "C2-012",
+        "level": "C2",
+        "type": "meaning",
+        "word_tested": "ineffable",
+        "question": "An 'ineffable' feeling is one that is...",
+        "options": [
+          "easy to describe in simple words",
+          "too great or intense to be expressed in words",
+          "completely absent",
+          "legally defined"
+        ],
+        "correct_answer": "too great or intense to be expressed in words"
+      },
+      {
+        "id": "C2-013",
+        "level": "C2",
+        "type": "meaning",
+        "word_tested": "perspicacious",
+        "question": "A 'perspicacious' observer has...",
+        "options": [
+          "poor judgment and little insight",
+          "keen insight and good judgment",
+          "no interest in observing anything",
+          "only legal training"
+        ],
+        "correct_answer": "keen insight and good judgment"
+      },
+      {
+        "id": "C2-014",
+        "level": "C2",
+        "type": "meaning",
+        "word_tested": "obdurate",
+        "question": "An 'obdurate' person is...",
+        "options": [
+          "easily persuaded to change their mind",
+          "stubbornly refusing to change their opinion",
+          "always agreeable",
+          "completely indifferent"
+        ],
+        "correct_answer": "stubbornly refusing to change their opinion"
+      },
+      {
+        "id": "C2-015",
+        "level": "C2",
+        "type": "meaning",
+        "word_tested": "pusillanimous",
+        "question": "A 'pusillanimous' act shows a lack of...",
+        "options": [
+          "courage",
+          "intelligence",
+          "money",
+          "legal knowledge"
+        ],
+        "correct_answer": "courage"
+      },
+      {
+        "id": "C2-016",
+        "level": "C2",
+        "type": "meaning",
+        "word_tested": "fastidious",
+        "question": "A 'fastidious' person is very...",
+        "options": [
+          "careless about details",
+          "attentive to detail and hard to please",
+          "relaxed about cleanliness",
+          "indifferent to quality"
+        ],
+        "correct_answer": "attentive to detail and hard to please"
+      },
+      {
+        "id": "C2-017",
+        "level": "C2",
+        "type": "meaning",
+        "word_tested": "obstreperous",
+        "question": "An 'obstreperous' crowd is...",
+        "options": [
+          "quiet and orderly",
+          "noisy and difficult to control",
+          "completely absent",
+          "legally silenced"
+        ],
+        "correct_answer": "noisy and difficult to control"
+      },
+      {
+        "id": "C2-018",
+        "level": "C2",
+        "type": "meaning",
+        "word_tested": "propitious",
+        "question": "A 'propitious' moment to act is...",
+        "options": [
+          "unfavorable and risky",
+          "favorable, giving a good chance of success",
+          "completely irrelevant",
+          "banned by law"
+        ],
+        "correct_answer": "favorable, giving a good chance of success"
+      },
+      {
+        "id": "C2-019",
+        "level": "C2",
+        "type": "meaning",
+        "word_tested": "intransigent",
+        "question": "An 'intransigent' negotiator refuses to...",
+        "options": [
+          "compromise on their position",
+          "speak at the meeting",
+          "attend any meetings",
+          "accept any payment"
+        ],
+        "correct_answer": "compromise on their position"
+      },
+      {
+        "id": "C2-020",
+        "level": "C2",
+        "type": "meaning",
+        "word_tested": "vituperative",
+        "question": "A 'vituperative' speech is filled with...",
+        "options": [
+          "gentle praise",
+          "bitter, abusive criticism",
+          "factual statistics only",
+          "legal disclaimers"
+        ],
+        "correct_answer": "bitter, abusive criticism"
+      },
+      {
+        "id": "C2-021",
+        "level": "C2",
+        "type": "meaning",
+        "word_tested": "perfidious",
+        "question": "A 'perfidious' ally is one who is...",
+        "options": [
+          "completely loyal and trustworthy",
+          "deceitful and disloyal, a traitor",
+          "legally bound by contract",
+          "unable to communicate"
+        ],
+        "correct_answer": "deceitful and disloyal, a traitor"
+      },
+      {
+        "id": "C2-022",
+        "level": "C2",
+        "type": "meaning",
+        "word_tested": "sanguine",
+        "question": "If you are 'sanguine' about the future, you are...",
+        "options": [
+          "pessimistic and worried",
+          "optimistic and confident",
+          "completely indifferent",
+          "legally obligated to plan"
+        ],
+        "correct_answer": "optimistic and confident"
+      },
+      {
+        "id": "C2-023",
+        "level": "C2",
+        "type": "meaning",
+        "word_tested": "truculent",
+        "question": "A 'truculent' teenager is...",
+        "options": [
+          "cheerful and cooperative",
+          "aggressively defiant and hostile",
+          "completely silent",
+          "academically gifted only"
+        ],
+        "correct_answer": "aggressively defiant and hostile"
+      },
+      {
+        "id": "C2-024",
+        "level": "C2",
+        "type": "meaning",
+        "word_tested": "ubiquity",
+        "question": "The 'ubiquity' of smartphones refers to...",
+        "options": [
+          "their rarity",
+          "their presence almost everywhere",
+          "their high price",
+          "their illegal status in some places"
+        ],
+        "correct_answer": "their presence almost everywhere"
+      },
+      {
+        "id": "C2-025",
+        "level": "C2",
+        "type": "meaning",
+        "word_tested": "parsimonious",
+        "question": "A 'parsimonious' employer is very...",
+        "options": [
+          "generous with money",
+          "unwilling to spend money, extremely stingy",
+          "careless with the budget",
+          "legally required to overpay"
+        ],
+        "correct_answer": "unwilling to spend money, extremely stingy"
+      },
+      {
+        "id": "C2-026",
+        "level": "C2",
+        "type": "meaning",
+        "word_tested": "assiduous",
+        "question": "An 'assiduous' student works with...",
+        "options": [
+          "laziness and no discipline",
+          "great care, effort, and persistence",
+          "occasional, half-hearted attempts",
+          "no attention to studies at all"
+        ],
+        "correct_answer": "great care, effort, and persistence"
+      },
+      {
+        "id": "C2-027",
+        "level": "C2",
+        "type": "meaning",
+        "word_tested": "circumlocution",
+        "question": "'Circumlocution' means using...",
+        "options": [
+          "a very direct, brief way of speaking",
+          "many indirect words instead of saying something clearly and briefly",
+          "only technical vocabulary",
+          "legal jargon exclusively"
+        ],
+        "correct_answer": "many indirect words instead of saying something clearly and briefly"
+      },
+      {
+        "id": "C2-028",
+        "level": "C2",
+        "type": "meaning",
+        "word_tested": "apocryphal",
+        "question": "An 'apocryphal' story is one that is...",
+        "options": [
+          "confirmed to be completely true and documented",
+          "of doubtful authenticity, though widely circulated",
+          "brand new and never told before",
+          "a legal record"
+        ],
+        "correct_answer": "of doubtful authenticity, though widely circulated"
+      },
+      {
+        "id": "C2-029",
+        "level": "C2",
+        "type": "meaning",
+        "word_tested": "acquiesce",
+        "question": "To 'acquiesce' to a demand means to...",
+        "options": [
+          "fight against it strongly",
+          "accept it reluctantly, without protest",
+          "ignore it completely",
+          "report it to the police"
+        ],
+        "correct_answer": "accept it reluctantly, without protest"
+      },
+      {
+        "id": "C2-030",
+        "level": "C2",
+        "type": "meaning",
+        "word_tested": "bellicose",
+        "question": "A 'bellicose' leader is one who is...",
+        "options": [
+          "peaceful and diplomatic",
+          "eager to start conflicts or wars",
+          "legally restrained from acting",
+          "indifferent to foreign policy"
+        ],
+        "correct_answer": "eager to start conflicts or wars"
+      },
+      {
+        "id": "C2-031",
+        "level": "C2",
+        "type": "meaning",
+        "word_tested": "cogent",
+        "question": "A 'cogent' argument is...",
+        "options": [
+          "confusing and poorly reasoned",
+          "clear, logical and convincing",
+          "based purely on emotion",
+          "illegal to present"
+        ],
+        "correct_answer": "clear, logical and convincing"
+      },
+      {
+        "id": "C2-032",
+        "level": "C2",
+        "type": "meaning",
+        "word_tested": "deleterious",
+        "question": "A 'deleterious' effect on health is...",
+        "options": [
+          "beneficial and healthy",
+          "harmful and damaging",
+          "completely neutral",
+          "legally mandated"
+        ],
+        "correct_answer": "harmful and damaging"
+      },
+      {
+        "id": "C2-033",
+        "level": "C2",
+        "type": "meaning",
+        "word_tested": "ebullient",
+        "question": "An 'ebullient' personality is full of...",
+        "options": [
+          "sadness and despair",
+          "enthusiasm and high spirits",
+          "boredom and apathy",
+          "legal complaints"
+        ],
+        "correct_answer": "enthusiasm and high spirits"
+      },
+      {
+        "id": "C2-034",
+        "level": "C2",
+        "type": "meaning",
+        "word_tested": "fatuous",
+        "question": "A 'fatuous' comment is...",
+        "options": [
+          "extremely wise and insightful",
+          "silly and pointless",
+          "legally binding",
+          "completely absent"
+        ],
+        "correct_answer": "silly and pointless"
+      },
+      {
+        "id": "C2-035",
+        "level": "C2",
+        "type": "meaning",
+        "word_tested": "gregarious",
+        "question": "A 'gregarious' person enjoys...",
+        "options": [
+          "being alone at all times",
+          "being in the company of others, sociable",
+          "avoiding all social contact",
+          "legal work exclusively"
+        ],
+        "correct_answer": "being in the company of others, sociable"
+      },
+      {
+        "id": "C2-036",
+        "level": "C2",
+        "type": "meaning",
+        "word_tested": "hackneyed",
+        "question": "A 'hackneyed' phrase is one that is...",
+        "options": [
+          "fresh and original",
+          "overused and unoriginal, a cliché",
+          "legally protected",
+          "never spoken before"
+        ],
+        "correct_answer": "overused and unoriginal, a cliché"
+      },
+      {
+        "id": "C2-037",
+        "level": "C2",
+        "type": "meaning",
+        "word_tested": "iconoclast",
+        "question": "An 'iconoclast' is a person who...",
+        "options": [
+          "strongly supports traditional beliefs",
+          "attacks or challenges established beliefs and institutions",
+          "never expresses opinions",
+          "works only in law"
+        ],
+        "correct_answer": "attacks or challenges established beliefs and institutions"
+      },
+      {
+        "id": "C2-038",
+        "level": "C2",
+        "type": "meaning",
+        "word_tested": "jocular",
+        "question": "A 'jocular' tone during a meeting is...",
+        "options": [
+          "very serious and formal",
+          "humorous and playful",
+          "legally required",
+          "completely silent"
+        ],
+        "correct_answer": "humorous and playful"
+      },
+      {
+        "id": "C2-039",
+        "level": "C2",
+        "type": "meaning",
+        "word_tested": "obviate",
+        "question": "To 'obviate' the need for something means to...",
+        "options": [
+          "make it more necessary",
+          "remove the necessity for it",
+          "celebrate it",
+          "legally require it"
+        ],
+        "correct_answer": "remove the necessity for it"
+      },
+      {
+        "id": "C2-040",
+        "level": "C2",
+        "type": "meaning",
+        "word_tested": "panacea",
+        "question": "A 'panacea' is presented as a solution that...",
+        "options": [
+          "only works for one small problem",
+          "solves all problems, a cure-all",
+          "never actually works",
+          "is illegal to sell"
+        ],
+        "correct_answer": "solves all problems, a cure-all"
+      }
+    ]
+  }
+}

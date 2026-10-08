@@ -1,0 +1,3869 @@
+{
+  "description": "Answer keys for the 15 coloring-page scenes used in English writing/description practice. Each object entry includes synonyms (for flexible matching), expected count, position in the picture, attributes, and typical action/state. A count of 0 marks an optional detail that is not clearly drawn but can be reasonably added by the student.",
+  "usage_notes": [
+    "Match a student's word against 'name' or any of its 'synonyms' (case-insensitive).",
+    "Use 'position' keywords to check prepositions of place (on, next to, in front of, behind, between).",
+    "Use 'attributes' to reward richer descriptions (color, shape, size).",
+    "Use 'action' to check verb tenses, especially Present Continuous.",
+    "Objects with count 0 are optional/inferred details — do not penalize students for omitting them, but you may give bonus credit if mentioned."
+  ],
+  "scenes": [
+    {
+      "id": "01_house_and_garden",
+      "title": "House and Garden",
+      "objects": [
+        {
+          "name": "house",
+          "synonyms": [
+            "home",
+            "building",
+            "cottage"
+          ],
+          "count": 1,
+          "position": "in the center of the picture",
+          "attributes": [
+            "big",
+            "has a triangular roof",
+            "has a chimney"
+          ],
+          "action": ""
+        },
+        {
+          "name": "roof",
+          "synonyms": [
+            "rooftop"
+          ],
+          "count": 1,
+          "position": "on top of the house",
+          "attributes": [
+            "triangular",
+            "pointed"
+          ],
+          "action": ""
+        },
+        {
+          "name": "door",
+          "synonyms": [
+            "front door",
+            "entrance"
+          ],
+          "count": 1,
+          "position": "in the middle of the house",
+          "attributes": [
+            "rectangular",
+            "has a doorknob"
+          ],
+          "action": ""
+        },
+        {
+          "name": "window",
+          "synonyms": [
+            "windowpane"
+          ],
+          "count": 2,
+          "position": "on the left and right sides of the door",
+          "attributes": [
+            "square",
+            "divided into four panes"
+          ],
+          "action": ""
+        },
+        {
+          "name": "chimney",
+          "synonyms": [
+            "smokestack"
+          ],
+          "count": 1,
+          "position": "on the roof, top right of the house",
+          "attributes": [],
+          "action": ""
+        },
+        {
+          "name": "sun",
+          "synonyms": [
+            "sunshine"
+          ],
+          "count": 1,
+          "position": "in the top right corner of the sky",
+          "attributes": [
+            "round",
+            "with rays"
+          ],
+          "action": "shining"
+        },
+        {
+          "name": "cloud",
+          "synonyms": [
+            "clouds"
+          ],
+          "count": 1,
+          "position": "in the top left corner of the sky",
+          "attributes": [
+            "fluffy",
+            "round"
+          ],
+          "action": "floating"
+        },
+        {
+          "name": "tree",
+          "synonyms": [
+            "oak",
+            "big tree"
+          ],
+          "count": 1,
+          "position": "on the left side of the house",
+          "attributes": [
+            "round leaves",
+            "has a trunk"
+          ],
+          "action": ""
+        },
+        {
+          "name": "flowers",
+          "synonyms": [
+            "blossoms",
+            "blooms"
+          ],
+          "count": 3,
+          "position": "near the fence, on the right side",
+          "attributes": [
+            "in a row",
+            "small"
+          ],
+          "action": "growing"
+        },
+        {
+          "name": "fence",
+          "synonyms": [
+            "gate",
+            "railing"
+          ],
+          "count": 1,
+          "position": "on the right side of the garden",
+          "attributes": [
+            "wooden",
+            "made of vertical bars"
+          ],
+          "action": ""
+        },
+        {
+          "name": "cat",
+          "synonyms": [
+            "kitten"
+          ],
+          "count": 1,
+          "position": "in the bottom left corner, near the tree",
+          "attributes": [
+            "has a raised tail",
+            "small"
+          ],
+          "action": "sitting"
+        },
+        {
+          "name": "garden",
+          "synonyms": [
+            "yard",
+            "lawn"
+          ],
+          "count": 1,
+          "position": "in front of the house",
+          "attributes": [
+            "grassy"
+          ],
+          "action": ""
+        },
+        {
+          "name": "sky",
+          "synonyms": [
+            "background"
+          ],
+          "count": 1,
+          "position": "the upper part of the picture",
+          "attributes": [
+            "open",
+            "clear"
+          ],
+          "action": ""
+        },
+        {
+          "name": "ground",
+          "synonyms": [
+            "horizon line"
+          ],
+          "count": 1,
+          "position": "the bottom part of the picture",
+          "attributes": [
+            "flat"
+          ],
+          "action": ""
+        },
+        {
+          "name": "path",
+          "synonyms": [
+            "walkway"
+          ],
+          "count": 1,
+          "position": "leading to the front door",
+          "attributes": [
+            "straight"
+          ],
+          "action": ""
+        },
+        {
+          "name": "rays",
+          "synonyms": [
+            "sun rays",
+            "sunbeams"
+          ],
+          "count": 8,
+          "position": "coming out of the sun",
+          "attributes": [
+            "straight lines"
+          ],
+          "action": ""
+        },
+        {
+          "name": "leaves",
+          "synonyms": [
+            "foliage"
+          ],
+          "count": 1,
+          "position": "on top of the tree",
+          "attributes": [
+            "round shape"
+          ],
+          "action": ""
+        },
+        {
+          "name": "trunk",
+          "synonyms": [
+            "tree trunk",
+            "stem"
+          ],
+          "count": 1,
+          "position": "under the tree leaves",
+          "attributes": [
+            "thin",
+            "vertical"
+          ],
+          "action": ""
+        },
+        {
+          "name": "stems",
+          "synonyms": [
+            "flower stems"
+          ],
+          "count": 3,
+          "position": "under each flower",
+          "attributes": [
+            "thin",
+            "vertical"
+          ],
+          "action": ""
+        },
+        {
+          "name": "doorknob",
+          "synonyms": [
+            "handle"
+          ],
+          "count": 1,
+          "position": "on the door",
+          "attributes": [
+            "small",
+            "round"
+          ],
+          "action": ""
+        },
+        {
+          "name": "chimney smoke",
+          "synonyms": [
+            "smoke"
+          ],
+          "count": 0,
+          "position": "above the chimney",
+          "attributes": [
+            "not drawn, optional detail to add"
+          ],
+          "action": ""
+        },
+        {
+          "name": "whiskers",
+          "synonyms": [
+            "cat whiskers"
+          ],
+          "count": 1,
+          "position": "on the cat's face",
+          "attributes": [
+            "thin lines"
+          ],
+          "action": ""
+        }
+      ]
+    },
+    {
+      "id": "02_city_street",
+      "title": "City Street",
+      "objects": [
+        {
+          "name": "building",
+          "synonyms": [
+            "skyscraper",
+            "block of flats",
+            "apartment building"
+          ],
+          "count": 3,
+          "position": "left, center and right of the picture",
+          "attributes": [
+            "different heights",
+            "have windows"
+          ],
+          "action": ""
+        },
+        {
+          "name": "window",
+          "synonyms": [
+            "windowpane"
+          ],
+          "count": 0,
+          "position": "arranged in rows on the buildings",
+          "attributes": [
+            "many",
+            "square"
+          ],
+          "action": ""
+        },
+        {
+          "name": "car",
+          "synonyms": [
+            "automobile",
+            "vehicle"
+          ],
+          "count": 1,
+          "position": "on the street, bottom right",
+          "attributes": [
+            "has two visible wheels"
+          ],
+          "action": "parked or driving"
+        },
+        {
+          "name": "wheel",
+          "synonyms": [
+            "tire"
+          ],
+          "count": 2,
+          "position": "under the car",
+          "attributes": [
+            "round"
+          ],
+          "action": ""
+        },
+        {
+          "name": "street lamp",
+          "synonyms": [
+            "lamppost",
+            "light pole"
+          ],
+          "count": 1,
+          "position": "between the buildings",
+          "attributes": [
+            "tall",
+            "has a round light at the top"
+          ],
+          "action": ""
+        },
+        {
+          "name": "tree",
+          "synonyms": [
+            "small tree"
+          ],
+          "count": 1,
+          "position": "on the far right of the street",
+          "attributes": [
+            "round leaves"
+          ],
+          "action": ""
+        },
+        {
+          "name": "sun",
+          "synonyms": [
+            "sunshine"
+          ],
+          "count": 1,
+          "position": "top right corner",
+          "attributes": [
+            "round"
+          ],
+          "action": "shining"
+        },
+        {
+          "name": "clouds",
+          "synonyms": [
+            "cloud group"
+          ],
+          "count": 3,
+          "position": "top left corner",
+          "attributes": [
+            "grouped together",
+            "fluffy"
+          ],
+          "action": "floating"
+        },
+        {
+          "name": "street",
+          "synonyms": [
+            "road",
+            "pavement"
+          ],
+          "count": 1,
+          "position": "along the bottom of the picture",
+          "attributes": [
+            "horizontal line"
+          ],
+          "action": ""
+        },
+        {
+          "name": "roof",
+          "synonyms": [
+            "rooftop"
+          ],
+          "count": 1,
+          "position": "on top of the tallest building",
+          "attributes": [
+            "triangular",
+            "pointed"
+          ],
+          "action": ""
+        },
+        {
+          "name": "door",
+          "synonyms": [
+            "entrance"
+          ],
+          "count": 1,
+          "position": "at the bottom of one building",
+          "attributes": [
+            "rectangular"
+          ],
+          "action": ""
+        },
+        {
+          "name": "sky",
+          "synonyms": [
+            "background"
+          ],
+          "count": 1,
+          "position": "upper part of the picture",
+          "attributes": [
+            "open"
+          ],
+          "action": ""
+        },
+        {
+          "name": "windshield",
+          "synonyms": [
+            "car window"
+          ],
+          "count": 1,
+          "position": "on the car",
+          "attributes": [
+            "slanted lines"
+          ],
+          "action": ""
+        },
+        {
+          "name": "balconies",
+          "synonyms": [
+            "window ledges"
+          ],
+          "count": 0,
+          "position": "not drawn, optional detail",
+          "attributes": [],
+          "action": ""
+        },
+        {
+          "name": "tallest building",
+          "synonyms": [
+            "skyscraper"
+          ],
+          "count": 1,
+          "position": "in the center",
+          "attributes": [
+            "has a pointed roof",
+            "the tallest of the three"
+          ],
+          "action": ""
+        },
+        {
+          "name": "shortest building",
+          "synonyms": [
+            "small building"
+          ],
+          "count": 1,
+          "position": "on the left",
+          "attributes": [
+            "has fewer windows"
+          ],
+          "action": ""
+        },
+        {
+          "name": "rows of windows",
+          "synonyms": [
+            "grid of windows"
+          ],
+          "count": 1,
+          "position": "on each building",
+          "attributes": [
+            "arranged in a grid"
+          ],
+          "action": ""
+        },
+        {
+          "name": "lamp light",
+          "synonyms": [
+            "bulb"
+          ],
+          "count": 1,
+          "position": "on top of the street lamp",
+          "attributes": [
+            "round"
+          ],
+          "action": ""
+        },
+        {
+          "name": "tree trunk",
+          "synonyms": [
+            "stem"
+          ],
+          "count": 1,
+          "position": "under the tree",
+          "attributes": [
+            "thin"
+          ],
+          "action": ""
+        },
+        {
+          "name": "horizon",
+          "synonyms": [
+            "ground line"
+          ],
+          "count": 1,
+          "position": "along the bottom",
+          "attributes": [
+            "straight line"
+          ],
+          "action": ""
+        },
+        {
+          "name": "shadow",
+          "synonyms": [
+            "car shadow"
+          ],
+          "count": 0,
+          "position": "under the car, optional detail",
+          "attributes": [],
+          "action": ""
+        }
+      ]
+    },
+    {
+      "id": "03_farm",
+      "title": "Farm",
+      "objects": [
+        {
+          "name": "barn",
+          "synonyms": [
+            "farmhouse",
+            "shed"
+          ],
+          "count": 1,
+          "position": "on the left side of the picture",
+          "attributes": [
+            "triangular roof",
+            "has a door",
+            "has a round window"
+          ],
+          "action": ""
+        },
+        {
+          "name": "roof",
+          "synonyms": [
+            "rooftop"
+          ],
+          "count": 1,
+          "position": "on top of the barn",
+          "attributes": [
+            "triangular",
+            "pointed"
+          ],
+          "action": ""
+        },
+        {
+          "name": "door",
+          "synonyms": [
+            "barn door"
+          ],
+          "count": 1,
+          "position": "in the middle of the barn",
+          "attributes": [
+            "rectangular"
+          ],
+          "action": ""
+        },
+        {
+          "name": "round window",
+          "synonyms": [
+            "barn window"
+          ],
+          "count": 1,
+          "position": "on the barn, above the door",
+          "attributes": [
+            "circular"
+          ],
+          "action": ""
+        },
+        {
+          "name": "sun",
+          "synonyms": [
+            "sunshine"
+          ],
+          "count": 1,
+          "position": "top right corner",
+          "attributes": [
+            "round"
+          ],
+          "action": "shining"
+        },
+        {
+          "name": "fence",
+          "synonyms": [
+            "gate",
+            "railing"
+          ],
+          "count": 1,
+          "position": "in the center of the picture",
+          "attributes": [
+            "made of vertical and horizontal bars"
+          ],
+          "action": ""
+        },
+        {
+          "name": "cow",
+          "synonyms": [
+            "cattle"
+          ],
+          "count": 1,
+          "position": "center-right of the picture",
+          "attributes": [
+            "has horns",
+            "has spots",
+            "four legs"
+          ],
+          "action": "standing"
+        },
+        {
+          "name": "horns",
+          "synonyms": [
+            "cow horns"
+          ],
+          "count": 2,
+          "position": "on the cow's head",
+          "attributes": [
+            "curved",
+            "small"
+          ],
+          "action": ""
+        },
+        {
+          "name": "spots",
+          "synonyms": [
+            "cow spots",
+            "patches"
+          ],
+          "count": 2,
+          "position": "on the cow's body",
+          "attributes": [
+            "round"
+          ],
+          "action": ""
+        },
+        {
+          "name": "chicken",
+          "synonyms": [
+            "hen"
+          ],
+          "count": 1,
+          "position": "on the right side of the picture",
+          "attributes": [
+            "has a beak",
+            "has legs"
+          ],
+          "action": "standing"
+        },
+        {
+          "name": "beak",
+          "synonyms": [
+            "chicken beak"
+          ],
+          "count": 1,
+          "position": "on the chicken's head",
+          "attributes": [
+            "pointed",
+            "triangular"
+          ],
+          "action": ""
+        },
+        {
+          "name": "clouds",
+          "synonyms": [
+            "cloud group"
+          ],
+          "count": 3,
+          "position": "top left corner",
+          "attributes": [
+            "grouped together"
+          ],
+          "action": "floating"
+        },
+        {
+          "name": "ground",
+          "synonyms": [
+            "field",
+            "grass"
+          ],
+          "count": 1,
+          "position": "the bottom part of the picture",
+          "attributes": [
+            "flat",
+            "horizontal line"
+          ],
+          "action": ""
+        },
+        {
+          "name": "sky",
+          "synonyms": [
+            "background"
+          ],
+          "count": 1,
+          "position": "upper part of the picture",
+          "attributes": [
+            "open"
+          ],
+          "action": ""
+        },
+        {
+          "name": "fence posts",
+          "synonyms": [
+            "poles"
+          ],
+          "count": 4,
+          "position": "part of the fence",
+          "attributes": [
+            "vertical"
+          ],
+          "action": ""
+        },
+        {
+          "name": "cow legs",
+          "synonyms": [
+            "legs"
+          ],
+          "count": 2,
+          "position": "under the cow's body, visible pair",
+          "attributes": [
+            "straight"
+          ],
+          "action": ""
+        },
+        {
+          "name": "chicken legs",
+          "synonyms": [
+            "legs"
+          ],
+          "count": 1,
+          "position": "under the chicken",
+          "attributes": [
+            "thin"
+          ],
+          "action": ""
+        },
+        {
+          "name": "cow tail",
+          "synonyms": [
+            "tail"
+          ],
+          "count": 0,
+          "position": "not clearly drawn, optional detail",
+          "attributes": [],
+          "action": ""
+        },
+        {
+          "name": "barn wall",
+          "synonyms": [
+            "wall"
+          ],
+          "count": 1,
+          "position": "the main structure of the barn",
+          "attributes": [
+            "rectangular"
+          ],
+          "action": ""
+        },
+        {
+          "name": "eyes",
+          "synonyms": [
+            "cow eye",
+            "chicken eye"
+          ],
+          "count": 2,
+          "position": "on the animals' faces",
+          "attributes": [
+            "small",
+            "round"
+          ],
+          "action": ""
+        },
+        {
+          "name": "field",
+          "synonyms": [
+            "pasture"
+          ],
+          "count": 1,
+          "position": "the open area around the barn",
+          "attributes": [
+            "wide",
+            "open"
+          ],
+          "action": ""
+        }
+      ]
+    },
+    {
+      "id": "04_beach",
+      "title": "Beach",
+      "objects": [
+        {
+          "name": "sun",
+          "synonyms": [
+            "sunshine"
+          ],
+          "count": 1,
+          "position": "top right corner",
+          "attributes": [
+            "round"
+          ],
+          "action": "shining"
+        },
+        {
+          "name": "clouds",
+          "synonyms": [
+            "cloud group"
+          ],
+          "count": 3,
+          "position": "top left corner",
+          "attributes": [
+            "grouped together"
+          ],
+          "action": "floating"
+        },
+        {
+          "name": "sea",
+          "synonyms": [
+            "ocean",
+            "waves",
+            "water"
+          ],
+          "count": 1,
+          "position": "across the middle of the picture",
+          "attributes": [
+            "wavy line"
+          ],
+          "action": "flowing"
+        },
+        {
+          "name": "beach umbrella",
+          "synonyms": [
+            "parasol"
+          ],
+          "count": 1,
+          "position": "left-center of the picture",
+          "attributes": [
+            "triangular top",
+            "standing in the sand"
+          ],
+          "action": ""
+        },
+        {
+          "name": "towel",
+          "synonyms": [
+            "beach towel",
+            "blanket"
+          ],
+          "count": 1,
+          "position": "in the center of the picture",
+          "attributes": [
+            "striped pattern",
+            "rectangular"
+          ],
+          "action": ""
+        },
+        {
+          "name": "palm tree",
+          "synonyms": [
+            "coconut tree"
+          ],
+          "count": 1,
+          "position": "right of center",
+          "attributes": [
+            "curved trunk",
+            "leaves at the top"
+          ],
+          "action": ""
+        },
+        {
+          "name": "crab",
+          "synonyms": [
+            "sea creature"
+          ],
+          "count": 1,
+          "position": "bottom left corner",
+          "attributes": [
+            "has claws",
+            "has legs"
+          ],
+          "action": "walking"
+        },
+        {
+          "name": "claws",
+          "synonyms": [
+            "crab claws",
+            "pincers"
+          ],
+          "count": 2,
+          "position": "on the crab",
+          "attributes": [
+            "pointed"
+          ],
+          "action": ""
+        },
+        {
+          "name": "boat",
+          "synonyms": [
+            "sailboat",
+            "ship"
+          ],
+          "count": 1,
+          "position": "far right, on the horizon",
+          "attributes": [
+            "small",
+            "has a sail or mast"
+          ],
+          "action": "sailing"
+        },
+        {
+          "name": "sand",
+          "synonyms": [
+            "beach",
+            "shore"
+          ],
+          "count": 1,
+          "position": "the lower part of the picture",
+          "attributes": [
+            "flat area below the sea line"
+          ],
+          "action": ""
+        },
+        {
+          "name": "horizon",
+          "synonyms": [
+            "sea line"
+          ],
+          "count": 1,
+          "position": "where the sea meets the sky",
+          "attributes": [
+            "wavy horizontal line"
+          ],
+          "action": ""
+        },
+        {
+          "name": "sky",
+          "synonyms": [
+            "background"
+          ],
+          "count": 1,
+          "position": "upper part of the picture",
+          "attributes": [
+            "open"
+          ],
+          "action": ""
+        },
+        {
+          "name": "umbrella pole",
+          "synonyms": [
+            "stand"
+          ],
+          "count": 1,
+          "position": "under the umbrella",
+          "attributes": [
+            "vertical line"
+          ],
+          "action": ""
+        },
+        {
+          "name": "towel stripes",
+          "synonyms": [
+            "stripes"
+          ],
+          "count": 3,
+          "position": "on the towel",
+          "attributes": [
+            "vertical lines"
+          ],
+          "action": ""
+        },
+        {
+          "name": "palm leaves",
+          "synonyms": [
+            "fronds"
+          ],
+          "count": 4,
+          "position": "on top of the palm tree",
+          "attributes": [
+            "curved",
+            "long"
+          ],
+          "action": ""
+        },
+        {
+          "name": "crab legs",
+          "synonyms": [
+            "legs"
+          ],
+          "count": 4,
+          "position": "under the crab's body",
+          "attributes": [
+            "thin",
+            "bent"
+          ],
+          "action": ""
+        },
+        {
+          "name": "mast",
+          "synonyms": [
+            "sail post"
+          ],
+          "count": 1,
+          "position": "on the boat",
+          "attributes": [
+            "vertical line"
+          ],
+          "action": ""
+        },
+        {
+          "name": "waves",
+          "synonyms": [
+            "ripples"
+          ],
+          "count": 1,
+          "position": "pattern across the sea",
+          "attributes": [
+            "repeating curved lines"
+          ],
+          "action": ""
+        },
+        {
+          "name": "shadow",
+          "synonyms": [
+            "umbrella shadow"
+          ],
+          "count": 0,
+          "position": "under the umbrella, optional detail",
+          "attributes": [],
+          "action": ""
+        },
+        {
+          "name": "sun rays",
+          "synonyms": [
+            "sunbeams"
+          ],
+          "count": 0,
+          "position": "around the sun, optional detail",
+          "attributes": [],
+          "action": ""
+        }
+      ]
+    },
+    {
+      "id": "05_park",
+      "title": "Park",
+      "objects": [
+        {
+          "name": "pond",
+          "synonyms": [
+            "lake",
+            "pool"
+          ],
+          "count": 1,
+          "position": "right side of the picture",
+          "attributes": [
+            "oval shaped"
+          ],
+          "action": ""
+        },
+        {
+          "name": "duck",
+          "synonyms": [
+            "bird"
+          ],
+          "count": 1,
+          "position": "on the pond",
+          "attributes": [
+            "small",
+            "round body"
+          ],
+          "action": "swimming"
+        },
+        {
+          "name": "bench",
+          "synonyms": [
+            "park bench",
+            "seat"
+          ],
+          "count": 1,
+          "position": "left-center of the picture",
+          "attributes": [
+            "has a backrest",
+            "has legs"
+          ],
+          "action": ""
+        },
+        {
+          "name": "tree",
+          "synonyms": [
+            "trees"
+          ],
+          "count": 2,
+          "position": "far left and center-right of the picture",
+          "attributes": [
+            "different sizes",
+            "round leaves"
+          ],
+          "action": ""
+        },
+        {
+          "name": "person",
+          "synonyms": [
+            "man",
+            "woman",
+            "walker"
+          ],
+          "count": 1,
+          "position": "in the center of the picture",
+          "attributes": [
+            "walking"
+          ],
+          "action": "walking a dog"
+        },
+        {
+          "name": "dog",
+          "synonyms": [
+            "puppy"
+          ],
+          "count": 1,
+          "position": "next to the person",
+          "attributes": [
+            "on a leash"
+          ],
+          "action": "walking"
+        },
+        {
+          "name": "leash",
+          "synonyms": [
+            "dog lead"
+          ],
+          "count": 1,
+          "position": "connecting the person and the dog",
+          "attributes": [
+            "thin line"
+          ],
+          "action": ""
+        },
+        {
+          "name": "sun",
+          "synonyms": [
+            "sunshine"
+          ],
+          "count": 1,
+          "position": "top right corner",
+          "attributes": [
+            "round"
+          ],
+          "action": "shining"
+        },
+        {
+          "name": "flowers",
+          "synonyms": [
+            "blossoms"
+          ],
+          "count": 3,
+          "position": "bottom center of the picture",
+          "attributes": [
+            "small",
+            "in a row"
+          ],
+          "action": "growing"
+        },
+        {
+          "name": "bench legs",
+          "synonyms": [
+            "legs"
+          ],
+          "count": 2,
+          "position": "under the bench",
+          "attributes": [
+            "vertical"
+          ],
+          "action": ""
+        },
+        {
+          "name": "bench backrest",
+          "synonyms": [
+            "back support"
+          ],
+          "count": 1,
+          "position": "part of the bench",
+          "attributes": [
+            "horizontal bar"
+          ],
+          "action": ""
+        },
+        {
+          "name": "grass",
+          "synonyms": [
+            "lawn",
+            "ground"
+          ],
+          "count": 1,
+          "position": "the bottom part of the picture",
+          "attributes": [
+            "flat",
+            "horizontal line"
+          ],
+          "action": ""
+        },
+        {
+          "name": "sky",
+          "synonyms": [
+            "background"
+          ],
+          "count": 1,
+          "position": "upper part of the picture",
+          "attributes": [
+            "open"
+          ],
+          "action": ""
+        },
+        {
+          "name": "tree trunk",
+          "synonyms": [
+            "stem"
+          ],
+          "count": 2,
+          "position": "under each tree's leaves",
+          "attributes": [
+            "vertical"
+          ],
+          "action": ""
+        },
+        {
+          "name": "tree leaves",
+          "synonyms": [
+            "foliage",
+            "canopy"
+          ],
+          "count": 2,
+          "position": "on top of each tree",
+          "attributes": [
+            "round shape"
+          ],
+          "action": ""
+        },
+        {
+          "name": "duck head",
+          "synonyms": [
+            "head"
+          ],
+          "count": 1,
+          "position": "part of the duck",
+          "attributes": [
+            "small circle"
+          ],
+          "action": ""
+        },
+        {
+          "name": "person's arms",
+          "synonyms": [
+            "arms"
+          ],
+          "count": 2,
+          "position": "on the walking person",
+          "attributes": [
+            "one holding the leash"
+          ],
+          "action": ""
+        },
+        {
+          "name": "person's legs",
+          "synonyms": [
+            "legs"
+          ],
+          "count": 2,
+          "position": "on the walking person",
+          "attributes": [
+            "mid-stride"
+          ],
+          "action": ""
+        },
+        {
+          "name": "dog's ears",
+          "synonyms": [
+            "ears"
+          ],
+          "count": 0,
+          "position": "not clearly drawn, optional detail",
+          "attributes": [],
+          "action": ""
+        },
+        {
+          "name": "water ripples",
+          "synonyms": [
+            "ripples"
+          ],
+          "count": 0,
+          "position": "on the pond, optional detail",
+          "attributes": [],
+          "action": ""
+        }
+      ]
+    },
+    {
+      "id": "06_kitchen",
+      "title": "Kitchen",
+      "objects": [
+        {
+          "name": "counter",
+          "synonyms": [
+            "kitchen counter",
+            "worktop"
+          ],
+          "count": 1,
+          "position": "along the bottom of the picture",
+          "attributes": [
+            "spans the whole width"
+          ],
+          "action": ""
+        },
+        {
+          "name": "cabinets",
+          "synonyms": [
+            "cupboards"
+          ],
+          "count": 3,
+          "position": "under the counter",
+          "attributes": [
+            "each has a handle"
+          ],
+          "action": ""
+        },
+        {
+          "name": "handle",
+          "synonyms": [
+            "cabinet handle"
+          ],
+          "count": 3,
+          "position": "on each cabinet door",
+          "attributes": [
+            "small",
+            "horizontal"
+          ],
+          "action": ""
+        },
+        {
+          "name": "fridge",
+          "synonyms": [
+            "refrigerator"
+          ],
+          "count": 1,
+          "position": "on the right side of the picture",
+          "attributes": [
+            "tall",
+            "has a handle",
+            "divided into two sections"
+          ],
+          "action": ""
+        },
+        {
+          "name": "window",
+          "synonyms": [
+            "kitchen window"
+          ],
+          "count": 1,
+          "position": "top left of the picture",
+          "attributes": [
+            "divided into panes"
+          ],
+          "action": ""
+        },
+        {
+          "name": "kettle",
+          "synonyms": [
+            "teapot"
+          ],
+          "count": 1,
+          "position": "on the counter, right-center",
+          "attributes": [
+            "has a spout",
+            "has steam"
+          ],
+          "action": "boiling"
+        },
+        {
+          "name": "steam",
+          "synonyms": [
+            "kettle steam"
+          ],
+          "count": 1,
+          "position": "coming from the kettle",
+          "attributes": [
+            "curved lines"
+          ],
+          "action": ""
+        },
+        {
+          "name": "fruit bowl",
+          "synonyms": [
+            "bowl"
+          ],
+          "count": 1,
+          "position": "on the counter, center-left",
+          "attributes": [
+            "contains pieces of fruit"
+          ],
+          "action": ""
+        },
+        {
+          "name": "fruit",
+          "synonyms": [
+            "apples",
+            "oranges"
+          ],
+          "count": 3,
+          "position": "inside the fruit bowl",
+          "attributes": [
+            "round",
+            "different sizes"
+          ],
+          "action": ""
+        },
+        {
+          "name": "clock",
+          "synonyms": [
+            "wall clock"
+          ],
+          "count": 1,
+          "position": "top center, on the wall",
+          "attributes": [
+            "round",
+            "has hands"
+          ],
+          "action": ""
+        },
+        {
+          "name": "clock hands",
+          "synonyms": [
+            "hands"
+          ],
+          "count": 2,
+          "position": "on the clock face",
+          "attributes": [
+            "pointing to a time"
+          ],
+          "action": ""
+        },
+        {
+          "name": "wall",
+          "synonyms": [
+            "background wall"
+          ],
+          "count": 1,
+          "position": "the upper part of the picture",
+          "attributes": [
+            "flat"
+          ],
+          "action": ""
+        },
+        {
+          "name": "fridge door",
+          "synonyms": [
+            "door"
+          ],
+          "count": 1,
+          "position": "part of the fridge",
+          "attributes": [
+            "has a horizontal line dividing it"
+          ],
+          "action": ""
+        },
+        {
+          "name": "fridge handle",
+          "synonyms": [
+            "handle"
+          ],
+          "count": 1,
+          "position": "on the fridge door",
+          "attributes": [
+            "vertical bar"
+          ],
+          "action": ""
+        },
+        {
+          "name": "window panes",
+          "synonyms": [
+            "glass sections"
+          ],
+          "count": 4,
+          "position": "inside the window frame",
+          "attributes": [
+            "divided by a cross"
+          ],
+          "action": ""
+        },
+        {
+          "name": "kettle spout",
+          "synonyms": [
+            "spout"
+          ],
+          "count": 1,
+          "position": "on the kettle",
+          "attributes": [
+            "curved"
+          ],
+          "action": ""
+        },
+        {
+          "name": "kettle handle",
+          "synonyms": [
+            "handle"
+          ],
+          "count": 1,
+          "position": "on top of the kettle",
+          "attributes": [
+            "arched"
+          ],
+          "action": ""
+        },
+        {
+          "name": "cabinet doors",
+          "synonyms": [
+            "doors"
+          ],
+          "count": 3,
+          "position": "under the counter",
+          "attributes": [
+            "rectangular"
+          ],
+          "action": ""
+        },
+        {
+          "name": "countertop line",
+          "synonyms": [
+            "counter edge"
+          ],
+          "count": 1,
+          "position": "top edge of the counter",
+          "attributes": [
+            "horizontal line"
+          ],
+          "action": ""
+        },
+        {
+          "name": "floor line",
+          "synonyms": [
+            "ground line"
+          ],
+          "count": 1,
+          "position": "bottom of the picture",
+          "attributes": [
+            "horizontal line"
+          ],
+          "action": ""
+        }
+      ]
+    },
+    {
+      "id": "07_forest",
+      "title": "Forest",
+      "objects": [
+        {
+          "name": "tree",
+          "synonyms": [
+            "pine tree",
+            "fir tree"
+          ],
+          "count": 3,
+          "position": "left, center and right of the picture",
+          "attributes": [
+            "pine/triangular shape",
+            "different heights"
+          ],
+          "action": ""
+        },
+        {
+          "name": "fox",
+          "synonyms": [
+            "animal"
+          ],
+          "count": 1,
+          "position": "in the center of the picture",
+          "attributes": [
+            "pointy ears",
+            "bushy tail"
+          ],
+          "action": "standing"
+        },
+        {
+          "name": "ears",
+          "synonyms": [
+            "fox ears"
+          ],
+          "count": 2,
+          "position": "on the fox's head",
+          "attributes": [
+            "pointed",
+            "triangular"
+          ],
+          "action": ""
+        },
+        {
+          "name": "tail",
+          "synonyms": [
+            "fox tail"
+          ],
+          "count": 1,
+          "position": "behind the fox",
+          "attributes": [
+            "bushy",
+            "curved"
+          ],
+          "action": ""
+        },
+        {
+          "name": "mushroom",
+          "synonyms": [
+            "toadstool",
+            "fungus"
+          ],
+          "count": 2,
+          "position": "bottom center-left of the picture",
+          "attributes": [
+            "different sizes",
+            "round caps"
+          ],
+          "action": ""
+        },
+        {
+          "name": "mushroom cap",
+          "synonyms": [
+            "cap"
+          ],
+          "count": 2,
+          "position": "on top of each mushroom",
+          "attributes": [
+            "round",
+            "curved"
+          ],
+          "action": ""
+        },
+        {
+          "name": "bird",
+          "synonyms": [
+            "birds"
+          ],
+          "count": 2,
+          "position": "top right of the picture, flying",
+          "attributes": [
+            "drawn as simple wing shapes"
+          ],
+          "action": "flying"
+        },
+        {
+          "name": "sun",
+          "synonyms": [
+            "sunshine"
+          ],
+          "count": 1,
+          "position": "top right, partly behind the trees",
+          "attributes": [
+            "round"
+          ],
+          "action": "shining"
+        },
+        {
+          "name": "ground",
+          "synonyms": [
+            "forest floor"
+          ],
+          "count": 1,
+          "position": "the bottom part of the picture",
+          "attributes": [
+            "flat",
+            "horizontal line"
+          ],
+          "action": ""
+        },
+        {
+          "name": "sky",
+          "synonyms": [
+            "background"
+          ],
+          "count": 1,
+          "position": "upper part of the picture",
+          "attributes": [
+            "open"
+          ],
+          "action": ""
+        },
+        {
+          "name": "tree trunk",
+          "synonyms": [
+            "trunk"
+          ],
+          "count": 3,
+          "position": "under each tree's foliage",
+          "attributes": [
+            "vertical",
+            "narrow"
+          ],
+          "action": ""
+        },
+        {
+          "name": "tree foliage",
+          "synonyms": [
+            "branches",
+            "needles"
+          ],
+          "count": 3,
+          "position": "the triangular part of each tree",
+          "attributes": [
+            "layered triangles"
+          ],
+          "action": ""
+        },
+        {
+          "name": "tallest tree",
+          "synonyms": [
+            "big tree"
+          ],
+          "count": 1,
+          "position": "in the center",
+          "attributes": [
+            "taller than the other two"
+          ],
+          "action": ""
+        },
+        {
+          "name": "fox eyes",
+          "synonyms": [
+            "eyes"
+          ],
+          "count": 1,
+          "position": "on the fox's face",
+          "attributes": [
+            "small",
+            "round"
+          ],
+          "action": ""
+        },
+        {
+          "name": "fox legs",
+          "synonyms": [
+            "legs"
+          ],
+          "count": 0,
+          "position": "under the fox's body, mostly hidden",
+          "attributes": [],
+          "action": ""
+        },
+        {
+          "name": "mushroom stem",
+          "synonyms": [
+            "stalk"
+          ],
+          "count": 2,
+          "position": "under each mushroom cap",
+          "attributes": [
+            "rectangular"
+          ],
+          "action": ""
+        },
+        {
+          "name": "bird wings",
+          "synonyms": [
+            "wings"
+          ],
+          "count": 2,
+          "position": "on each bird shape",
+          "attributes": [
+            "curved lines"
+          ],
+          "action": ""
+        },
+        {
+          "name": "shadows",
+          "synonyms": [
+            "shade"
+          ],
+          "count": 0,
+          "position": "under the trees, optional detail",
+          "attributes": [],
+          "action": ""
+        },
+        {
+          "name": "branches",
+          "synonyms": [
+            "twigs"
+          ],
+          "count": 0,
+          "position": "on the trees, optional detail",
+          "attributes": [],
+          "action": ""
+        },
+        {
+          "name": "forest floor texture",
+          "synonyms": [
+            "grass",
+            "leaves on the ground"
+          ],
+          "count": 0,
+          "position": "optional detail on the ground",
+          "attributes": [],
+          "action": ""
+        }
+      ]
+    },
+    {
+      "id": "08_space",
+      "title": "Space",
+      "objects": [
+        {
+          "name": "rocket",
+          "synonyms": [
+            "spaceship"
+          ],
+          "count": 1,
+          "position": "in the center of the picture",
+          "attributes": [
+            "pointed nose",
+            "round window",
+            "fins",
+            "flame at the bottom"
+          ],
+          "action": "launching"
+        },
+        {
+          "name": "rocket window",
+          "synonyms": [
+            "porthole"
+          ],
+          "count": 1,
+          "position": "on the rocket, upper part",
+          "attributes": [
+            "circular"
+          ],
+          "action": ""
+        },
+        {
+          "name": "rocket fins",
+          "synonyms": [
+            "wings"
+          ],
+          "count": 2,
+          "position": "at the bottom of the rocket",
+          "attributes": [
+            "triangular"
+          ],
+          "action": ""
+        },
+        {
+          "name": "flame",
+          "synonyms": [
+            "fire",
+            "exhaust"
+          ],
+          "count": 1,
+          "position": "coming out of the bottom of the rocket",
+          "attributes": [
+            "triangular",
+            "pointed downward"
+          ],
+          "action": ""
+        },
+        {
+          "name": "planet",
+          "synonyms": [
+            "planets"
+          ],
+          "count": 2,
+          "position": "right side and left side of the picture",
+          "attributes": [
+            "one has a ring",
+            "one has craters"
+          ],
+          "action": ""
+        },
+        {
+          "name": "ring",
+          "synonyms": [
+            "planet ring"
+          ],
+          "count": 1,
+          "position": "around the right planet",
+          "attributes": [
+            "oval",
+            "wraps around the planet"
+          ],
+          "action": ""
+        },
+        {
+          "name": "craters",
+          "synonyms": [
+            "moon craters"
+          ],
+          "count": 3,
+          "position": "on the left planet",
+          "attributes": [
+            "small circles"
+          ],
+          "action": ""
+        },
+        {
+          "name": "astronaut",
+          "synonyms": [
+            "spaceman"
+          ],
+          "count": 1,
+          "position": "top right of the picture",
+          "attributes": [
+            "round helmet",
+            "wears a suit",
+            "arms and legs out"
+          ],
+          "action": "floating"
+        },
+        {
+          "name": "helmet",
+          "synonyms": [
+            "astronaut helmet"
+          ],
+          "count": 1,
+          "position": "on the astronaut's head",
+          "attributes": [
+            "round",
+            "has a visor"
+          ],
+          "action": ""
+        },
+        {
+          "name": "suit",
+          "synonyms": [
+            "spacesuit"
+          ],
+          "count": 1,
+          "position": "on the astronaut's body",
+          "attributes": [
+            "rounded",
+            "bulky"
+          ],
+          "action": ""
+        },
+        {
+          "name": "stars",
+          "synonyms": [
+            "star",
+            "starlight"
+          ],
+          "count": 7,
+          "position": "scattered across the background",
+          "attributes": [
+            "small dots"
+          ],
+          "action": ""
+        },
+        {
+          "name": "sky",
+          "synonyms": [
+            "space background"
+          ],
+          "count": 1,
+          "position": "the whole background",
+          "attributes": [
+            "dark",
+            "empty space"
+          ],
+          "action": ""
+        },
+        {
+          "name": "rocket body",
+          "synonyms": [
+            "hull"
+          ],
+          "count": 1,
+          "position": "the main part of the rocket",
+          "attributes": [
+            "long",
+            "cylindrical"
+          ],
+          "action": ""
+        },
+        {
+          "name": "astronaut arms",
+          "synonyms": [
+            "arms"
+          ],
+          "count": 2,
+          "position": "on the astronaut",
+          "attributes": [
+            "stretched out"
+          ],
+          "action": ""
+        },
+        {
+          "name": "astronaut legs",
+          "synonyms": [
+            "legs"
+          ],
+          "count": 2,
+          "position": "on the astronaut",
+          "attributes": [
+            "stretched out"
+          ],
+          "action": ""
+        },
+        {
+          "name": "planet rings texture",
+          "synonyms": [
+            "ring lines"
+          ],
+          "count": 0,
+          "position": "optional detail on the ring",
+          "attributes": [],
+          "action": ""
+        },
+        {
+          "name": "moon",
+          "synonyms": [
+            "small moon"
+          ],
+          "count": 1,
+          "position": "the cratered planet, could be called a moon",
+          "attributes": [
+            "gray",
+            "round"
+          ],
+          "action": ""
+        },
+        {
+          "name": "nose cone",
+          "synonyms": [
+            "tip"
+          ],
+          "count": 1,
+          "position": "the top of the rocket",
+          "attributes": [
+            "pointed"
+          ],
+          "action": ""
+        },
+        {
+          "name": "visor",
+          "synonyms": [
+            "helmet glass"
+          ],
+          "count": 0,
+          "position": "on the helmet, optional detail",
+          "attributes": [],
+          "action": ""
+        },
+        {
+          "name": "space background texture",
+          "synonyms": [
+            "darkness"
+          ],
+          "count": 0,
+          "position": "the empty area, optional detail",
+          "attributes": [],
+          "action": ""
+        }
+      ]
+    },
+    {
+      "id": "09_winter",
+      "title": "Winter",
+      "objects": [
+        {
+          "name": "snowman",
+          "synonyms": [
+            "snow figure"
+          ],
+          "count": 1,
+          "position": "in the center of the picture",
+          "attributes": [
+            "three round sections",
+            "carrot nose",
+            "two eyes",
+            "buttons",
+            "two stick arms"
+          ],
+          "action": "standing"
+        },
+        {
+          "name": "carrot nose",
+          "synonyms": [
+            "nose"
+          ],
+          "count": 1,
+          "position": "on the snowman's face",
+          "attributes": [
+            "triangular",
+            "pointed"
+          ],
+          "action": ""
+        },
+        {
+          "name": "eyes",
+          "synonyms": [
+            "snowman eyes"
+          ],
+          "count": 2,
+          "position": "on the snowman's head",
+          "attributes": [
+            "small",
+            "round"
+          ],
+          "action": ""
+        },
+        {
+          "name": "buttons",
+          "synonyms": [
+            "snowman buttons"
+          ],
+          "count": 3,
+          "position": "on the snowman's body",
+          "attributes": [
+            "round",
+            "in a vertical row"
+          ],
+          "action": ""
+        },
+        {
+          "name": "arms",
+          "synonyms": [
+            "stick arms"
+          ],
+          "count": 2,
+          "position": "on the sides of the snowman",
+          "attributes": [
+            "thin",
+            "branch-like"
+          ],
+          "action": ""
+        },
+        {
+          "name": "tree",
+          "synonyms": [
+            "snow-covered trees"
+          ],
+          "count": 2,
+          "position": "on the left side of the picture",
+          "attributes": [
+            "snow-covered",
+            "triangular"
+          ],
+          "action": ""
+        },
+        {
+          "name": "dark spots",
+          "synonyms": [
+            "ornaments",
+            "marks on the trees"
+          ],
+          "count": 2,
+          "position": "on the trees",
+          "attributes": [
+            "small circles"
+          ],
+          "action": ""
+        },
+        {
+          "name": "house",
+          "synonyms": [
+            "cottage"
+          ],
+          "count": 1,
+          "position": "on the right side of the picture",
+          "attributes": [
+            "triangular roof",
+            "one window"
+          ],
+          "action": ""
+        },
+        {
+          "name": "window",
+          "synonyms": [
+            "house window"
+          ],
+          "count": 1,
+          "position": "on the house",
+          "attributes": [
+            "rectangular"
+          ],
+          "action": ""
+        },
+        {
+          "name": "roof",
+          "synonyms": [
+            "rooftop"
+          ],
+          "count": 1,
+          "position": "on top of the house",
+          "attributes": [
+            "triangular",
+            "snow-covered"
+          ],
+          "action": ""
+        },
+        {
+          "name": "snowflakes",
+          "synonyms": [
+            "snow",
+            "flakes"
+          ],
+          "count": 6,
+          "position": "scattered in the sky",
+          "attributes": [
+            "small dots"
+          ],
+          "action": "falling"
+        },
+        {
+          "name": "ground",
+          "synonyms": [
+            "snow-covered ground"
+          ],
+          "count": 1,
+          "position": "the bottom part of the picture",
+          "attributes": [
+            "flat",
+            "horizontal line"
+          ],
+          "action": ""
+        },
+        {
+          "name": "sky",
+          "synonyms": [
+            "background"
+          ],
+          "count": 1,
+          "position": "upper part of the picture",
+          "attributes": [
+            "open"
+          ],
+          "action": ""
+        },
+        {
+          "name": "snowman head",
+          "synonyms": [
+            "head"
+          ],
+          "count": 1,
+          "position": "the top section of the snowman",
+          "attributes": [
+            "smallest circle"
+          ],
+          "action": ""
+        },
+        {
+          "name": "snowman body",
+          "synonyms": [
+            "middle section"
+          ],
+          "count": 1,
+          "position": "the middle part of the snowman",
+          "attributes": [
+            "medium circle"
+          ],
+          "action": ""
+        },
+        {
+          "name": "snowman base",
+          "synonyms": [
+            "bottom section"
+          ],
+          "count": 1,
+          "position": "the bottom part of the snowman",
+          "attributes": [
+            "largest circle"
+          ],
+          "action": ""
+        },
+        {
+          "name": "house door",
+          "synonyms": [
+            "door"
+          ],
+          "count": 0,
+          "position": "on the house, not clearly drawn, optional detail",
+          "attributes": [],
+          "action": ""
+        },
+        {
+          "name": "tree trunk",
+          "synonyms": [
+            "trunk"
+          ],
+          "count": 0,
+          "position": "under the snowy trees, mostly hidden",
+          "attributes": [],
+          "action": ""
+        },
+        {
+          "name": "hat",
+          "synonyms": [
+            "snowman hat"
+          ],
+          "count": 0,
+          "position": "on the snowman's head, optional detail to add",
+          "attributes": [],
+          "action": ""
+        },
+        {
+          "name": "scarf",
+          "synonyms": [
+            "snowman scarf"
+          ],
+          "count": 0,
+          "position": "around the snowman's neck, optional detail to add",
+          "attributes": [],
+          "action": ""
+        }
+      ]
+    },
+    {
+      "id": "10_airport",
+      "title": "Airport",
+      "objects": [
+        {
+          "name": "airplane",
+          "synonyms": [
+            "plane",
+            "aircraft"
+          ],
+          "count": 1,
+          "position": "top-center of the picture, in the sky",
+          "attributes": [
+            "oval body",
+            "wings",
+            "tail",
+            "windows in a row"
+          ],
+          "action": "flying"
+        },
+        {
+          "name": "wings",
+          "synonyms": [
+            "airplane wings"
+          ],
+          "count": 2,
+          "position": "on the sides of the airplane",
+          "attributes": [
+            "triangular"
+          ],
+          "action": ""
+        },
+        {
+          "name": "tail",
+          "synonyms": [
+            "airplane tail"
+          ],
+          "count": 1,
+          "position": "at the back of the airplane",
+          "attributes": [
+            "triangular"
+          ],
+          "action": ""
+        },
+        {
+          "name": "airplane windows",
+          "synonyms": [
+            "portholes"
+          ],
+          "count": 4,
+          "position": "along the side of the airplane",
+          "attributes": [
+            "small circles",
+            "in a row"
+          ],
+          "action": ""
+        },
+        {
+          "name": "terminal building",
+          "synonyms": [
+            "airport building"
+          ],
+          "count": 1,
+          "position": "bottom right of the picture",
+          "attributes": [
+            "long",
+            "has five square windows"
+          ],
+          "action": ""
+        },
+        {
+          "name": "control tower",
+          "synonyms": [
+            "tower"
+          ],
+          "count": 1,
+          "position": "bottom left of the picture",
+          "attributes": [
+            "tall",
+            "has an oval top"
+          ],
+          "action": ""
+        },
+        {
+          "name": "suitcase",
+          "synonyms": [
+            "luggage",
+            "bag"
+          ],
+          "count": 1,
+          "position": "bottom center of the picture",
+          "attributes": [
+            "rectangular",
+            "has a handle"
+          ],
+          "action": ""
+        },
+        {
+          "name": "handle",
+          "synonyms": [
+            "suitcase handle"
+          ],
+          "count": 1,
+          "position": "on top of the suitcase",
+          "attributes": [
+            "rectangular"
+          ],
+          "action": ""
+        },
+        {
+          "name": "sun",
+          "synonyms": [
+            "sunshine"
+          ],
+          "count": 1,
+          "position": "top left of the picture",
+          "attributes": [
+            "round"
+          ],
+          "action": "shining"
+        },
+        {
+          "name": "clouds",
+          "synonyms": [
+            "cloud group"
+          ],
+          "count": 3,
+          "position": "top center of the picture",
+          "attributes": [
+            "grouped together"
+          ],
+          "action": "floating"
+        },
+        {
+          "name": "terminal windows",
+          "synonyms": [
+            "windows"
+          ],
+          "count": 5,
+          "position": "along the terminal building",
+          "attributes": [
+            "square",
+            "evenly spaced"
+          ],
+          "action": ""
+        },
+        {
+          "name": "nose of the plane",
+          "synonyms": [
+            "front of the plane"
+          ],
+          "count": 1,
+          "position": "the front part of the airplane",
+          "attributes": [
+            "rounded"
+          ],
+          "action": ""
+        },
+        {
+          "name": "cockpit",
+          "synonyms": [
+            "front section"
+          ],
+          "count": 0,
+          "position": "at the front of the plane, optional detail",
+          "attributes": [],
+          "action": ""
+        },
+        {
+          "name": "runway",
+          "synonyms": [
+            "ground",
+            "tarmac"
+          ],
+          "count": 1,
+          "position": "the bottom part of the picture",
+          "attributes": [
+            "flat",
+            "horizontal line"
+          ],
+          "action": ""
+        },
+        {
+          "name": "sky",
+          "synonyms": [
+            "background"
+          ],
+          "count": 1,
+          "position": "upper part of the picture",
+          "attributes": [
+            "open"
+          ],
+          "action": ""
+        },
+        {
+          "name": "tower dome",
+          "synonyms": [
+            "oval top"
+          ],
+          "count": 1,
+          "position": "on top of the control tower",
+          "attributes": [
+            "oval shaped"
+          ],
+          "action": ""
+        },
+        {
+          "name": "plane engines",
+          "synonyms": [
+            "engines"
+          ],
+          "count": 0,
+          "position": "under the wings, optional detail",
+          "attributes": [],
+          "action": ""
+        },
+        {
+          "name": "terminal roof",
+          "synonyms": [
+            "roof line"
+          ],
+          "count": 0,
+          "position": "on top of the terminal, optional detail",
+          "attributes": [],
+          "action": ""
+        },
+        {
+          "name": "wheels",
+          "synonyms": [
+            "landing gear"
+          ],
+          "count": 0,
+          "position": "under the plane, not drawn, optional detail",
+          "attributes": [],
+          "action": ""
+        },
+        {
+          "name": "suitcase stripes",
+          "synonyms": [
+            "pattern"
+          ],
+          "count": 0,
+          "position": "on the suitcase, optional detail",
+          "attributes": [],
+          "action": ""
+        }
+      ]
+    },
+    {
+      "id": "11_classroom",
+      "title": "Classroom",
+      "objects": [
+        {
+          "name": "blackboard",
+          "synonyms": [
+            "chalkboard",
+            "board"
+          ],
+          "count": 1,
+          "position": "top left of the picture",
+          "attributes": [
+            "rectangular",
+            "has writing on it"
+          ],
+          "action": ""
+        },
+        {
+          "name": "writing",
+          "synonyms": [
+            "chalk marks",
+            "text"
+          ],
+          "count": 1,
+          "position": "on the blackboard",
+          "attributes": [
+            "lines representing words"
+          ],
+          "action": ""
+        },
+        {
+          "name": "teacher's desk",
+          "synonyms": [
+            "front desk"
+          ],
+          "count": 1,
+          "position": "in front of the blackboard",
+          "attributes": [
+            "rectangular",
+            "has legs"
+          ],
+          "action": ""
+        },
+        {
+          "name": "student desk",
+          "synonyms": [
+            "desks"
+          ],
+          "count": 2,
+          "position": "center and right of the picture",
+          "attributes": [
+            "rectangular",
+            "have legs"
+          ],
+          "action": ""
+        },
+        {
+          "name": "chair",
+          "synonyms": [
+            "stool",
+            "seat"
+          ],
+          "count": 2,
+          "position": "in front of each student desk",
+          "attributes": [
+            "round seat"
+          ],
+          "action": ""
+        },
+        {
+          "name": "window",
+          "synonyms": [
+            "classroom window"
+          ],
+          "count": 1,
+          "position": "top right of the picture",
+          "attributes": [
+            "divided into panes"
+          ],
+          "action": ""
+        },
+        {
+          "name": "clock",
+          "synonyms": [
+            "wall clock"
+          ],
+          "count": 1,
+          "position": "above the desks, on the wall",
+          "attributes": [
+            "round",
+            "has hands"
+          ],
+          "action": ""
+        },
+        {
+          "name": "clock hands",
+          "synonyms": [
+            "hands"
+          ],
+          "count": 2,
+          "position": "on the clock face",
+          "attributes": [
+            "pointing to a time"
+          ],
+          "action": ""
+        },
+        {
+          "name": "bookshelf",
+          "synonyms": [
+            "shelf",
+            "bookcase"
+          ],
+          "count": 1,
+          "position": "bottom left of the picture",
+          "attributes": [
+            "has two shelves"
+          ],
+          "action": ""
+        },
+        {
+          "name": "desk legs",
+          "synonyms": [
+            "legs"
+          ],
+          "count": 0,
+          "position": "under each desk",
+          "attributes": [
+            "vertical"
+          ],
+          "action": ""
+        },
+        {
+          "name": "window panes",
+          "synonyms": [
+            "glass sections"
+          ],
+          "count": 4,
+          "position": "inside the window frame",
+          "attributes": [
+            "divided by a cross"
+          ],
+          "action": ""
+        },
+        {
+          "name": "floor",
+          "synonyms": [
+            "ground"
+          ],
+          "count": 1,
+          "position": "the bottom part of the picture",
+          "attributes": [
+            "flat",
+            "horizontal line"
+          ],
+          "action": ""
+        },
+        {
+          "name": "wall",
+          "synonyms": [
+            "background wall"
+          ],
+          "count": 1,
+          "position": "the upper part of the picture",
+          "attributes": [
+            "flat"
+          ],
+          "action": ""
+        },
+        {
+          "name": "blackboard frame",
+          "synonyms": [
+            "border"
+          ],
+          "count": 0,
+          "position": "around the blackboard, optional detail",
+          "attributes": [],
+          "action": ""
+        },
+        {
+          "name": "teacher's desk drawer",
+          "synonyms": [
+            "drawer"
+          ],
+          "count": 0,
+          "position": "on the teacher's desk, optional detail",
+          "attributes": [],
+          "action": ""
+        },
+        {
+          "name": "bookshelf books",
+          "synonyms": [
+            "books"
+          ],
+          "count": 0,
+          "position": "on the shelves, optional detail to add",
+          "attributes": [],
+          "action": ""
+        },
+        {
+          "name": "desk pair",
+          "synonyms": [
+            "row of desks"
+          ],
+          "count": 1,
+          "position": "the two student desks together",
+          "attributes": [
+            "side by side"
+          ],
+          "action": ""
+        },
+        {
+          "name": "clock numbers",
+          "synonyms": [
+            "numbers"
+          ],
+          "count": 0,
+          "position": "on the clock face, optional detail",
+          "attributes": [],
+          "action": ""
+        },
+        {
+          "name": "chair legs",
+          "synonyms": [
+            "legs"
+          ],
+          "count": 0,
+          "position": "under each chair",
+          "attributes": [
+            "vertical"
+          ],
+          "action": ""
+        },
+        {
+          "name": "classroom",
+          "synonyms": [
+            "room"
+          ],
+          "count": 1,
+          "position": "the whole scene",
+          "attributes": [
+            "indoor setting"
+          ],
+          "action": ""
+        }
+      ]
+    },
+    {
+      "id": "12_zoo",
+      "title": "Zoo",
+      "objects": [
+        {
+          "name": "sun",
+          "synonyms": [
+            "sunshine"
+          ],
+          "count": 1,
+          "position": "top right corner",
+          "attributes": [
+            "round"
+          ],
+          "action": "shining"
+        },
+        {
+          "name": "elephant",
+          "synonyms": [
+            "animal"
+          ],
+          "count": 1,
+          "position": "left side of the picture",
+          "attributes": [
+            "big ears",
+            "trunk",
+            "four legs"
+          ],
+          "action": "standing"
+        },
+        {
+          "name": "trunk",
+          "synonyms": [
+            "elephant trunk"
+          ],
+          "count": 1,
+          "position": "on the elephant's face",
+          "attributes": [
+            "long",
+            "curved"
+          ],
+          "action": ""
+        },
+        {
+          "name": "ear",
+          "synonyms": [
+            "elephant ear"
+          ],
+          "count": 1,
+          "position": "on the elephant's head",
+          "attributes": [
+            "large",
+            "round"
+          ],
+          "action": ""
+        },
+        {
+          "name": "elephant legs",
+          "synonyms": [
+            "legs"
+          ],
+          "count": 2,
+          "position": "under the elephant's body",
+          "attributes": [
+            "thick"
+          ],
+          "action": ""
+        },
+        {
+          "name": "giraffe",
+          "synonyms": [
+            "animal"
+          ],
+          "count": 1,
+          "position": "center of the picture",
+          "attributes": [
+            "long neck",
+            "spots",
+            "horns"
+          ],
+          "action": "standing"
+        },
+        {
+          "name": "neck",
+          "synonyms": [
+            "giraffe neck"
+          ],
+          "count": 1,
+          "position": "connecting the giraffe's head and body",
+          "attributes": [
+            "long"
+          ],
+          "action": ""
+        },
+        {
+          "name": "spots",
+          "synonyms": [
+            "giraffe spots",
+            "patches"
+          ],
+          "count": 2,
+          "position": "on the giraffe's neck",
+          "attributes": [
+            "oval"
+          ],
+          "action": ""
+        },
+        {
+          "name": "giraffe horns",
+          "synonyms": [
+            "horns"
+          ],
+          "count": 2,
+          "position": "on the giraffe's head",
+          "attributes": [
+            "small"
+          ],
+          "action": ""
+        },
+        {
+          "name": "giraffe legs",
+          "synonyms": [
+            "legs"
+          ],
+          "count": 2,
+          "position": "under the giraffe's body",
+          "attributes": [
+            "long",
+            "thin"
+          ],
+          "action": ""
+        },
+        {
+          "name": "lion",
+          "synonyms": [
+            "animal"
+          ],
+          "count": 1,
+          "position": "right side of the picture",
+          "attributes": [
+            "mane",
+            "round face"
+          ],
+          "action": "sitting"
+        },
+        {
+          "name": "mane",
+          "synonyms": [
+            "lion mane"
+          ],
+          "count": 1,
+          "position": "around the lion's head",
+          "attributes": [
+            "circular",
+            "fluffy"
+          ],
+          "action": ""
+        },
+        {
+          "name": "cage",
+          "synonyms": [
+            "enclosure",
+            "bars"
+          ],
+          "count": 1,
+          "position": "around the lion",
+          "attributes": [
+            "vertical bars"
+          ],
+          "action": ""
+        },
+        {
+          "name": "cage bars",
+          "synonyms": [
+            "bars"
+          ],
+          "count": 2,
+          "position": "part of the cage",
+          "attributes": [
+            "vertical lines"
+          ],
+          "action": ""
+        },
+        {
+          "name": "eyes",
+          "synonyms": [
+            "animal eyes"
+          ],
+          "count": 0,
+          "position": "on the animals' faces",
+          "attributes": [
+            "small dots"
+          ],
+          "action": ""
+        },
+        {
+          "name": "ground",
+          "synonyms": [
+            "zoo path"
+          ],
+          "count": 1,
+          "position": "the bottom part of the picture",
+          "attributes": [
+            "flat",
+            "horizontal line"
+          ],
+          "action": ""
+        },
+        {
+          "name": "sky",
+          "synonyms": [
+            "background"
+          ],
+          "count": 1,
+          "position": "upper part of the picture",
+          "attributes": [
+            "open"
+          ],
+          "action": ""
+        },
+        {
+          "name": "lion's face",
+          "synonyms": [
+            "face"
+          ],
+          "count": 1,
+          "position": "in the center of the mane",
+          "attributes": [
+            "round"
+          ],
+          "action": ""
+        },
+        {
+          "name": "giraffe head",
+          "synonyms": [
+            "head"
+          ],
+          "count": 1,
+          "position": "on top of the giraffe's neck",
+          "attributes": [
+            "small"
+          ],
+          "action": ""
+        },
+        {
+          "name": "elephant body",
+          "synonyms": [
+            "body"
+          ],
+          "count": 1,
+          "position": "the main part of the elephant",
+          "attributes": [
+            "large",
+            "oval"
+          ],
+          "action": ""
+        }
+      ]
+    },
+    {
+      "id": "13_supermarket",
+      "title": "Supermarket",
+      "objects": [
+        {
+          "name": "shelf",
+          "synonyms": [
+            "shelves",
+            "rack"
+          ],
+          "count": 1,
+          "position": "left side of the picture",
+          "attributes": [
+            "has four rows"
+          ],
+          "action": ""
+        },
+        {
+          "name": "products",
+          "synonyms": [
+            "goods",
+            "items",
+            "groceries"
+          ],
+          "count": 5,
+          "position": "on the shelves",
+          "attributes": [
+            "different shapes: cans, boxes, bottles"
+          ],
+          "action": ""
+        },
+        {
+          "name": "shopping cart",
+          "synonyms": [
+            "trolley",
+            "cart"
+          ],
+          "count": 1,
+          "position": "center of the picture",
+          "attributes": [
+            "has wheels",
+            "has a handle"
+          ],
+          "action": "being pushed"
+        },
+        {
+          "name": "cart wheels",
+          "synonyms": [
+            "wheels"
+          ],
+          "count": 2,
+          "position": "under the shopping cart",
+          "attributes": [
+            "round"
+          ],
+          "action": ""
+        },
+        {
+          "name": "cart handle",
+          "synonyms": [
+            "handle"
+          ],
+          "count": 1,
+          "position": "on the shopping cart",
+          "attributes": [
+            "horizontal bar"
+          ],
+          "action": ""
+        },
+        {
+          "name": "items in the cart",
+          "synonyms": [
+            "groceries"
+          ],
+          "count": 2,
+          "position": "inside the shopping cart",
+          "attributes": [
+            "round shapes"
+          ],
+          "action": ""
+        },
+        {
+          "name": "checkout counter",
+          "synonyms": [
+            "cash register",
+            "till"
+          ],
+          "count": 1,
+          "position": "right side of the picture",
+          "attributes": [
+            "rectangular"
+          ],
+          "action": ""
+        },
+        {
+          "name": "cash register",
+          "synonyms": [
+            "register",
+            "till machine"
+          ],
+          "count": 1,
+          "position": "on the checkout counter",
+          "attributes": [
+            "small box"
+          ],
+          "action": ""
+        },
+        {
+          "name": "person",
+          "synonyms": [
+            "shopper",
+            "customer"
+          ],
+          "count": 1,
+          "position": "center-left of the picture, near the cart",
+          "attributes": [
+            "walking"
+          ],
+          "action": "shopping"
+        },
+        {
+          "name": "shelf rows",
+          "synonyms": [
+            "rows"
+          ],
+          "count": 4,
+          "position": "part of the shelf",
+          "attributes": [
+            "horizontal lines"
+          ],
+          "action": ""
+        },
+        {
+          "name": "cans",
+          "synonyms": [
+            "tins"
+          ],
+          "count": 2,
+          "position": "on the top shelf",
+          "attributes": [
+            "round"
+          ],
+          "action": ""
+        },
+        {
+          "name": "box",
+          "synonyms": [
+            "package"
+          ],
+          "count": 1,
+          "position": "on the shelf",
+          "attributes": [
+            "rectangular"
+          ],
+          "action": ""
+        },
+        {
+          "name": "floor",
+          "synonyms": [
+            "ground"
+          ],
+          "count": 1,
+          "position": "the bottom part of the picture",
+          "attributes": [
+            "flat",
+            "horizontal line"
+          ],
+          "action": ""
+        },
+        {
+          "name": "ceiling",
+          "synonyms": [
+            "upper wall"
+          ],
+          "count": 0,
+          "position": "optional detail at the top",
+          "attributes": [],
+          "action": ""
+        },
+        {
+          "name": "person's legs",
+          "synonyms": [
+            "legs"
+          ],
+          "count": 2,
+          "position": "on the shopper",
+          "attributes": [
+            "walking pose"
+          ],
+          "action": ""
+        },
+        {
+          "name": "person's arms",
+          "synonyms": [
+            "arms"
+          ],
+          "count": 2,
+          "position": "on the shopper",
+          "attributes": [
+            "one pushing the cart"
+          ],
+          "action": ""
+        },
+        {
+          "name": "shelf legs",
+          "synonyms": [
+            "stand"
+          ],
+          "count": 0,
+          "position": "under the shelf, optional detail",
+          "attributes": [],
+          "action": ""
+        },
+        {
+          "name": "aisle",
+          "synonyms": [
+            "walkway"
+          ],
+          "count": 1,
+          "position": "the open space in front of the shelf",
+          "attributes": [
+            "wide"
+          ],
+          "action": ""
+        },
+        {
+          "name": "bottle",
+          "synonyms": [
+            "container"
+          ],
+          "count": 1,
+          "position": "on the shelf, among the products",
+          "attributes": [
+            "tall",
+            "narrow"
+          ],
+          "action": ""
+        },
+        {
+          "name": "cart basket",
+          "synonyms": [
+            "basket part"
+          ],
+          "count": 1,
+          "position": "the main container of the cart",
+          "attributes": [
+            "rectangular"
+          ],
+          "action": ""
+        }
+      ]
+    },
+    {
+      "id": "14_playground",
+      "title": "Playground",
+      "objects": [
+        {
+          "name": "sun",
+          "synonyms": [
+            "sunshine"
+          ],
+          "count": 1,
+          "position": "top right corner",
+          "attributes": [
+            "round"
+          ],
+          "action": "shining"
+        },
+        {
+          "name": "slide",
+          "synonyms": [
+            "sliding board"
+          ],
+          "count": 1,
+          "position": "left side of the picture",
+          "attributes": [
+            "triangular shape",
+            "has steps"
+          ],
+          "action": ""
+        },
+        {
+          "name": "swing set",
+          "synonyms": [
+            "swings"
+          ],
+          "count": 1,
+          "position": "center of the picture",
+          "attributes": [
+            "frame with two swings"
+          ],
+          "action": ""
+        },
+        {
+          "name": "swing",
+          "synonyms": [
+            "seat"
+          ],
+          "count": 1,
+          "position": "hanging from the swing set",
+          "attributes": [
+            "hanging from two chains"
+          ],
+          "action": ""
+        },
+        {
+          "name": "child on the swing",
+          "synonyms": [
+            "kid",
+            "boy",
+            "girl"
+          ],
+          "count": 1,
+          "position": "sitting on the swing",
+          "attributes": [
+            "round head"
+          ],
+          "action": "swinging"
+        },
+        {
+          "name": "sandbox",
+          "synonyms": [
+            "sand pit"
+          ],
+          "count": 1,
+          "position": "right side of the picture",
+          "attributes": [
+            "rectangular",
+            "contains small stones or toys"
+          ],
+          "action": ""
+        },
+        {
+          "name": "tree",
+          "synonyms": [
+            "small tree"
+          ],
+          "count": 1,
+          "position": "far left of the picture",
+          "attributes": [
+            "round leaves"
+          ],
+          "action": ""
+        },
+        {
+          "name": "ball",
+          "synonyms": [
+            "football",
+            "toy ball"
+          ],
+          "count": 1,
+          "position": "center-left of the picture, on the ground",
+          "attributes": [
+            "round",
+            "has a cross pattern"
+          ],
+          "action": ""
+        },
+        {
+          "name": "slide steps",
+          "synonyms": [
+            "ladder",
+            "stairs"
+          ],
+          "count": 1,
+          "position": "on the side of the slide",
+          "attributes": [
+            "small steps"
+          ],
+          "action": ""
+        },
+        {
+          "name": "swing frame",
+          "synonyms": [
+            "frame",
+            "posts"
+          ],
+          "count": 1,
+          "position": "supporting the swing",
+          "attributes": [
+            "two vertical posts and a bar on top"
+          ],
+          "action": ""
+        },
+        {
+          "name": "swing chains",
+          "synonyms": [
+            "ropes"
+          ],
+          "count": 2,
+          "position": "holding the swing seat",
+          "attributes": [
+            "straight lines"
+          ],
+          "action": ""
+        },
+        {
+          "name": "ground",
+          "synonyms": [
+            "playground floor"
+          ],
+          "count": 1,
+          "position": "the bottom part of the picture",
+          "attributes": [
+            "flat",
+            "horizontal line"
+          ],
+          "action": ""
+        },
+        {
+          "name": "sky",
+          "synonyms": [
+            "background"
+          ],
+          "count": 1,
+          "position": "upper part of the picture",
+          "attributes": [
+            "open"
+          ],
+          "action": ""
+        },
+        {
+          "name": "sandbox items",
+          "synonyms": [
+            "pebbles",
+            "toys"
+          ],
+          "count": 3,
+          "position": "inside the sandbox",
+          "attributes": [
+            "small dots"
+          ],
+          "action": ""
+        },
+        {
+          "name": "tree trunk",
+          "synonyms": [
+            "trunk"
+          ],
+          "count": 1,
+          "position": "under the tree's leaves",
+          "attributes": [
+            "vertical"
+          ],
+          "action": ""
+        },
+        {
+          "name": "tree leaves",
+          "synonyms": [
+            "foliage"
+          ],
+          "count": 1,
+          "position": "on top of the tree",
+          "attributes": [
+            "round shape"
+          ],
+          "action": ""
+        },
+        {
+          "name": "ball lines",
+          "synonyms": [
+            "pattern"
+          ],
+          "count": 0,
+          "position": "on the ball, cross pattern",
+          "attributes": [
+            "decoration"
+          ],
+          "action": ""
+        },
+        {
+          "name": "slide platform",
+          "synonyms": [
+            "top platform"
+          ],
+          "count": 0,
+          "position": "at the top of the slide, optional detail",
+          "attributes": [],
+          "action": ""
+        },
+        {
+          "name": "child's legs",
+          "synonyms": [
+            "legs"
+          ],
+          "count": 0,
+          "position": "on the child on the swing, mostly hidden",
+          "attributes": [],
+          "action": ""
+        },
+        {
+          "name": "playground",
+          "synonyms": [
+            "park area"
+          ],
+          "count": 1,
+          "position": "the whole scene",
+          "attributes": [
+            "outdoor setting"
+          ],
+          "action": ""
+        }
+      ]
+    },
+    {
+      "id": "15_birthday_party",
+      "title": "Birthday Party",
+      "objects": [
+        {
+          "name": "table",
+          "synonyms": [
+            "party table"
+          ],
+          "count": 1,
+          "position": "center of the picture",
+          "attributes": [
+            "rectangular",
+            "has legs"
+          ],
+          "action": ""
+        },
+        {
+          "name": "cake",
+          "synonyms": [
+            "birthday cake"
+          ],
+          "count": 1,
+          "position": "on the table, in the center",
+          "attributes": [
+            "rectangular",
+            "has two candles"
+          ],
+          "action": ""
+        },
+        {
+          "name": "candles",
+          "synonyms": [
+            "birthday candles"
+          ],
+          "count": 2,
+          "position": "on top of the cake",
+          "attributes": [
+            "thin",
+            "have a flame on top"
+          ],
+          "action": ""
+        },
+        {
+          "name": "flame",
+          "synonyms": [
+            "candle flame"
+          ],
+          "count": 2,
+          "position": "on top of each candle",
+          "attributes": [
+            "small circle"
+          ],
+          "action": ""
+        },
+        {
+          "name": "balloons",
+          "synonyms": [
+            "balloon"
+          ],
+          "count": 3,
+          "position": "top of the picture, in different positions",
+          "attributes": [
+            "round",
+            "tied with a string"
+          ],
+          "action": ""
+        },
+        {
+          "name": "balloon strings",
+          "synonyms": [
+            "strings"
+          ],
+          "count": 3,
+          "position": "hanging from each balloon",
+          "attributes": [
+            "long thin lines"
+          ],
+          "action": ""
+        },
+        {
+          "name": "gift box",
+          "synonyms": [
+            "present"
+          ],
+          "count": 1,
+          "position": "right side of the picture",
+          "attributes": [
+            "rectangular",
+            "has a ribbon and a bow"
+          ],
+          "action": ""
+        },
+        {
+          "name": "ribbon",
+          "synonyms": [
+            "gift ribbon"
+          ],
+          "count": 1,
+          "position": "on the gift box",
+          "attributes": [
+            "vertical and horizontal lines"
+          ],
+          "action": ""
+        },
+        {
+          "name": "bow",
+          "synonyms": [
+            "gift bow"
+          ],
+          "count": 1,
+          "position": "on top of the gift box",
+          "attributes": [
+            "triangular shape"
+          ],
+          "action": ""
+        },
+        {
+          "name": "child",
+          "synonyms": [
+            "kid",
+            "boy",
+            "girl"
+          ],
+          "count": 1,
+          "position": "center of the picture, near the table",
+          "attributes": [
+            "round head"
+          ],
+          "action": "standing"
+        },
+        {
+          "name": "garland",
+          "synonyms": [
+            "banner",
+            "bunting"
+          ],
+          "count": 1,
+          "position": "across the top of the picture",
+          "attributes": [
+            "curved line with triangle flags"
+          ],
+          "action": ""
+        },
+        {
+          "name": "flags",
+          "synonyms": [
+            "bunting flags",
+            "pennants"
+          ],
+          "count": 3,
+          "position": "hanging from the garland",
+          "attributes": [
+            "triangular"
+          ],
+          "action": ""
+        },
+        {
+          "name": "table legs",
+          "synonyms": [
+            "legs"
+          ],
+          "count": 2,
+          "position": "under the table",
+          "attributes": [
+            "vertical"
+          ],
+          "action": ""
+        },
+        {
+          "name": "floor",
+          "synonyms": [
+            "ground"
+          ],
+          "count": 1,
+          "position": "the bottom part of the picture",
+          "attributes": [
+            "flat",
+            "horizontal line"
+          ],
+          "action": ""
+        },
+        {
+          "name": "child's arms",
+          "synonyms": [
+            "arms"
+          ],
+          "count": 2,
+          "position": "on the child",
+          "attributes": [
+            "stretched out"
+          ],
+          "action": ""
+        },
+        {
+          "name": "child's legs",
+          "synonyms": [
+            "legs"
+          ],
+          "count": 0,
+          "position": "on the child, mostly hidden",
+          "attributes": [],
+          "action": ""
+        },
+        {
+          "name": "cake layers",
+          "synonyms": [
+            "tiers"
+          ],
+          "count": 0,
+          "position": "part of the cake, optional detail",
+          "attributes": [],
+          "action": ""
+        },
+        {
+          "name": "balloon sizes",
+          "synonyms": [
+            "different sizes"
+          ],
+          "count": 0,
+          "position": "the balloons vary in size",
+          "attributes": [
+            "one bigger, one smaller"
+          ],
+          "action": ""
+        },
+        {
+          "name": "party room",
+          "synonyms": [
+            "room"
+          ],
+          "count": 1,
+          "position": "the whole scene",
+          "attributes": [
+            "indoor setting"
+          ],
+          "action": ""
+        },
+        {
+          "name": "gift box lines",
+          "synonyms": [
+            "box edges"
+          ],
+          "count": 0,
+          "position": "on the gift box, optional detail",
+          "attributes": [],
+          "action": ""
+        }
+      ]
+    }
+  ]
+}

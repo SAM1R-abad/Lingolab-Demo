@@ -1,0 +1,32 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="black" stroke-width="4">
+<rect x="0" y="0" width="800" height="600" fill="white" stroke="none"/>
+<line x1="0" y1="500" x2="800" y2="500"/>
+<!-- snow-covered trees -->
+<polygon points="80,500 150,340 220,500"/>
+<polygon points="100,440 150,300 200,440"/>
+<circle cx="130" cy="360" r="8" fill="black"/>
+<circle cx="170" cy="410" r="8" fill="black"/>
+<!-- snowman -->
+<circle cx="450" cy="450" r="55"/>
+<circle cx="450" cy="370" r="40"/>
+<circle cx="450" cy="310" r="28"/>
+<polygon points="450,310 480,318 450,325"/>
+<circle cx="440" cy="305" r="3" fill="black"/>
+<circle cx="460" cy="305" r="3" fill="black"/>
+<circle cx="420" cy="360" r="4" fill="black"/>
+<circle cx="480" cy="360" r="4" fill="black"/>
+<circle cx="450" cy="380" r="4" fill="black"/>
+<line x1="410" y1="370" x2="370" y2="340"/>
+<line x1="490" y1="370" x2="530" y2="340"/>
+<!-- house -->
+<rect x="580" y="380" width="150" height="120"/>
+<polygon points="565,380 655,300 745,380"/>
+<rect x="630" y="420" width="40" height="80"/>
+<!-- snowflakes -->
+<circle cx="250" cy="100" r="4" fill="black"/>
+<circle cx="300" cy="180" r="4" fill="black"/>
+<circle cx="350" cy="80" r="4" fill="black"/>
+<circle cx="600" cy="150" r="4" fill="black"/>
+<circle cx="700" cy="200" r="4" fill="black"/>
+<circle cx="150" cy="150" r="4" fill="black"/>
+</svg>

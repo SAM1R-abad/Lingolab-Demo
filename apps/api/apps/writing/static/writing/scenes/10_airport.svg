@@ -1,0 +1,35 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="black" stroke-width="4">
+<rect x="0" y="0" width="800" height="600" fill="white" stroke="none"/>
+<line x1="0" y1="480" x2="800" y2="480"/>
+<!-- airplane -->
+<ellipse cx="350" cy="250" rx="200" ry="35"/>
+<polygon points="300,250 220,180 260,250"/>
+<polygon points="300,260 220,320 260,260"/>
+<polygon points="500,240 560,190 540,250"/>
+<polygon points="150,250 100,235 100,265 150,250"/>
+<circle cx="200" cy="245" r="6"/>
+<circle cx="230" cy="245" r="6"/>
+<circle cx="260" cy="245" r="6"/>
+<circle cx="290" cy="245" r="6"/>
+<!-- terminal building -->
+<rect x="480" y="380" width="260" height="100"/>
+<rect x="500" y="400" width="30" height="30"/>
+<rect x="550" y="400" width="30" height="30"/>
+<rect x="600" y="400" width="30" height="30"/>
+<rect x="650" y="400" width="30" height="30"/>
+<rect x="700" y="400" width="30" height="30"/>
+<!-- control tower -->
+<rect x="60" y="380" width="30" height="100"/>
+<ellipse cx="75" cy="370" rx="35" ry="20"/>
+<!-- clouds -->
+<circle cx="550" cy="90" r="20"/>
+<circle cx="575" cy="80" r="25"/>
+<circle cx="605" cy="90" r="20"/>
+<!-- sun -->
+<circle cx="130" cy="100" r="35"/>
+<!-- suitcase on ground -->
+<rect x="350" y="440" width="60" height="40" rx="6"/>
+<line x1="365" y1="440" x2="365" y2="425"/>
+<line x1="395" y1="440" x2="395" y2="425"/>
+<line x1="365" y1="425" x2="395" y2="425"/>
+</svg>

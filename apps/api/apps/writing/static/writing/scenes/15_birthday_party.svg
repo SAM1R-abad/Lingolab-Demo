@@ -1,0 +1,37 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="black" stroke-width="4">
+<rect x="0" y="0" width="800" height="600" fill="white" stroke="none"/>
+<line x1="0" y1="500" x2="800" y2="500"/>
+<!-- table -->
+<rect x="220" y="380" width="360" height="20"/>
+<line x1="250" y1="400" x2="250" y2="480"/>
+<line x1="550" y1="400" x2="550" y2="480"/>
+<!-- cake -->
+<rect x="360" y="320" width="80" height="60"/>
+<line x1="360" y1="350" x2="440" y2="350"/>
+<line x1="380" y1="320" x2="380" y2="300"/>
+<line x1="410" y1="320" x2="410" y2="300"/>
+<circle cx="380" cy="295" r="5"/>
+<circle cx="410" cy="295" r="5"/>
+<!-- balloons -->
+<circle cx="150" cy="180" r="40"/>
+<line x1="150" y1="220" x2="150" y2="380"/>
+<circle cx="650" cy="150" r="40"/>
+<line x1="650" y1="190" x2="650" y2="380"/>
+<circle cx="230" cy="120" r="35"/>
+<line x1="230" y1="155" x2="230" y2="380"/>
+<!-- gift box -->
+<rect x="600" y="410" width="80" height="70"/>
+<line x1="640" y1="410" x2="640" y2="480"/>
+<line x1="600" y1="440" x2="680" y2="440"/>
+<polygon points="640,410 615,385 640,395 665,385"/>
+<!-- child -->
+<circle cx="480" cy="440" r="22"/>
+<line x1="480" y1="462" x2="480" y2="490"/>
+<line x1="480" y1="470" x2="460" y2="480"/>
+<line x1="480" y1="470" x2="500" y2="480"/>
+<!-- garland -->
+<path d="M100 80 Q400 40 700 80"/>
+<polygon points="200,75 210,95 190,95"/>
+<polygon points="400,60 410,80 390,80"/>
+<polygon points="600,75 610,95 590,95"/>
+</svg>

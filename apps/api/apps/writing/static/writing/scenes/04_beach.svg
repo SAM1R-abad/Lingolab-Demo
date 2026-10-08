@@ -1,0 +1,35 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="black" stroke-width="4">
+<rect x="0" y="0" width="800" height="600" fill="white" stroke="none"/>
+<line x1="0" y1="380" x2="800" y2="380"/>
+<!-- sun -->
+<circle cx="680" cy="90" r="40"/>
+<!-- clouds -->
+<circle cx="150" cy="80" r="20"/>
+<circle cx="175" cy="70" r="25"/>
+<circle cx="205" cy="80" r="20"/>
+<!-- waves -->
+<path d="M0 350 Q40 335 80 350 T160 350 T240 350 T320 350 T400 350 T480 350 T560 350 T640 350 T720 350 T800 350"/>
+<!-- umbrella -->
+<polygon points="200,200 320,200 260,150"/>
+<line x1="260" y1="200" x2="260" y2="340"/>
+<!-- towel -->
+<rect x="360" y="410" width="120" height="60"/>
+<line x1="380" y1="410" x2="380" y2="470"/>
+<line x1="420" y1="410" x2="420" y2="470"/>
+<line x1="460" y1="410" x2="460" y2="470"/>
+<!-- palm tree -->
+<path d="M600 480 Q590 400 610 340"/>
+<path d="M610 340 Q560 300 540 320"/>
+<path d="M610 340 Q660 300 680 320"/>
+<path d="M610 340 Q580 280 590 260"/>
+<path d="M610 340 Q640 280 630 260"/>
+<!-- crab -->
+<ellipse cx="150" cy="440" rx="30" ry="18"/>
+<line x1="130" y1="425" x2="115" y2="405"/>
+<line x1="170" y1="425" x2="185" y2="405"/>
+<line x1="125" y1="450" x2="100" y2="460"/>
+<line x1="175" y1="450" x2="200" y2="460"/>
+<!-- boat far away -->
+<path d="M700 380 L740 380 L730 365 L710 365 Z"/>
+<line x1="720" y1="365" x2="720" y2="340"/>
+</svg>

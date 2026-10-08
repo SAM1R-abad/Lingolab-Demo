@@ -1,0 +1,33 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="black" stroke-width="4">
+<rect x="0" y="0" width="800" height="600" fill="white" stroke="none"/>
+<!-- stars -->
+<circle cx="80" cy="80" r="4" fill="black"/>
+<circle cx="150" cy="130" r="3" fill="black"/>
+<circle cx="700" cy="90" r="4" fill="black"/>
+<circle cx="650" cy="180" r="3" fill="black"/>
+<circle cx="400" cy="60" r="3" fill="black"/>
+<circle cx="50" cy="400" r="3" fill="black"/>
+<circle cx="740" cy="450" r="4" fill="black"/>
+<!-- rocket -->
+<path d="M350 500 L350 300 Q350 220 400 180 Q450 220 450 300 L450 500 Z"/>
+<polygon points="350,420 300,480 350,470"/>
+<polygon points="450,420 500,480 450,470"/>
+<circle cx="400" cy="290" r="30"/>
+<polygon points="370,500 400,560 430,500"/>
+<!-- planet -->
+<circle cx="620" cy="380" r="70"/>
+<ellipse cx="620" cy="380" rx="110" ry="25"/>
+<!-- moon craters planet2 -->
+<circle cx="130" cy="300" r="45"/>
+<circle cx="115" cy="290" r="8"/>
+<circle cx="145" cy="310" r="10"/>
+<circle cx="120" cy="320" r="6"/>
+<!-- astronaut -->
+<circle cx="600" cy="140" r="35"/>
+<circle cx="600" cy="140" r="25"/>
+<rect x="575" y="170" width="50" height="70" rx="15"/>
+<line x1="575" y1="190" x2="540" y2="220"/>
+<line x1="625" y1="190" x2="660" y2="220"/>
+<line x1="590" y1="240" x2="580" y2="280"/>
+<line x1="610" y1="240" x2="620" y2="280"/>
+</svg>

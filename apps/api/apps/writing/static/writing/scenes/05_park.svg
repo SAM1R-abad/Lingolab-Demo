@@ -1,0 +1,36 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="black" stroke-width="4">
+<rect x="0" y="0" width="800" height="600" fill="white" stroke="none"/>
+<line x1="0" y1="500" x2="800" y2="500"/>
+<!-- pond -->
+<ellipse cx="620" cy="470" rx="120" ry="35"/>
+<!-- duck -->
+<ellipse cx="600" cy="455" rx="20" ry="14"/>
+<circle cx="580" cy="448" r="10"/>
+<!-- bench -->
+<rect x="150" y="440" width="140" height="12"/>
+<line x1="160" y1="452" x2="160" y2="490"/>
+<line x1="280" y1="452" x2="280" y2="490"/>
+<rect x="150" y="400" width="140" height="10"/>
+<!-- tree1 -->
+<rect x="60" y="380" width="20" height="90"/>
+<circle cx="70" cy="340" r="60"/>
+<!-- tree2 -->
+<rect x="420" y="360" width="20" height="120"/>
+<circle cx="430" cy="320" r="70"/>
+<!-- person walking dog -->
+<circle cx="330" cy="380" r="16"/>
+<line x1="330" y1="396" x2="330" y2="450"/>
+<line x1="330" y1="410" x2="310" y2="430"/>
+<line x1="330" y1="410" x2="350" y2="430"/>
+<line x1="330" y1="450" x2="315" y2="480"/>
+<line x1="330" y1="450" x2="345" y2="480"/>
+<line x1="350" y1="430" x2="380" y2="460"/>
+<ellipse cx="400" cy="470" rx="25" ry="14"/>
+<circle cx="422" cy="462" r="8"/>
+<!-- sun -->
+<circle cx="700" cy="90" r="35"/>
+<!-- flowers -->
+<circle cx="500" cy="490" r="8"/>
+<circle cx="520" cy="493" r="8"/>
+<circle cx="540" cy="490" r="8"/>
+</svg>

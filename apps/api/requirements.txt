@@ -1,0 +1,21 @@
+Django>=5.0,<6.1
+djangorestframework>=3.15,<3.18
+drf-spectacular>=0.27,<0.31
+django-cors-headers>=4.4,<4.10
+python-dotenv>=1.0,<2.0
+
+# --- Production/deployment (Sprint 3) ---
+dj-database-url>=2.1,<3.0
+psycopg2-binary>=2.9,<3.0
+gunicorn>=22.0,<24.0
+whitenoise>=6.6,<7.0
+
+# --- Writing Assessment (spelling/grammar/vocabulary/topic-relevance) ---
+celery>=5.4,<6
+redis>=5.0,<6
+language-tool-python>=2.8,<3
+spacy>=3.8,<3.9
+cefrpy>=1.0,<2
+# spaCy's model is not installed by `pip install spacy` - it's downloaded
+# separately (see apps/api/Dockerfile and apps/writing/README.md):
+#   python -m spacy download en_core_web_sm

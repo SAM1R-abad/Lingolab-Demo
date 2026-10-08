@@ -1,0 +1,904 @@
+{
+  "test_title": "CEFR English Reading Comprehension Assessment Test",
+  "description": "A multiple-choice reading comprehension test covering all six CEFR levels (A1-C2). Each question is based on a short passage and tests understanding of its main idea, details, or implied meaning.",
+  "cefr_levels": {
+    "A1": "Beginner",
+    "A2": "Elementary",
+    "B1": "Intermediate",
+    "B2": "Upper-Intermediate",
+    "C1": "Advanced",
+    "C2": "Proficiency / Mastery"
+  },
+  "instructions": "Read the passage, then choose the option that best answers each question about it.",
+  "total_questions": 54,
+  "questions_per_level": {
+    "A1": 9,
+    "A2": 9,
+    "B1": 9,
+    "B2": 9,
+    "C1": 9,
+    "C2": 9
+  },
+  "scoring_guide": {
+    "note": "Score is calculated per level. A test-taker is considered to have reached a level if they answer at least 80% of that level's questions correctly, and all lower levels are also passed at 80%+.",
+    "recommended_pass_threshold_percent": 80
+  },
+  "levels": {
+    "A1": [
+      {
+        "id": "A1-001",
+        "level": "A1",
+        "type": "reading_comprehension",
+        "passage_title": "My Day",
+        "passage": "My name is Anna. I wake up at seven o'clock. I eat breakfast with my family. Then I go to school by bus. School starts at eight thirty. After school, I play with my friends. In the evening, I do my homework and watch TV. I go to bed at nine o'clock.",
+        "question": "What time does Anna wake up?",
+        "options": [
+          "Six o'clock",
+          "Seven o'clock",
+          "Eight o'clock",
+          "Nine o'clock"
+        ],
+        "correct_answer": "Seven o'clock",
+        "reading_topic": "detail"
+      },
+      {
+        "id": "A1-002",
+        "level": "A1",
+        "type": "reading_comprehension",
+        "passage_title": "My Day",
+        "passage": "My name is Anna. I wake up at seven o'clock. I eat breakfast with my family. Then I go to school by bus. School starts at eight thirty. After school, I play with my friends. In the evening, I do my homework and watch TV. I go to bed at nine o'clock.",
+        "question": "How does Anna go to school?",
+        "options": [
+          "By car",
+          "By bike",
+          "By bus",
+          "On foot"
+        ],
+        "correct_answer": "By bus",
+        "reading_topic": "detail"
+      },
+      {
+        "id": "A1-003",
+        "level": "A1",
+        "type": "reading_comprehension",
+        "passage_title": "My Day",
+        "passage": "My name is Anna. I wake up at seven o'clock. I eat breakfast with my family. Then I go to school by bus. School starts at eight thirty. After school, I play with my friends. In the evening, I do my homework and watch TV. I go to bed at nine o'clock.",
+        "question": "What does Anna do in the evening?",
+        "options": [
+          "She plays football",
+          "She does homework and watches TV",
+          "She goes to school",
+          "She eats breakfast"
+        ],
+        "correct_answer": "She does homework and watches TV",
+        "reading_topic": "detail"
+      },
+      {
+        "id": "A1-004",
+        "level": "A1",
+        "type": "reading_comprehension",
+        "passage_title": "My Family",
+        "passage": "This is my family. I have a mother, a father, and one brother. My mother is a teacher. My father works in a shop. My brother is ten years old. He likes football. We live in a small house near the park. On Sundays, we eat lunch together.",
+        "question": "What is the writer's mother's job?",
+        "options": [
+          "Doctor",
+          "Teacher",
+          "Shop worker",
+          "Driver"
+        ],
+        "correct_answer": "Teacher",
+        "reading_topic": "detail"
+      },
+      {
+        "id": "A1-005",
+        "level": "A1",
+        "type": "reading_comprehension",
+        "passage_title": "My Family",
+        "passage": "This is my family. I have a mother, a father, and one brother. My mother is a teacher. My father works in a shop. My brother is ten years old. He likes football. We live in a small house near the park. On Sundays, we eat lunch together.",
+        "question": "How old is the writer's brother?",
+        "options": [
+          "Eight",
+          "Nine",
+          "Ten",
+          "Eleven"
+        ],
+        "correct_answer": "Ten",
+        "reading_topic": "detail"
+      },
+      {
+        "id": "A1-006",
+        "level": "A1",
+        "type": "reading_comprehension",
+        "passage_title": "My Family",
+        "passage": "This is my family. I have a mother, a father, and one brother. My mother is a teacher. My father works in a shop. My brother is ten years old. He likes football. We live in a small house near the park. On Sundays, we eat lunch together.",
+        "question": "Where does the family live?",
+        "options": [
+          "Near the school",
+          "Near the park",
+          "Near the shop",
+          "Near the river"
+        ],
+        "correct_answer": "Near the park",
+        "reading_topic": "detail"
+      },
+      {
+        "id": "A1-007",
+        "level": "A1",
+        "type": "reading_comprehension",
+        "passage_title": "My Pet",
+        "passage": "I have a small dog. Its name is Max. Max is brown and white. He is very friendly. Every morning, I give him food and water. In the afternoon, I take him for a walk in the park. Max likes to play with a ball. He sleeps in a bed in the kitchen.",
+        "question": "What color is Max?",
+        "options": [
+          "Black and white",
+          "Brown and white",
+          "All brown",
+          "All black"
+        ],
+        "correct_answer": "Brown and white",
+        "reading_topic": "detail"
+      },
+      {
+        "id": "A1-008",
+        "level": "A1",
+        "type": "reading_comprehension",
+        "passage_title": "My Pet",
+        "passage": "I have a small dog. Its name is Max. Max is brown and white. He is very friendly. Every morning, I give him food and water. In the afternoon, I take him for a walk in the park. Max likes to play with a ball. He sleeps in a bed in the kitchen.",
+        "question": "Where does the writer take Max in the afternoon?",
+        "options": [
+          "To school",
+          "To the shop",
+          "To the park",
+          "To the kitchen"
+        ],
+        "correct_answer": "To the park",
+        "reading_topic": "detail"
+      },
+      {
+        "id": "A1-009",
+        "level": "A1",
+        "type": "reading_comprehension",
+        "passage_title": "My Pet",
+        "passage": "I have a small dog. Its name is Max. Max is brown and white. He is very friendly. Every morning, I give him food and water. In the afternoon, I take him for a walk in the park. Max likes to play with a ball. He sleeps in a bed in the kitchen.",
+        "question": "Where does Max sleep?",
+        "options": [
+          "In the park",
+          "In a bed in the kitchen",
+          "In the garden",
+          "In the car"
+        ],
+        "correct_answer": "In a bed in the kitchen",
+        "reading_topic": "detail"
+      }
+    ],
+    "A2": [
+      {
+        "id": "A2-001",
+        "level": "A2",
+        "type": "reading_comprehension",
+        "passage_title": "A Trip to the Market",
+        "passage": "Last Saturday, Elena went to the market with her mother. They wanted to buy fruit and vegetables for the week. The market was very busy because it was a sunny morning. Elena's mother bought apples, tomatoes, and potatoes. Elena chose some oranges because they were her favorite fruit. After shopping, they had a coffee at a small cafe near the market before they went home.",
+        "question": "Why was the market busy?",
+        "options": [
+          "It was raining",
+          "It was a sunny morning",
+          "It was a holiday",
+          "It was evening"
+        ],
+        "correct_answer": "It was a sunny morning",
+        "reading_topic": "detail"
+      },
+      {
+        "id": "A2-002",
+        "level": "A2",
+        "type": "reading_comprehension",
+        "passage_title": "A Trip to the Market",
+        "passage": "Last Saturday, Elena went to the market with her mother. They wanted to buy fruit and vegetables for the week. The market was very busy because it was a sunny morning. Elena's mother bought apples, tomatoes, and potatoes. Elena chose some oranges because they were her favorite fruit. After shopping, they had a coffee at a small cafe near the market before they went home.",
+        "question": "What fruit did Elena choose?",
+        "options": [
+          "Apples",
+          "Bananas",
+          "Oranges",
+          "Grapes"
+        ],
+        "correct_answer": "Oranges",
+        "reading_topic": "detail"
+      },
+      {
+        "id": "A2-003",
+        "level": "A2",
+        "type": "reading_comprehension",
+        "passage_title": "A Trip to the Market",
+        "passage": "Last Saturday, Elena went to the market with her mother. They wanted to buy fruit and vegetables for the week. The market was very busy because it was a sunny morning. Elena's mother bought apples, tomatoes, and potatoes. Elena chose some oranges because they were her favorite fruit. After shopping, they had a coffee at a small cafe near the market before they went home.",
+        "question": "What did they do after shopping?",
+        "options": [
+          "They went home directly",
+          "They had a coffee at a cafe",
+          "They visited a friend",
+          "They went to another market"
+        ],
+        "correct_answer": "They had a coffee at a cafe",
+        "reading_topic": "sequence"
+      },
+      {
+        "id": "A2-004",
+        "level": "A2",
+        "type": "reading_comprehension",
+        "passage_title": "My Weekend",
+        "passage": "On Saturday morning, I cleaned my room and did the laundry. In the afternoon, I met my friends at the cinema, and we watched an action film. It was quite exciting, but a little too long. On Sunday, I visited my grandparents in the countryside. We had a big lunch together and walked in their garden. I felt relaxed after the weekend, and I was ready for a new week of work.",
+        "question": "What did the writer do on Saturday morning?",
+        "options": [
+          "Watched a film",
+          "Cleaned the room and did laundry",
+          "Visited grandparents",
+          "Went to work"
+        ],
+        "correct_answer": "Cleaned the room and did laundry",
+        "reading_topic": "sequence"
+      },
+      {
+        "id": "A2-005",
+        "level": "A2",
+        "type": "reading_comprehension",
+        "passage_title": "My Weekend",
+        "passage": "On Saturday morning, I cleaned my room and did the laundry. In the afternoon, I met my friends at the cinema, and we watched an action film. It was quite exciting, but a little too long. On Sunday, I visited my grandparents in the countryside. We had a big lunch together and walked in their garden. I felt relaxed after the weekend, and I was ready for a new week of work.",
+        "question": "What did the writer think about the film?",
+        "options": [
+          "It was boring",
+          "It was too short",
+          "It was exciting but too long",
+          "It was scary"
+        ],
+        "correct_answer": "It was exciting but too long",
+        "reading_topic": "opinion"
+      },
+      {
+        "id": "A2-006",
+        "level": "A2",
+        "type": "reading_comprehension",
+        "passage_title": "My Weekend",
+        "passage": "On Saturday morning, I cleaned my room and did the laundry. In the afternoon, I met my friends at the cinema, and we watched an action film. It was quite exciting, but a little too long. On Sunday, I visited my grandparents in the countryside. We had a big lunch together and walked in their garden. I felt relaxed after the weekend, and I was ready for a new week of work.",
+        "question": "How did the writer feel after the weekend?",
+        "options": [
+          "Tired",
+          "Relaxed",
+          "Worried",
+          "Bored"
+        ],
+        "correct_answer": "Relaxed",
+        "reading_topic": "detail"
+      },
+      {
+        "id": "A2-007",
+        "level": "A2",
+        "type": "reading_comprehension",
+        "passage_title": "A New Job",
+        "passage": "Marco started a new job last month. He works in an office in the city center. Every day, he takes the train to work because there is a lot of traffic. His new colleagues are friendly, and his manager is helpful. The job is more difficult than his old one, but Marco likes the challenge. He hopes to learn many new skills this year.",
+        "question": "Why does Marco take the train to work?",
+        "options": [
+          "He does not have a car",
+          "There is a lot of traffic",
+          "The train is cheaper",
+          "He likes trains"
+        ],
+        "correct_answer": "There is a lot of traffic",
+        "reading_topic": "reason"
+      },
+      {
+        "id": "A2-008",
+        "level": "A2",
+        "type": "reading_comprehension",
+        "passage_title": "A New Job",
+        "passage": "Marco started a new job last month. He works in an office in the city center. Every day, he takes the train to work because there is a lot of traffic. His new colleagues are friendly, and his manager is helpful. The job is more difficult than his old one, but Marco likes the challenge. He hopes to learn many new skills this year.",
+        "question": "How are Marco's new colleagues?",
+        "options": [
+          "Unfriendly",
+          "Busy",
+          "Friendly",
+          "Quiet"
+        ],
+        "correct_answer": "Friendly",
+        "reading_topic": "detail"
+      },
+      {
+        "id": "A2-009",
+        "level": "A2",
+        "type": "reading_comprehension",
+        "passage_title": "A New Job",
+        "passage": "Marco started a new job last month. He works in an office in the city center. Every day, he takes the train to work because there is a lot of traffic. His new colleagues are friendly, and his manager is helpful. The job is more difficult than his old one, but Marco likes the challenge. He hopes to learn many new skills this year.",
+        "question": "What does Marco hope to do this year?",
+        "options": [
+          "Change jobs again",
+          "Learn many new skills",
+          "Move to another city",
+          "Work less"
+        ],
+        "correct_answer": "Learn many new skills",
+        "reading_topic": "detail"
+      }
+    ],
+    "B1": [
+      {
+        "id": "B1-001",
+        "level": "B1",
+        "type": "reading_comprehension",
+        "passage_title": "Working from Home",
+        "passage": "Over the past few years, more and more people have started working from home. For some, this change has brought a better balance between work and personal life, since they no longer need to spend hours commuting. However, working from home is not always easy. Many people find it hard to separate their work time from their free time, and some feel lonely without their colleagues nearby. Companies are now trying to find a middle way, allowing employees to work from home a few days a week while still coming to the office for meetings and teamwork.",
+        "question": "According to the passage, what is one benefit of working from home?",
+        "options": [
+          "Higher salaries",
+          "Less commuting time",
+          "More meetings",
+          "Better office equipment"
+        ],
+        "correct_answer": "Less commuting time",
+        "reading_topic": "main idea"
+      },
+      {
+        "id": "B1-002",
+        "level": "B1",
+        "type": "reading_comprehension",
+        "passage_title": "Working from Home",
+        "passage": "Over the past few years, more and more people have started working from home. For some, this change has brought a better balance between work and personal life, since they no longer need to spend hours commuting. However, working from home is not always easy. Many people find it hard to separate their work time from their free time, and some feel lonely without their colleagues nearby. Companies are now trying to find a middle way, allowing employees to work from home a few days a week while still coming to the office for meetings and teamwork.",
+        "question": "What difficulty do some people have when working from home?",
+        "options": [
+          "Finding a job",
+          "Separating work time from free time",
+          "Learning new software",
+          "Traveling abroad"
+        ],
+        "correct_answer": "Separating work time from free time",
+        "reading_topic": "detail"
+      },
+      {
+        "id": "B1-003",
+        "level": "B1",
+        "type": "reading_comprehension",
+        "passage_title": "Working from Home",
+        "passage": "Over the past few years, more and more people have started working from home. For some, this change has brought a better balance between work and personal life, since they no longer need to spend hours commuting. However, working from home is not always easy. Many people find it hard to separate their work time from their free time, and some feel lonely without their colleagues nearby. Companies are now trying to find a middle way, allowing employees to work from home a few days a week while still coming to the office for meetings and teamwork.",
+        "question": "What solution are companies trying?",
+        "options": [
+          "Stopping remote work completely",
+          "A mix of home and office days",
+          "Longer holidays",
+          "Shorter working hours"
+        ],
+        "correct_answer": "A mix of home and office days",
+        "reading_topic": "main idea"
+      },
+      {
+        "id": "B1-004",
+        "level": "B1",
+        "type": "reading_comprehension",
+        "passage_title": "Learning a New Language",
+        "passage": "Learning a new language as an adult can be challenging, but it is far from impossible. Research suggests that regular, short practice sessions are more effective than occasional long ones. Many successful learners also try to use the language in real situations, such as speaking with native speakers or watching films without subtitles. Mistakes are a natural part of the process, and learners who are not afraid to make them usually progress faster than those who wait until they feel completely confident.",
+        "question": "What does research suggest about practice sessions?",
+        "options": [
+          "Long sessions are always better",
+          "Short, regular sessions work well",
+          "Practice does not matter much",
+          "Only grammar exercises help"
+        ],
+        "correct_answer": "Short, regular sessions work well",
+        "reading_topic": "main idea"
+      },
+      {
+        "id": "B1-005",
+        "level": "B1",
+        "type": "reading_comprehension",
+        "passage_title": "Learning a New Language",
+        "passage": "Learning a new language as an adult can be challenging, but it is far from impossible. Research suggests that regular, short practice sessions are more effective than occasional long ones. Many successful learners also try to use the language in real situations, such as speaking with native speakers or watching films without subtitles. Mistakes are a natural part of the process, and learners who are not afraid to make them usually progress faster than those who wait until they feel completely confident.",
+        "question": "What do many successful learners do?",
+        "options": [
+          "Avoid speaking to native speakers",
+          "Use the language in real situations",
+          "Only study grammar books",
+          "Wait until they are fluent to practice"
+        ],
+        "correct_answer": "Use the language in real situations",
+        "reading_topic": "detail"
+      },
+      {
+        "id": "B1-006",
+        "level": "B1",
+        "type": "reading_comprehension",
+        "passage_title": "Learning a New Language",
+        "passage": "Learning a new language as an adult can be challenging, but it is far from impossible. Research suggests that regular, short practice sessions are more effective than occasional long ones. Many successful learners also try to use the language in real situations, such as speaking with native speakers or watching films without subtitles. Mistakes are a natural part of the process, and learners who are not afraid to make them usually progress faster than those who wait until they feel completely confident.",
+        "question": "How does the passage describe mistakes?",
+        "options": [
+          "Something to avoid completely",
+          "A sign of failure",
+          "A natural part of learning",
+          "Only for beginners"
+        ],
+        "correct_answer": "A natural part of learning",
+        "reading_topic": "inference"
+      },
+      {
+        "id": "B1-007",
+        "level": "B1",
+        "type": "reading_comprehension",
+        "passage_title": "City Life vs Country Life",
+        "passage": "People often debate whether it is better to live in a city or in the countryside. Cities offer more job opportunities, entertainment, and public transport, but they can also be noisy, crowded, and expensive. The countryside, on the other hand, offers fresh air, quiet surroundings, and a slower pace of life, though it can be harder to find work and services are often further away. In the end, the right choice depends on a person's priorities, whether that is career growth or a peaceful lifestyle.",
+        "question": "What is one advantage of city life mentioned in the passage?",
+        "options": [
+          "Fresh air",
+          "More job opportunities",
+          "Lower cost of living",
+          "Slower pace of life"
+        ],
+        "correct_answer": "More job opportunities",
+        "reading_topic": "detail"
+      },
+      {
+        "id": "B1-008",
+        "level": "B1",
+        "type": "reading_comprehension",
+        "passage_title": "City Life vs Country Life",
+        "passage": "People often debate whether it is better to live in a city or in the countryside. Cities offer more job opportunities, entertainment, and public transport, but they can also be noisy, crowded, and expensive. The countryside, on the other hand, offers fresh air, quiet surroundings, and a slower pace of life, though it can be harder to find work and services are often further away. In the end, the right choice depends on a person's priorities, whether that is career growth or a peaceful lifestyle.",
+        "question": "What is a disadvantage of the countryside mentioned in the passage?",
+        "options": [
+          "Too much noise",
+          "Harder to find work",
+          "Too crowded",
+          "Too expensive"
+        ],
+        "correct_answer": "Harder to find work",
+        "reading_topic": "detail"
+      },
+      {
+        "id": "B1-009",
+        "level": "B1",
+        "type": "reading_comprehension",
+        "passage_title": "City Life vs Country Life",
+        "passage": "People often debate whether it is better to live in a city or in the countryside. Cities offer more job opportunities, entertainment, and public transport, but they can also be noisy, crowded, and expensive. The countryside, on the other hand, offers fresh air, quiet surroundings, and a slower pace of life, though it can be harder to find work and services are often further away. In the end, the right choice depends on a person's priorities, whether that is career growth or a peaceful lifestyle.",
+        "question": "What does the passage suggest about choosing where to live?",
+        "options": [
+          "The city is always the best choice",
+          "It depends on a person's priorities",
+          "The countryside is always better",
+          "Cost is the only factor"
+        ],
+        "correct_answer": "It depends on a person's priorities",
+        "reading_topic": "main idea"
+      }
+    ],
+    "B2": [
+      {
+        "id": "B2-001",
+        "level": "B2",
+        "type": "reading_comprehension",
+        "passage_title": "The Rise of Remote Work",
+        "passage": "The shift toward remote work, accelerated by recent global events, has fundamentally altered how organizations think about productivity and workplace culture. Proponents argue that flexible arrangements allow employees to design their days around their most productive hours, leading to higher output and greater job satisfaction. Critics, however, point out that without the informal exchanges that happen in a shared office, innovation can suffer, as spontaneous conversations often spark ideas that structured meetings rarely produce. As companies continue to experiment with hybrid models, the challenge lies in preserving the benefits of collaboration while respecting employees' growing preference for autonomy.",
+        "question": "According to proponents of remote work, what is a key benefit?",
+        "options": [
+          "Reduced need for technology",
+          "Employees can work during their most productive hours",
+          "Fewer employees are needed",
+          "Offices become unnecessary"
+        ],
+        "correct_answer": "Employees can work during their most productive hours",
+        "reading_topic": "main idea"
+      },
+      {
+        "id": "B2-002",
+        "level": "B2",
+        "type": "reading_comprehension",
+        "passage_title": "The Rise of Remote Work",
+        "passage": "The shift toward remote work, accelerated by recent global events, has fundamentally altered how organizations think about productivity and workplace culture. Proponents argue that flexible arrangements allow employees to design their days around their most productive hours, leading to higher output and greater job satisfaction. Critics, however, point out that without the informal exchanges that happen in a shared office, innovation can suffer, as spontaneous conversations often spark ideas that structured meetings rarely produce. As companies continue to experiment with hybrid models, the challenge lies in preserving the benefits of collaboration while respecting employees' growing preference for autonomy.",
+        "question": "What concern do critics raise about remote work?",
+        "options": [
+          "It costs companies more money",
+          "It reduces spontaneous conversations that spark innovation",
+          "It makes employees work longer hours",
+          "It is illegal in some countries"
+        ],
+        "correct_answer": "It reduces spontaneous conversations that spark innovation",
+        "reading_topic": "detail"
+      },
+      {
+        "id": "B2-003",
+        "level": "B2",
+        "type": "reading_comprehension",
+        "passage_title": "The Rise of Remote Work",
+        "passage": "The shift toward remote work, accelerated by recent global events, has fundamentally altered how organizations think about productivity and workplace culture. Proponents argue that flexible arrangements allow employees to design their days around their most productive hours, leading to higher output and greater job satisfaction. Critics, however, point out that without the informal exchanges that happen in a shared office, innovation can suffer, as spontaneous conversations often spark ideas that structured meetings rarely produce. As companies continue to experiment with hybrid models, the challenge lies in preserving the benefits of collaboration while respecting employees' growing preference for autonomy.",
+        "question": "What is the main challenge described for companies using hybrid models?",
+        "options": [
+          "Balancing collaboration with employee autonomy",
+          "Reducing salaries",
+          "Finding new office space",
+          "Increasing meeting frequency"
+        ],
+        "correct_answer": "Balancing collaboration with employee autonomy",
+        "reading_topic": "main idea"
+      },
+      {
+        "id": "B2-004",
+        "level": "B2",
+        "type": "reading_comprehension",
+        "passage_title": "Social Media and Attention",
+        "passage": "Social media platforms are often designed to capture and hold users' attention for as long as possible, using techniques such as infinite scrolling and personalized notifications. While this design has proven highly effective for advertising revenue, growing evidence suggests it may come at a cost to users' mental well-being and ability to concentrate for extended periods. Some researchers argue that the constant availability of quick, engaging content is reshaping our expectations of entertainment, making longer, more demanding tasks feel comparatively tedious. In response, a small but growing movement of users has begun deliberately limiting their screen time, seeking to reclaim what they describe as a more deliberate relationship with technology.",
+        "question": "Why are social media platforms designed the way they are, according to the passage?",
+        "options": [
+          "To improve users' concentration",
+          "To capture and hold users' attention for advertising purposes",
+          "To reduce advertising revenue",
+          "To encourage longer tasks"
+        ],
+        "correct_answer": "To capture and hold users' attention for advertising purposes",
+        "reading_topic": "main idea"
+      },
+      {
+        "id": "B2-005",
+        "level": "B2",
+        "type": "reading_comprehension",
+        "passage_title": "Social Media and Attention",
+        "passage": "Social media platforms are often designed to capture and hold users' attention for as long as possible, using techniques such as infinite scrolling and personalized notifications. While this design has proven highly effective for advertising revenue, growing evidence suggests it may come at a cost to users' mental well-being and ability to concentrate for extended periods. Some researchers argue that the constant availability of quick, engaging content is reshaping our expectations of entertainment, making longer, more demanding tasks feel comparatively tedious. In response, a small but growing movement of users has begun deliberately limiting their screen time, seeking to reclaim what they describe as a more deliberate relationship with technology.",
+        "question": "What effect might constant engaging content have on users?",
+        "options": [
+          "It improves focus on demanding tasks",
+          "It makes longer tasks feel comparatively tedious",
+          "It has no effect on attention",
+          "It increases patience for slow content"
+        ],
+        "correct_answer": "It makes longer tasks feel comparatively tedious",
+        "reading_topic": "inference"
+      },
+      {
+        "id": "B2-006",
+        "level": "B2",
+        "type": "reading_comprehension",
+        "passage_title": "Social Media and Attention",
+        "passage": "Social media platforms are often designed to capture and hold users' attention for as long as possible, using techniques such as infinite scrolling and personalized notifications. While this design has proven highly effective for advertising revenue, growing evidence suggests it may come at a cost to users' mental well-being and ability to concentrate for extended periods. Some researchers argue that the constant availability of quick, engaging content is reshaping our expectations of entertainment, making longer, more demanding tasks feel comparatively tedious. In response, a small but growing movement of users has begun deliberately limiting their screen time, seeking to reclaim what they describe as a more deliberate relationship with technology.",
+        "question": "What are some users doing in response to these concerns?",
+        "options": [
+          "Increasing their screen time",
+          "Deliberately limiting their screen time",
+          "Ignoring the issue completely",
+          "Deleting all technology"
+        ],
+        "correct_answer": "Deliberately limiting their screen time",
+        "reading_topic": "detail"
+      },
+      {
+        "id": "B2-007",
+        "level": "B2",
+        "type": "reading_comprehension",
+        "passage_title": "Renewable Energy",
+        "passage": "The transition to renewable energy sources, such as solar and wind power, has accelerated significantly over the past decade, driven by falling costs and increasing concern about climate change. Unlike fossil fuels, renewable sources do not produce direct carbon emissions during operation, making them central to most national strategies for reducing greenhouse gases. Nevertheless, the transition is not without its complications: renewable energy generation can be inconsistent, depending on weather conditions, which means that effective storage solutions and updated power grids are essential for a stable supply. Governments and private companies alike are now investing heavily in battery technology to address this gap.",
+        "question": "What has driven the growth of renewable energy according to the passage?",
+        "options": [
+          "Rising costs and government bans",
+          "Falling costs and climate concerns",
+          "New fossil fuel discoveries",
+          "Decreasing energy demand"
+        ],
+        "correct_answer": "Falling costs and climate concerns",
+        "reading_topic": "main idea"
+      },
+      {
+        "id": "B2-008",
+        "level": "B2",
+        "type": "reading_comprehension",
+        "passage_title": "Renewable Energy",
+        "passage": "The transition to renewable energy sources, such as solar and wind power, has accelerated significantly over the past decade, driven by falling costs and increasing concern about climate change. Unlike fossil fuels, renewable sources do not produce direct carbon emissions during operation, making them central to most national strategies for reducing greenhouse gases. Nevertheless, the transition is not without its complications: renewable energy generation can be inconsistent, depending on weather conditions, which means that effective storage solutions and updated power grids are essential for a stable supply. Governments and private companies alike are now investing heavily in battery technology to address this gap.",
+        "question": "What complication does the passage mention regarding renewable energy?",
+        "options": [
+          "It produces more emissions than fossil fuels",
+          "Its generation can be inconsistent due to weather",
+          "It is more expensive than fossil fuels",
+          "It cannot be stored at all"
+        ],
+        "correct_answer": "Its generation can be inconsistent due to weather",
+        "reading_topic": "detail"
+      },
+      {
+        "id": "B2-009",
+        "level": "B2",
+        "type": "reading_comprehension",
+        "passage_title": "Renewable Energy",
+        "passage": "The transition to renewable energy sources, such as solar and wind power, has accelerated significantly over the past decade, driven by falling costs and increasing concern about climate change. Unlike fossil fuels, renewable sources do not produce direct carbon emissions during operation, making them central to most national strategies for reducing greenhouse gases. Nevertheless, the transition is not without its complications: renewable energy generation can be inconsistent, depending on weather conditions, which means that effective storage solutions and updated power grids are essential for a stable supply. Governments and private companies alike are now investing heavily in battery technology to address this gap.",
+        "question": "What are governments and companies investing in to address the inconsistency problem?",
+        "options": [
+          "New fossil fuel plants",
+          "Battery technology",
+          "Reducing energy production",
+          "Increasing carbon emissions"
+        ],
+        "correct_answer": "Battery technology",
+        "reading_topic": "detail"
+      }
+    ],
+    "C1": [
+      {
+        "id": "C1-001",
+        "level": "C1",
+        "type": "reading_comprehension",
+        "passage_title": "The Ethics of Artificial Intelligence",
+        "passage": "As artificial intelligence systems become increasingly capable of making decisions once reserved for humans, questions of accountability have grown correspondingly complex. When an algorithm denies someone a loan or misdiagnoses a medical condition, it is often unclear who bears responsibility: the developers who wrote the code, the organization that deployed it, or the system itself, insofar as it can be said to bear responsibility at all. This ambiguity is compounded by the opacity of many machine learning models, whose internal reasoning can be difficult even for their creators to fully interpret. Proponents of stricter regulation argue that transparency requirements are essential to maintaining public trust, while others caution that overly rigid rules could stifle innovation in a field still in its formative stages.",
+        "question": "What issue does the passage identify as increasingly complex with AI decision-making?",
+        "options": [
+          "The speed of computation",
+          "Questions of accountability",
+          "The cost of AI systems",
+          "The availability of training data"
+        ],
+        "correct_answer": "Questions of accountability",
+        "reading_topic": "main idea"
+      },
+      {
+        "id": "C1-002",
+        "level": "C1",
+        "type": "reading_comprehension",
+        "passage_title": "The Ethics of Artificial Intelligence",
+        "passage": "As artificial intelligence systems become increasingly capable of making decisions once reserved for humans, questions of accountability have grown correspondingly complex. When an algorithm denies someone a loan or misdiagnoses a medical condition, it is often unclear who bears responsibility: the developers who wrote the code, the organization that deployed it, or the system itself, insofar as it can be said to bear responsibility at all. This ambiguity is compounded by the opacity of many machine learning models, whose internal reasoning can be difficult even for their creators to fully interpret. Proponents of stricter regulation argue that transparency requirements are essential to maintaining public trust, while others caution that overly rigid rules could stifle innovation in a field still in its formative stages.",
+        "question": "What compounds the difficulty of assigning responsibility for AI errors?",
+        "options": [
+          "The high cost of AI development",
+          "The opacity of many machine learning models",
+          "The lack of AI systems in use",
+          "The simplicity of algorithms"
+        ],
+        "correct_answer": "The opacity of many machine learning models",
+        "reading_topic": "detail"
+      },
+      {
+        "id": "C1-003",
+        "level": "C1",
+        "type": "reading_comprehension",
+        "passage_title": "The Ethics of Artificial Intelligence",
+        "passage": "As artificial intelligence systems become increasingly capable of making decisions once reserved for humans, questions of accountability have grown correspondingly complex. When an algorithm denies someone a loan or misdiagnoses a medical condition, it is often unclear who bears responsibility: the developers who wrote the code, the organization that deployed it, or the system itself, insofar as it can be said to bear responsibility at all. This ambiguity is compounded by the opacity of many machine learning models, whose internal reasoning can be difficult even for their creators to fully interpret. Proponents of stricter regulation argue that transparency requirements are essential to maintaining public trust, while others caution that overly rigid rules could stifle innovation in a field still in its formative stages.",
+        "question": "What concern do critics of strict regulation raise?",
+        "options": [
+          "Regulation could stifle innovation",
+          "Regulation would make AI too transparent",
+          "Regulation is unnecessary because AI is flawless",
+          "Regulation would reduce accountability further"
+        ],
+        "correct_answer": "Regulation could stifle innovation",
+        "reading_topic": "detail"
+      },
+      {
+        "id": "C1-004",
+        "level": "C1",
+        "type": "reading_comprehension",
+        "passage_title": "Urban Planning and Public Space",
+        "passage": "Contemporary debates in urban planning increasingly center on the question of who public space is really for. As cities grow denser, the pressure to maximize commercial and residential development often comes into tension with the preservation of parks, plazas, and other communal areas that foster social cohesion. Some planners advocate for a return to human-centered design principles, arguing that streets and squares should prioritize pedestrians over vehicles, thereby encouraging spontaneous social interaction. Others contend that such approaches, however well-intentioned, can inadvertently accelerate gentrification, as improved public spaces raise property values and displace long-term residents who can no longer afford to remain in their neighborhoods.",
+        "question": "What tension does the passage describe in urban planning?",
+        "options": [
+          "Development pressure versus preserving communal spaces",
+          "Rural versus urban living",
+          "Public transport versus private cars only",
+          "Old buildings versus new technology"
+        ],
+        "correct_answer": "Development pressure versus preserving communal spaces",
+        "reading_topic": "main idea"
+      },
+      {
+        "id": "C1-005",
+        "level": "C1",
+        "type": "reading_comprehension",
+        "passage_title": "Urban Planning and Public Space",
+        "passage": "Contemporary debates in urban planning increasingly center on the question of who public space is really for. As cities grow denser, the pressure to maximize commercial and residential development often comes into tension with the preservation of parks, plazas, and other communal areas that foster social cohesion. Some planners advocate for a return to human-centered design principles, arguing that streets and squares should prioritize pedestrians over vehicles, thereby encouraging spontaneous social interaction. Others contend that such approaches, however well-intentioned, can inadvertently accelerate gentrification, as improved public spaces raise property values and displace long-term residents who can no longer afford to remain in their neighborhoods.",
+        "question": "What do advocates of human-centered design argue for?",
+        "options": [
+          "Prioritizing vehicles over pedestrians",
+          "Prioritizing pedestrians to encourage social interaction",
+          "Removing all public spaces",
+          "Building only residential areas"
+        ],
+        "correct_answer": "Prioritizing pedestrians to encourage social interaction",
+        "reading_topic": "detail"
+      },
+      {
+        "id": "C1-006",
+        "level": "C1",
+        "type": "reading_comprehension",
+        "passage_title": "Urban Planning and Public Space",
+        "passage": "Contemporary debates in urban planning increasingly center on the question of who public space is really for. As cities grow denser, the pressure to maximize commercial and residential development often comes into tension with the preservation of parks, plazas, and other communal areas that foster social cohesion. Some planners advocate for a return to human-centered design principles, arguing that streets and squares should prioritize pedestrians over vehicles, thereby encouraging spontaneous social interaction. Others contend that such approaches, however well-intentioned, can inadvertently accelerate gentrification, as improved public spaces raise property values and displace long-term residents who can no longer afford to remain in their neighborhoods.",
+        "question": "What unintended consequence do critics associate with improved public spaces?",
+        "options": [
+          "Reduced property values",
+          "Accelerated gentrification and displacement",
+          "Increased pollution",
+          "Decreased social interaction"
+        ],
+        "correct_answer": "Accelerated gentrification and displacement",
+        "reading_topic": "inference"
+      },
+      {
+        "id": "C1-007",
+        "level": "C1",
+        "type": "reading_comprehension",
+        "passage_title": "The Psychology of Decision-Making",
+        "passage": "Behavioral economists have long challenged the assumption that human beings make decisions through purely rational calculation. Instead, research shows that judgments are frequently shaped by cognitive biases, mental shortcuts that allow for quick decisions but can also lead to systematic errors. For instance, the anchoring effect describes how an initial piece of information, even when arbitrary, can disproportionately influence subsequent judgments, such as price negotiations. Recognizing these biases has practical implications far beyond academic psychology: it informs the design of public policy, from how retirement savings plans are structured to how health warnings are worded, in an effort to guide people toward better outcomes without restricting their freedom of choice.",
+        "question": "What have behavioral economists challenged?",
+        "options": [
+          "The existence of cognitive biases",
+          "The assumption that decisions are purely rational",
+          "The value of public policy",
+          "The accuracy of price negotiations"
+        ],
+        "correct_answer": "The assumption that decisions are purely rational",
+        "reading_topic": "main idea"
+      },
+      {
+        "id": "C1-008",
+        "level": "C1",
+        "type": "reading_comprehension",
+        "passage_title": "The Psychology of Decision-Making",
+        "passage": "Behavioral economists have long challenged the assumption that human beings make decisions through purely rational calculation. Instead, research shows that judgments are frequently shaped by cognitive biases, mental shortcuts that allow for quick decisions but can also lead to systematic errors. For instance, the anchoring effect describes how an initial piece of information, even when arbitrary, can disproportionately influence subsequent judgments, such as price negotiations. Recognizing these biases has practical implications far beyond academic psychology: it informs the design of public policy, from how retirement savings plans are structured to how health warnings are worded, in an effort to guide people toward better outcomes without restricting their freedom of choice.",
+        "question": "What does the anchoring effect describe?",
+        "options": [
+          "How emotions override logic",
+          "How an initial piece of information influences later judgments",
+          "How people always negotiate fairly",
+          "How biases only affect experts"
+        ],
+        "correct_answer": "How an initial piece of information influences later judgments",
+        "reading_topic": "detail"
+      },
+      {
+        "id": "C1-009",
+        "level": "C1",
+        "type": "reading_comprehension",
+        "passage_title": "The Psychology of Decision-Making",
+        "passage": "Behavioral economists have long challenged the assumption that human beings make decisions through purely rational calculation. Instead, research shows that judgments are frequently shaped by cognitive biases, mental shortcuts that allow for quick decisions but can also lead to systematic errors. For instance, the anchoring effect describes how an initial piece of information, even when arbitrary, can disproportionately influence subsequent judgments, such as price negotiations. Recognizing these biases has practical implications far beyond academic psychology: it informs the design of public policy, from how retirement savings plans are structured to how health warnings are worded, in an effort to guide people toward better outcomes without restricting their freedom of choice.",
+        "question": "How is knowledge of cognitive biases applied, according to the passage?",
+        "options": [
+          "It is used only in academic research",
+          "It informs the design of public policy",
+          "It has no practical use",
+          "It is used to restrict people's choices"
+        ],
+        "correct_answer": "It informs the design of public policy",
+        "reading_topic": "detail"
+      }
+    ],
+    "C2": [
+      {
+        "id": "C2-001",
+        "level": "C2",
+        "type": "reading_comprehension",
+        "passage_title": "Epistemic Humility in Scientific Discourse",
+        "passage": "The history of science is, in many respects, a chronicle of confidently held theories subsequently overturned by more refined observation or reasoning. This pattern has led some philosophers of science to advocate for a stance of epistemic humility, wherein even our most robust scientific consensus is treated as provisionally true rather than definitively established. Such a stance does not imply relativism, nor does it license the dismissal of well-substantiated findings on a whim; rather, it counsels a disposition of openness to revision proportional to the strength of new evidence. Critics of this view worry that an excessive emphasis on provisionality could be exploited by bad-faith actors seeking to undermine public trust in settled science, such as the link between smoking and cancer, by falsely equating genuine uncertainty with fabricated doubt.",
+        "question": "What does the passage suggest is a recurring pattern in the history of science?",
+        "options": [
+          "Theories remain unchanged once accepted",
+          "Confidently held theories are often overturned later",
+          "Scientific consensus is always immediately correct",
+          "Observation rarely challenges existing theories"
+        ],
+        "correct_answer": "Confidently held theories are often overturned later",
+        "reading_topic": "main idea"
+      },
+      {
+        "id": "C2-002",
+        "level": "C2",
+        "type": "reading_comprehension",
+        "passage_title": "Epistemic Humility in Scientific Discourse",
+        "passage": "The history of science is, in many respects, a chronicle of confidently held theories subsequently overturned by more refined observation or reasoning. This pattern has led some philosophers of science to advocate for a stance of epistemic humility, wherein even our most robust scientific consensus is treated as provisionally true rather than definitively established. Such a stance does not imply relativism, nor does it license the dismissal of well-substantiated findings on a whim; rather, it counsels a disposition of openness to revision proportional to the strength of new evidence. Critics of this view worry that an excessive emphasis on provisionality could be exploited by bad-faith actors seeking to undermine public trust in settled science, such as the link between smoking and cancer, by falsely equating genuine uncertainty with fabricated doubt.",
+        "question": "What does epistemic humility, as described, NOT imply?",
+        "options": [
+          "Openness to revising theories",
+          "Relativism or dismissing well-substantiated findings",
+          "Treating consensus as provisional",
+          "A disposition proportional to evidence"
+        ],
+        "correct_answer": "Relativism or dismissing well-substantiated findings",
+        "reading_topic": "inference"
+      },
+      {
+        "id": "C2-003",
+        "level": "C2",
+        "type": "reading_comprehension",
+        "passage_title": "Epistemic Humility in Scientific Discourse",
+        "passage": "The history of science is, in many respects, a chronicle of confidently held theories subsequently overturned by more refined observation or reasoning. This pattern has led some philosophers of science to advocate for a stance of epistemic humility, wherein even our most robust scientific consensus is treated as provisionally true rather than definitively established. Such a stance does not imply relativism, nor does it license the dismissal of well-substantiated findings on a whim; rather, it counsels a disposition of openness to revision proportional to the strength of new evidence. Critics of this view worry that an excessive emphasis on provisionality could be exploited by bad-faith actors seeking to undermine public trust in settled science, such as the link between smoking and cancer, by falsely equating genuine uncertainty with fabricated doubt.",
+        "question": "What concern do critics raise about epistemic humility?",
+        "options": [
+          "It could be exploited to falsely equate genuine uncertainty with fabricated doubt",
+          "It makes science too rigid",
+          "It eliminates the need for evidence",
+          "It has no relation to public trust"
+        ],
+        "correct_answer": "It could be exploited to falsely equate genuine uncertainty with fabricated doubt",
+        "reading_topic": "detail"
+      },
+      {
+        "id": "C2-004",
+        "level": "C2",
+        "type": "reading_comprehension",
+        "passage_title": "The Paradox of Choice in Consumer Societies",
+        "passage": "Conventional economic theory holds that increased choice invariably enhances consumer welfare, since a wider array of options allows individuals to select the alternative that best matches their preferences. Yet empirical research in behavioral psychology complicates this assumption, suggesting that beyond a certain threshold, additional options can induce a form of decision paralysis, wherein the cognitive burden of comparison outweighs the marginal benefit of a better match. This phenomenon, sometimes termed the paradox of choice, manifests not only in trivial contexts, such as selecting a brand of jam in a supermarket, but also in decisions of considerably greater consequence, including retirement investment planning, where an overwhelming array of options can lead individuals to disengage entirely rather than make an active, informed decision.",
+        "question": "What does conventional economic theory assume about choice?",
+        "options": [
+          "More choice always reduces welfare",
+          "More choice invariably enhances welfare",
+          "Choice has no effect on welfare",
+          "Choice only matters for trivial decisions"
+        ],
+        "correct_answer": "More choice invariably enhances welfare",
+        "reading_topic": "main idea"
+      },
+      {
+        "id": "C2-005",
+        "level": "C2",
+        "type": "reading_comprehension",
+        "passage_title": "The Paradox of Choice in Consumer Societies",
+        "passage": "Conventional economic theory holds that increased choice invariably enhances consumer welfare, since a wider array of options allows individuals to select the alternative that best matches their preferences. Yet empirical research in behavioral psychology complicates this assumption, suggesting that beyond a certain threshold, additional options can induce a form of decision paralysis, wherein the cognitive burden of comparison outweighs the marginal benefit of a better match. This phenomenon, sometimes termed the paradox of choice, manifests not only in trivial contexts, such as selecting a brand of jam in a supermarket, but also in decisions of considerably greater consequence, including retirement investment planning, where an overwhelming array of options can lead individuals to disengage entirely rather than make an active, informed decision.",
+        "question": "What does behavioral research suggest happens beyond a certain threshold of choice?",
+        "options": [
+          "Consumers always make better decisions",
+          "Decision paralysis can occur",
+          "The cognitive burden disappears",
+          "Choice becomes irrelevant"
+        ],
+        "correct_answer": "Decision paralysis can occur",
+        "reading_topic": "detail"
+      },
+      {
+        "id": "C2-006",
+        "level": "C2",
+        "type": "reading_comprehension",
+        "passage_title": "The Paradox of Choice in Consumer Societies",
+        "passage": "Conventional economic theory holds that increased choice invariably enhances consumer welfare, since a wider array of options allows individuals to select the alternative that best matches their preferences. Yet empirical research in behavioral psychology complicates this assumption, suggesting that beyond a certain threshold, additional options can induce a form of decision paralysis, wherein the cognitive burden of comparison outweighs the marginal benefit of a better match. This phenomenon, sometimes termed the paradox of choice, manifests not only in trivial contexts, such as selecting a brand of jam in a supermarket, but also in decisions of considerably greater consequence, including retirement investment planning, where an overwhelming array of options can lead individuals to disengage entirely rather than make an active, informed decision.",
+        "question": "What example of high-consequence decision-making does the passage give?",
+        "options": [
+          "Choosing a brand of jam",
+          "Retirement investment planning",
+          "Selecting a restaurant",
+          "Choosing a movie to watch"
+        ],
+        "correct_answer": "Retirement investment planning",
+        "reading_topic": "detail"
+      },
+      {
+        "id": "C2-007",
+        "level": "C2",
+        "type": "reading_comprehension",
+        "passage_title": "Cultural Memory and Historical Narrative",
+        "passage": "Collective memory, as distinct from the documented historical record, is shaped as much by present-day concerns and identities as by the events it purports to represent. Nations, communities, and institutions selectively emphasize certain episodes of their past while allowing others to recede into obscurity, a process that scholars argue is rarely neutral. This selective remembering serves social functions, reinforcing shared identity or legitimizing current political arrangements, but it can also obscure uncomfortable truths that might otherwise inform more nuanced public understanding. The tension between commemorating a usable past and confronting a fuller, more complicated historical record remains a persistent source of contention in societies grappling with contested legacies.",
+        "question": "How does the passage characterize collective memory in relation to the documented historical record?",
+        "options": [
+          "They are always identical",
+          "Collective memory is shaped by present-day concerns as well as past events",
+          "Collective memory has no connection to identity",
+          "Documented history is always more selective"
+        ],
+        "correct_answer": "Collective memory is shaped by present-day concerns as well as past events",
+        "reading_topic": "main idea"
+      },
+      {
+        "id": "C2-008",
+        "level": "C2",
+        "type": "reading_comprehension",
+        "passage_title": "Cultural Memory and Historical Narrative",
+        "passage": "Collective memory, as distinct from the documented historical record, is shaped as much by present-day concerns and identities as by the events it purports to represent. Nations, communities, and institutions selectively emphasize certain episodes of their past while allowing others to recede into obscurity, a process that scholars argue is rarely neutral. This selective remembering serves social functions, reinforcing shared identity or legitimizing current political arrangements, but it can also obscure uncomfortable truths that might otherwise inform more nuanced public understanding. The tension between commemorating a usable past and confronting a fuller, more complicated historical record remains a persistent source of contention in societies grappling with contested legacies.",
+        "question": "What social function can selective remembering serve, according to the passage?",
+        "options": [
+          "It eliminates the need for historical records",
+          "It reinforces shared identity or legitimizes political arrangements",
+          "It always reveals uncomfortable truths",
+          "It has no social function"
+        ],
+        "correct_answer": "It reinforces shared identity or legitimizes political arrangements",
+        "reading_topic": "detail"
+      },
+      {
+        "id": "C2-009",
+        "level": "C2",
+        "type": "reading_comprehension",
+        "passage_title": "Cultural Memory and Historical Narrative",
+        "passage": "Collective memory, as distinct from the documented historical record, is shaped as much by present-day concerns and identities as by the events it purports to represent. Nations, communities, and institutions selectively emphasize certain episodes of their past while allowing others to recede into obscurity, a process that scholars argue is rarely neutral. This selective remembering serves social functions, reinforcing shared identity or legitimizing current political arrangements, but it can also obscure uncomfortable truths that might otherwise inform more nuanced public understanding. The tension between commemorating a usable past and confronting a fuller, more complicated historical record remains a persistent source of contention in societies grappling with contested legacies.",
+        "question": "What tension does the passage describe as persistent in societies with contested legacies?",
+        "options": [
+          "Between science and religion",
+          "Between commemorating a usable past and confronting a fuller historical record",
+          "Between urban and rural populations",
+          "Between old and new technology"
+        ],
+        "correct_answer": "Between commemorating a usable past and confronting a fuller historical record",
+        "reading_topic": "inference"
+      }
+    ]
+  }
+}
